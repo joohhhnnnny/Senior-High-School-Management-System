@@ -1,0 +1,85 @@
+[Schedule Modal Operations Log]
+[Raw Input] {"timestamp":"2025-02-22T08:13:17.150Z","event":"Schedule submission attempt","user":"admin"}
+[2025-02-22 16:13:17] {
+    "timestamp": "2025-02-22T08:13:17.150Z",
+    "event": "Schedule submission attempt",
+    "user": "admin"
+}
+[Raw Input] {"timestamp":"2025-02-22T08:17:10.868Z","event":"Schedule submission attempt","user":"admin"}
+[2025-02-22 16:17:10] {
+    "timestamp": "2025-02-22T08:17:10.868Z",
+    "event": "Schedule submission attempt",
+    "user": "admin"
+}
+[Raw Input] {"timestamp":"2025-02-22T08:23:40.711Z","event":"Schedule submission attempt","user":"admin"}
+[2025-02-22 16:23:40] {
+    "timestamp": "2025-02-22T08:23:40.711Z",
+    "event": "Schedule submission attempt",
+    "user": "admin"
+}
+[Raw Input] {"timestamp":"2025-02-22T08:30:06.855Z","event":"Schedule submission attempt","user":"admin"}
+[2025-02-22 16:30:06] {
+    "timestamp": "2025-02-22T08:30:06.855Z",
+    "event": "Schedule submission attempt",
+    "user": "admin"
+}
+[Raw Input] {"timestamp":"2025-02-22T08:32:24.223Z","event":"Schedule submission attempt","user":"admin"}
+[2025-02-22 16:32:24] {
+    "timestamp": "2025-02-22T08:32:24.223Z",
+    "event": "Schedule submission attempt",
+    "user": "admin"
+}
+[Raw Input] {"timestamp":"2025-02-22T08:39:10.160Z","event":"Schedule submission attempt","user":"admin"}
+[2025-02-22 16:39:10] {
+    "timestamp": "2025-02-22T08:39:10.160Z",
+    "event": "Schedule submission attempt",
+    "user": "admin"
+}
+[Raw Input] {"timestamp":"2025-02-22T08:46:57.944Z","event":"Schedule submission attempt","user":"admin"}
+[2025-02-22 16:46:57] {
+    "timestamp": "2025-02-22T08:46:57.944Z",
+    "event": "Schedule submission attempt",
+    "user": "admin"
+}
+[Raw Input] {"timestamp":"2025-02-22T08:47:23.440Z","event":"Schedule submission attempt","user":"admin"}
+[2025-02-22 16:47:23] {
+    "timestamp": "2025-02-22T08:47:23.440Z",
+    "event": "Schedule submission attempt",
+    "user": "admin"
+}
+[Raw Input] {"timestamp":"2025-02-22T08:48:38.513Z","event":"Schedule submission attempt","user":"admin"}
+[2025-02-22 16:48:38] {
+    "timestamp": "2025-02-22T08:48:38.513Z",
+    "event": "Schedule submission attempt",
+    "user": "admin"
+}
+[Raw Input] {"timestamp":"2025-02-22T08:49:08.145Z","event":"Schedule submission attempt","user":"admin"}
+[2025-02-22 16:49:08] {
+    "timestamp": "2025-02-22T08:49:08.145Z",
+    "event": "Schedule submission attempt",
+    "user": "admin"
+}
+[Raw Input] {"timestamp":"2025-02-22T08:53:44.366Z","event":"Schedule submission attempt","user":"admin"}
+[2025-02-22 16:53:44] {
+    "timestamp": "2025-02-22T08:53:44.366Z",
+    "event": "Schedule submission attempt",
+    "user": "admin"
+}
+[Raw Input] {"timestamp":"2025-02-22T08:53:49.663Z","event":"Schedule submission attempt","user":"admin"}
+[2025-02-22 16:53:49] {
+    "timestamp": "2025-02-22T08:53:49.663Z",
+    "event": "Schedule submission attempt",
+    "user": "admin"
+}
+[Raw Input] {"timestamp":"2025-02-22T10:15:17.881Z","event":"Schedule submission attempt","user":"admin"}
+[2025-02-22 18:15:17] {
+    "timestamp": "2025-02-22T10:15:17.881Z",
+    "event": "Schedule submission attempt",
+    "user": "admin"
+}
+[Raw Input] {"timestamp":"2025-02-22T10:18:35.585Z","event":"Schedule submission attempt","user":"admin"}
+[2025-02-22 18:18:35] {
+    "timestamp": "2025-02-22T10:18:35.585Z",
+    "event": "Schedule submission attempt",
+    "user": "admin"
+}

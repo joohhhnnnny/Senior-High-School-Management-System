@@ -1,0 +1,471 @@
+/* Dashboard Styles */
+:root {
+    --primary-color: #003366;
+    --secondary-color: #0099ff;
+    --bg-gradient: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    --transition-speed: 0.3s;
+}
+
+/* Global Font Style */
+* {
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.dashboard-view {
+    min-height: 100vh;
+    background: #f5f5f5;
+    padding: 20px;
+    width: 100%;
+    margin-left: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all var(--transition-speed) ease-in-out;
+}
+
+/* Dashboard Content States */
+.sidebar.expanded ~ #mainContent .dashboard-view {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+}
+
+.sidebar.collapsed ~ #mainContent .dashboard-view {
+    margin-left: 0;
+    width: 100%;
+}
+
+/* New styles for sidebar states */
+body:has(.sidebar.show) .dashboard-view {
+    width: calc(100% - 250px);
+    margin-left: 250px;
+}
+
+body:has(.sidebar.hidden) .dashboard-view {
+    width: 100%;
+    margin-left: 0;
+}
+
+/* Add these new styles for sidebar states */
+.sidebar.show + #mainContent .dashboard-view {
+    width: calc(100% - 250px);
+    margin-left: 250px;
+}
+
+.sidebar.hidden + #mainContent .dashboard-view {
+    width: 100%;
+    margin-left: 0;
+}
+
+/* Adjust content width based on sidebar state */
+.sidebar.show + #mainContent .dashboard-view .content,
+.sidebar.show + #mainContent .dashboard-view .header {
+    max-width: calc(1400px - 250px);
+}
+
+.sidebar.hidden + #mainContent .dashboard-view .content,
+.sidebar.hidden + #mainContent .dashboard-view .header {
+    max-width: 1400px;
+}
+
+/* Content Container */
+.dashboard-view .content {
+    max-width: 1400px;
+    margin: 0 auto;
+    transition: all var(--transition-speed) ease-in-out;
+}
+
+.sidebar.expanded ~ #mainContent .dashboard-view .content {
+    max-width: calc(1400px - 250px);
+}
+
+.sidebar.collapsed ~ #mainContent .dashboard-view .content {
+    max-width: 1400px;
+}
+
+.dashboard-view .header {
+    width: calc(100% - 40px); /* Account for padding */
+    height: 300px;
+    position: relative;
+    margin: 0 auto 60px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-width: 1400px;
+    transition: all var(--transition-speed) ease-in-out;
+}
+
+.dashboard-view .header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dashboard-view .header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5));
+}
+
+.dashboard-view .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    margin: -30px auto 0;
+    position: relative;
+    z-index: 1;
+    width: calc(100% - 40px); /* Account for padding */
+    max-width: 1400px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: start;
+    transition: all var(--transition-speed) ease-in-out;
+}
+
+.dashboard-view .section {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 250px;
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 153, 255, 0.15);
+}
+
+.section h2 {
+    color: var(--primary-color);
+    margin-top: 0;
+    font-size: 1.5em;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.section h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 3px;
+    background: var(--bg-gradient);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.section:hover h2::after {
+    width: 100%;
+}
+
+.stat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.stat-icon {
+    font-size: 48px;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.stat-number {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.stat-number.updating {
+    color: var(--secondary-color);
+}
+
+.stat-details p {
+    color: #666;
+    font-size: 1.1em;
+    margin: 5px 0 0 0;
+}
+
+.section:hover .stat-icon {
+    transform: scale(1.1);
+    color: var(--primary-color);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 1024px) {
+    .dashboard-view .content {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+    }
+
+    .dashboard-view .header {
+        max-width: 95%;
+    }
+
+    .dashboard-view .content {
+        max-width: 95%;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dashboard-view {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+    }
+    
+    .dashboard-view .header {
+        height: 200px;
+        margin-bottom: 30px;
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .dashboard-view .content {
+        padding: 15px;
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .dashboard-view .section {
+        max-width: 350px;
+        margin: 0 auto 15px;
+    }
+
+    .sidebar.show + #mainContent .dashboard-view,
+    .sidebar.hidden + #mainContent .dashboard-view {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .sidebar.show + #mainContent .dashboard-view .content,
+    .sidebar.show + #mainContent .dashboard-view .header,
+    .sidebar.hidden + #mainContent .dashboard-view .content,
+    .sidebar.hidden + #mainContent .dashboard-view .header {
+        max-width: 100%;
+    }
+
+    body:has(.sidebar.show) .dashboard-view,
+    body:has(.sidebar.hidden) .dashboard-view {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .dashboard-view,
+    .sidebar.expanded ~ #mainContent .dashboard-view,
+    .sidebar.collapsed ~ #mainContent .dashboard-view {
+        margin-left: 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .dashboard-view .content,
+    .sidebar.expanded ~ #mainContent .dashboard-view .content,
+    .sidebar.collapsed ~ #mainContent .dashboard-view .content {
+        max-width: 100%;
+    }
+}
+
+body[data-sidebar="open"] .dashboard-view {
+    --sidebar-width: 250px;
+}
+
+body[data-sidebar="closed"] .dashboard-view {
+    --sidebar-width: 0px;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 250px;
+    background: var(--primary-color);
+    color: white;
+    transition: all var(--transition-speed) ease-in-out;
+    z-index: 1000;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-header .logo {
+    width: 50px;  /* Increased from 40px */
+    height: 50px; /* Increased from 40px */
+    border-radius: 50%; /* Changed from 8px to make it completely round */
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 2px;
+    background: white;
+}
+
+.sidebar-header h2 {
+    margin: 0;
+    font-size: 1.3rem; /* Slightly larger */
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.sidebar-nav {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 100px); /* Adjust based on your header height */
+}
+
+.sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-nav .menu-item {
+    margin: 5px 0;
+}
+
+.sidebar-nav .menu-item a {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    gap: 12px;
+}
+
+.sidebar-nav .menu-item a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.sidebar-nav .menu-item.active a {
+    background: var(--secondary-color);
+    color: white;
+    border-left: 4px solid white;
+}
+
+.sidebar-nav .menu-item i {
+    width: 20px;
+    text-align: center;
+}
+
+.menu-toggle {
+    position: relative;
+}
+
+.menu-toggle .arrow {
+    position: absolute;
+    right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.menu-toggle.active .arrow {
+    transform: rotate(180deg);
+}
+
+.submenu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.submenu.show {
+    max-height: 500px; /* Adjust this value based on your needs */
+}
+
+.submenu li a {
+    padding-left: 56px !important;
+    font-size: 0.9em;
+}
+
+/* Replace the logout button styles */
+.logout-btn {
+    margin-top: auto !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 20px !important;
+    color: rgba(255, 255, 255, 0.8) !important;  /* Match other menu items */
+}
+
+.logout-btn:hover {
+    background: rgba(255, 255, 255, 0.1) !important;  /* Match other menu items hover */
+    color: white !important;  /* Match other menu items hover */
+}
+
+/* Mobile Sidebar Styles */
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+    }
+
+    .sidebar.show {
+        transform: translateX(0);
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: none;
+        z-index: 999;
+    }
+
+    .overlay.active {
+        display: block;
+    }
+}
+
+/* Adjust Main Content for Sidebar */
+.main-content {
+    margin-left: 250px;
+    transition: margin var(--transition-speed) ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+    }
+    
+    .main-content.shifted {
+        margin-left: 250px;
+    }
+}

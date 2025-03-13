@@ -1,0 +1,501 @@
+:root {
+    --primary-color: #003366;
+    --secondary-color: #0099ff;
+    --bg-gradient: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    --container-padding: 20px;
+    --sidebar-width-open: 250px;
+    --sidebar-width-closed: 80px;
+}
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+/* Container Structure */
+.container-fluid {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Sections Management */
+.sections-management {
+    padding: var(--container-padding);
+    width: calc(100% - 40px);
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Consistent spacing */
+.sections-management {
+    padding: var(--container-padding);
+    max-width: 1400px; /* Match teacher management max-width */
+}
+
+.header-content {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.header-content h2 {
+    font-size: 2rem; /* Changed from 1.4rem to 2rem to match Grade 11 header size */
+    font-weight: 700;
+    color: #003366;
+    margin-bottom: 8px;
+}
+
+.header-content .subtitle {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Update filter section layout */
+.filter-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter-group {
+    flex: 0 0 600px; /* Changed from 300px to 400px */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.filter-group label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #344767;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.filter-select {
+    font-size: 0.9rem;
+    height: 42px;
+    padding: 0 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    background-color: white;
+    transition: all 0.2s ease;
+}
+
+.filter-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    outline: none;
+}
+
+.schedule-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+    margin-bottom: 40px;
+}
+
+/* Update schedule container styles */
+.schedule-container {
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+/* Update table layout styles */
+.schedule-table {
+    table-layout: fixed; /* Add this to enforce fixed column widths */
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    min-width: auto;
+    margin-top: 15px;
+    border: 1px solid #eee;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid #e0e0e0;
+    padding: 8px;
+    text-align: center;
+    vertical-align: top;
+    height: 60px;  /* Match Grade 11's cell height */
+    transition: all 0.3s ease;
+    font-size: 0.8rem;
+}
+
+.schedule-table td {
+    padding: 0;
+    height: 100px;  /* Match Grade 11's content height */
+    vertical-align: top;
+    position: relative;
+    transition: all 0.2s ease;
+    background: white;
+    padding: 12px;
+    border: 1px solid #eee;
+    border-top: none;
+    border-left: none;
+}
+
+.schedule-table th.time-column,
+.schedule-table td.time-column {
+    width: 100px !important;
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.time-column {
+    width: 100px !important;
+    min-width: 100px !important;
+    max-width: 100px !important;
+    padding: 8px !important;
+    font-size: 0.9em;
+    font-weight: 500;
+    text-align: center;
+    background: #f5f5f5 !important;
+}
+
+.time-column-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.time-start, .time-end {
+    font-weight: 500;
+    color: #333;
+}
+
+.time-separator {
+    color: #666;
+    font-size: 0.7rem;
+    margin: 4px 0;
+}
+
+.schedule-table th {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 1rem;
+    background-color: #003366;
+    color: white;
+    height: auto;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.schedule-table th.time-column {
+    background: white !important;
+    color: #000 !important;
+    border-right: 1px solid #e0e0e0;
+    position: sticky;
+    left: 0;
+    z-index: 4;
+}
+
+.schedule-table td:hover {
+    background-color: #f5f9ff;
+    cursor: pointer;
+}
+
+.schedule-slot {
+    min-height: 70px;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    font-size: 0.85rem;
+    transition: all 0.2s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+/* Subject type colors */
+.schedule-slot.major-subject {
+    background-color: #ffebee !important; /* Light red */
+    border-left: 4px solid #ef5350 !important;
+}
+
+.schedule-slot.minor-subject {
+    background-color: #e3f2fd !important; /* Light blue */
+    border-left: 4px solid #2196f3 !important;
+}
+
+/* Hover effects */
+.schedule-slot.major-subject:hover {
+    background-color: #ffcdd2 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(239, 83, 80, 0.2);
+}
+
+.schedule-slot.minor-subject:hover {
+    background-color: #bbdefb !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(33, 150, 243, 0.2);
+}
+
+.schedule-slot:hover {
+    background: #bbdefb;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-slot.major {
+    background-color: #ffebee;
+    border-left: 4px solid #ef5350;
+}
+
+.schedule-slot.minor {
+    background-color: #e3f2fd;
+    border-left: 4px solid #2196f3;
+}
+
+.schedule-slot .section-info {
+    font-size: 0.75rem;
+    color: #666;
+    margin-top: 2px;
+    display: block;
+    font-style: italic;
+}
+
+.subject-name {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #003366;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.professor-name {
+    font-size: 0.8rem;
+    color: #666;
+    display: block;
+}
+
+.time-display {
+    font-size: 0.75rem;
+    color: #666;
+    margin-top: 4px;
+    display: block;
+}
+
+.semester-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #003366;
+    padding: 15px 20px;
+    background: #f8f9fa;
+    border-left: 4px solid var(--secondary-color);
+    margin: 0 0 20px 0;
+}
+
+/* Add legend styles */
+.schedule-legend {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.legend-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    top: -1px; /* Align with text */
+    margin-right: 2px;
+}
+
+.major-legend {
+    background-color: #ffebee;
+    border-left: 3px solid #ef5350;
+}
+
+.minor-legend {
+    background-color: #e3f2fd;
+    border-left: 3px solid #2196f3;
+}
+
+.legend-text {
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 16px; /* Match height of color boxes */
+}
+
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: var(--sidebar-width-open);
+    background: var(--primary-color);
+    color: white;
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-header .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 2px;
+    background: white;
+}
+
+.sidebar-header h2 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.sidebar-nav {
+    padding: 20px 0;
+}
+
+.sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-nav .menu-item {
+    margin: 5px 0;
+}
+
+.sidebar-nav .menu-item a {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    gap: 12px;
+}
+
+.sidebar-nav .menu-item a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.sidebar-nav .menu-item.active a {
+    background: var(--secondary-color);
+    color: white;
+    border-left: 4px solid white;
+}
+
+.sidebar-nav .menu-item i {
+    width: 20px;
+    text-align: center;
+}
+
+/* Add Logout Button Styles */
+.sidebar-nav .menu-item .logout-btn {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.sidebar-nav .menu-item .logout-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+/* Submenu styles */
+.submenu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.submenu.show {
+    max-height: 200px;
+}
+
+.submenu li a {
+    padding-left: 56px !important;
+    font-size: 0.9em;
+}
+
+.menu-toggle .arrow {
+    position: absolute;
+    right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.menu-toggle.active .arrow {
+    transform: rotate(180deg);
+}
+
+/* Main Content Adjustments */
+.main-content {
+    margin-left: var(--sidebar-width-open);
+    width: calc(100% - var(--sidebar-width-open));
+    transition: margin 0.3s ease-in-out;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .sections-management {
+        padding: 10px;
+        width: calc(100% - 20px);
+    }
+
+    .filter-section {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .filter-group {
+        width: 100%;
+    }
+    
+    .sidebar {
+        transform: translateX(-100%);
+    }
+    
+    .sidebar.show {
+        transform: translateX(0);
+    }
+    
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+    }
+}

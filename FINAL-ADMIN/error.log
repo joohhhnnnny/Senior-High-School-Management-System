@@ -1,0 +1,46 @@
+[05-Mar-2025 09:01:46 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 09:01:46 Europe/Berlin] Database connection successful
+[05-Mar-2025 09:01:46 Europe/Berlin] ================== NEW APPROVAL REQUEST ==================
+[05-Mar-2025 09:01:46 Europe/Berlin] Request started at: 2025-03-05 09:01:46
+[05-Mar-2025 09:01:46 Europe/Berlin] Step 1: Getting student data
+[05-Mar-2025 09:01:46 Europe/Berlin] Preparing SQL: SELECT sa.*, spe.yearLevel, spe.strand 
+                FROM studentpendingenroll spe 
+                JOIN studentapply sa ON sa.id = spe.studentID 
+                WHERE spe.id = 20
+[05-Mar-2025 09:01:46 Europe/Berlin] Executing student query with ID: 20
+[05-Mar-2025 09:01:46 Europe/Berlin] Found student data: {"id":21,"fullname":"juji","birthdate":"2025-02-27","gender":"female","address":"biringan","phoneNumber":"09234554978","email":"juji@gmail.com","yearLevel":"11","strand":"humss","birthcert":"birthcert_1740631467_67bfedab81d1a.png","form138":"form138_1740631467_67bfedab82185.png"}
+[05-Mar-2025 09:01:46 Europe/Berlin] Step 2: Updating enrollment status
+[05-Mar-2025 09:01:46 Europe/Berlin] Preparing update SQL: UPDATE studentpendingenroll SET status = 'approved' WHERE id = 20
+[05-Mar-2025 09:01:46 Europe/Berlin] Status updated successfully
+[05-Mar-2025 09:01:46 Europe/Berlin] Step 3: Creating student account
+[05-Mar-2025 09:01:46 Europe/Berlin] Preparing insert SQL: INSERT INTO student (studentID, fullname, yearLevel, year_strand, email, password, address, phoneNumber) 
+                       VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+[05-Mar-2025 09:01:46 Europe/Berlin] Executing student insert
+[05-Mar-2025 09:01:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'iscp.g11_firstsem' doesn't exist in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:181
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(181): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 181
+[05-Mar-2025 09:05:56 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 09:05:56 Europe/Berlin] Database connection successful
+[05-Mar-2025 09:05:56 Europe/Berlin] ================== NEW APPROVAL REQUEST ==================
+[05-Mar-2025 09:05:56 Europe/Berlin] Request started at: 2025-03-05 09:05:56
+[05-Mar-2025 09:05:56 Europe/Berlin] Step 1: Getting student data
+[05-Mar-2025 09:05:56 Europe/Berlin] Preparing SQL: SELECT sa.*, spe.yearLevel, spe.strand 
+                FROM studentpendingenroll spe 
+                JOIN studentapply sa ON sa.id = spe.studentID 
+                WHERE spe.id = 21
+[05-Mar-2025 09:05:56 Europe/Berlin] Executing student query with ID: 21
+[05-Mar-2025 09:05:56 Europe/Berlin] Found student data: {"id":22,"fullname":"test_","birthdate":"2025-02-27","gender":"male","address":"biringan","phoneNumber":"09123123123","email":"test_@gmail.com","yearLevel":"12","strand":"humss","birthcert":"birthcert_1740632950_67bff37671aa7.png","form138":"form138_1740632950_67bff37671e38.png"}
+[05-Mar-2025 09:05:56 Europe/Berlin] Step 2: Updating enrollment status
+[05-Mar-2025 09:05:56 Europe/Berlin] Preparing update SQL: UPDATE studentpendingenroll SET status = 'approved' WHERE id = 21
+[05-Mar-2025 09:05:56 Europe/Berlin] Status updated successfully
+[05-Mar-2025 09:05:56 Europe/Berlin] Step 3: Creating student account
+[05-Mar-2025 09:05:57 Europe/Berlin] Preparing insert SQL: INSERT INTO student (studentID, fullname, yearLevel, year_strand, email, password, address, phoneNumber) 
+                       VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+[05-Mar-2025 09:05:57 Europe/Berlin] Executing student insert
+[05-Mar-2025 09:05:57 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'iscp.g12_firstsem' doesn't exist in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:181
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(181): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 181

@@ -1,0 +1,20 @@
+[13-Feb-2025 11:33:13 Europe/Berlin] Starting student data fetch...
+[13-Feb-2025 11:33:13 Europe/Berlin] Executing query: SELECT * FROM student ORDER BY id DESC
+[13-Feb-2025 11:33:13 Europe/Berlin] PHP Warning:  Undefined array key "strand" in C:\xamppNew\htdocs\CST5-PROJECT\REVISED all-in SHS PROJ\Admin-PHP\student_management.php on line 33
+[13-Feb-2025 11:33:13 Europe/Berlin] PHP Warning:  Undefined array key "strand" in C:\xamppNew\htdocs\CST5-PROJECT\REVISED all-in SHS PROJ\Admin-PHP\student_management.php on line 33
+[13-Feb-2025 11:33:13 Europe/Berlin] Successfully found 2 students
+[13-Feb-2025 11:33:24 Europe/Berlin] Starting student data fetch...
+[13-Feb-2025 11:33:24 Europe/Berlin] Executing query: SELECT * FROM student ORDER BY id DESC
+[13-Feb-2025 11:33:24 Europe/Berlin] PHP Warning:  Undefined array key "strand" in C:\xamppNew\htdocs\CST5-PROJECT\REVISED all-in SHS PROJ\Admin-PHP\student_management.php on line 33
+[13-Feb-2025 11:33:24 Europe/Berlin] PHP Warning:  Undefined array key "strand" in C:\xamppNew\htdocs\CST5-PROJECT\REVISED all-in SHS PROJ\Admin-PHP\student_management.php on line 33
+[13-Feb-2025 11:33:24 Europe/Berlin] Successfully found 2 students
+[13-Feb-2025 11:33:31 Europe/Berlin] Starting student data fetch...
+[13-Feb-2025 11:33:31 Europe/Berlin] Executing query: SELECT * FROM student ORDER BY id DESC
+[13-Feb-2025 11:33:31 Europe/Berlin] PHP Warning:  Undefined array key "strand" in C:\xamppNew\htdocs\CST5-PROJECT\REVISED all-in SHS PROJ\Admin-PHP\student_management.php on line 33
+[13-Feb-2025 11:33:31 Europe/Berlin] PHP Warning:  Undefined array key "strand" in C:\xamppNew\htdocs\CST5-PROJECT\REVISED all-in SHS PROJ\Admin-PHP\student_management.php on line 33
+[13-Feb-2025 11:33:31 Europe/Berlin] Successfully found 2 students
+[13-Feb-2025 11:35:17 Europe/Berlin] Starting student data fetch...
+[13-Feb-2025 11:35:17 Europe/Berlin] Executing query: SELECT * FROM student ORDER BY id DESC
+[13-Feb-2025 11:35:17 Europe/Berlin] PHP Warning:  Undefined array key "strand" in C:\xamppNew\htdocs\CST5-PROJECT\REVISED all-in SHS PROJ\Admin-PHP\student_management.php on line 33
+[13-Feb-2025 11:35:17 Europe/Berlin] PHP Warning:  Undefined array key "strand" in C:\xamppNew\htdocs\CST5-PROJECT\REVISED all-in SHS PROJ\Admin-PHP\student_management.php on line 33
+[13-Feb-2025 11:35:17 Europe/Berlin] Successfully found 2 students

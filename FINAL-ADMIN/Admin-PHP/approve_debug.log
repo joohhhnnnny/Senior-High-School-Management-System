@@ -1,0 +1,400 @@
+[18-Feb-2025 13:05:57 Europe/Berlin] Attempting database connection to localhost with user root
+[18-Feb-2025 13:05:57 Europe/Berlin] Database connection successful
+[18-Feb-2025 13:05:57 Europe/Berlin] 2025-02-18 13:05:57 - Starting approval process
+[18-Feb-2025 13:05:57 Europe/Berlin] 2025-02-18 13:05:57 - Received input: {"id":12}
+[18-Feb-2025 13:05:57 Europe/Berlin] 2025-02-18 13:05:57 - Processing ID: 12
+[18-Feb-2025 13:05:57 Europe/Berlin] 2025-02-18 13:05:57 - Transaction started
+[18-Feb-2025 13:05:57 Europe/Berlin] 2025-02-18 13:05:57 - Found professor: {"id":12,"professorID":12,"email":"bububu@gmail.com","status":"pending","date":"2025-02-18"}
+[18-Feb-2025 13:05:58 Europe/Berlin] 2025-02-18 13:05:58 - Professor account created
+[18-Feb-2025 13:05:59 Europe/Berlin] 2025-02-18 13:05:59 - Email error: SMTP Error: Could not connect to SMTP host. Connection failed. stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+[18-Feb-2025 13:05:59 Europe/Berlin] 2025-02-18 13:05:59 - Transaction committed
+[18-Feb-2025 13:36:50 Europe/Berlin] Attempting database connection to localhost with user root
+[18-Feb-2025 13:36:50 Europe/Berlin] Database connection successful
+[18-Feb-2025 13:36:50 Europe/Berlin] 2025-02-18 13:36:50 - Starting approval process
+[18-Feb-2025 13:36:50 Europe/Berlin] 2025-02-18 13:36:50 - Received input: {"id":13}
+[18-Feb-2025 13:36:50 Europe/Berlin] 2025-02-18 13:36:50 - Processing ID: 13
+[18-Feb-2025 13:36:50 Europe/Berlin] 2025-02-18 13:36:50 - Transaction started
+[18-Feb-2025 13:36:50 Europe/Berlin] 2025-02-18 13:36:50 - Found professor: {"id":13,"professorID":13,"email":"bibibi@gmail.com","status":"pending","date":"2025-02-18"}
+[18-Feb-2025 13:36:50 Europe/Berlin] 2025-02-18 13:36:50 - Professor account created
+[18-Feb-2025 13:36:52 Europe/Berlin] 2025-02-18 13:36:52 - Email error: SMTP Error: Could not connect to SMTP host. Connection failed. stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+[18-Feb-2025 13:36:52 Europe/Berlin] 2025-02-18 13:36:52 - Transaction committed
+[18-Feb-2025 13:41:01 Europe/Berlin] Attempting database connection to localhost with user root
+[18-Feb-2025 13:41:01 Europe/Berlin] Database connection successful
+[18-Feb-2025 13:41:01 Europe/Berlin] 2025-02-18 13:41:01 - Starting approval process
+[18-Feb-2025 13:41:01 Europe/Berlin] 2025-02-18 13:41:01 - Received input: {"id":14}
+[18-Feb-2025 13:41:01 Europe/Berlin] 2025-02-18 13:41:01 - Processing ID: 14
+[18-Feb-2025 13:41:01 Europe/Berlin] 2025-02-18 13:41:01 - Transaction started
+[18-Feb-2025 13:41:01 Europe/Berlin] 2025-02-18 13:41:01 - Found professor: 
+[18-Feb-2025 13:41:01 Europe/Berlin] 2025-02-18 13:41:01 - Professor account created
+[18-Feb-2025 13:41:01 Europe/Berlin] PHP Warning:  Undefined array key "professorID" in C:\xamppNew\htdocs\CST5-PROJECT\REVISED all-in SHS PROJ\Admin-PHP\pending_applications_approve.php on line 128
+[18-Feb-2025 13:41:03 Europe/Berlin] 2025-02-18 13:41:03 - Email error: SMTP Error: Could not connect to SMTP host. Connection failed. stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+[18-Feb-2025 13:41:03 Europe/Berlin] 2025-02-18 13:41:03 - Transaction committed
+[18-Feb-2025 13:44:51 Europe/Berlin] Attempting database connection to localhost with user root
+[18-Feb-2025 13:44:51 Europe/Berlin] Database connection successful
+[18-Feb-2025 13:44:51 Europe/Berlin] 2025-02-18 13:44:51 - Starting approval process
+[18-Feb-2025 13:44:51 Europe/Berlin] 2025-02-18 13:44:51 - Received input: {"id":15}
+[18-Feb-2025 13:44:51 Europe/Berlin] 2025-02-18 13:44:51 - Processing ID: 15
+[18-Feb-2025 13:44:51 Europe/Berlin] 2025-02-18 13:44:51 - Transaction started
+[18-Feb-2025 13:44:51 Europe/Berlin] 2025-02-18 13:44:51 - Found professor: 
+[18-Feb-2025 13:44:51 Europe/Berlin] 2025-02-18 13:44:51 - Professor account created
+[18-Feb-2025 13:44:51 Europe/Berlin] PHP Warning:  Undefined array key "professorID" in C:\xamppNew\htdocs\CST5-PROJECT\REVISED all-in SHS PROJ\Admin-PHP\pending_applications_approve.php on line 128
+[18-Feb-2025 13:44:53 Europe/Berlin] 2025-02-18 13:44:53 - Email error: SMTP Error: Could not connect to SMTP host. Connection failed. stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+[18-Feb-2025 13:44:53 Europe/Berlin] 2025-02-18 13:44:53 - Transaction committed
+[18-Feb-2025 14:05:21 Europe/Berlin] Attempting database connection to localhost with user root
+[18-Feb-2025 14:05:21 Europe/Berlin] Database connection successful
+[18-Feb-2025 14:05:21 Europe/Berlin] 2025-02-18 14:05:21 - Starting approval process
+[18-Feb-2025 14:05:21 Europe/Berlin] 2025-02-18 14:05:21 - Received input: {"id":17}
+[18-Feb-2025 14:05:21 Europe/Berlin] 2025-02-18 14:05:21 - Processing ID: 17
+[18-Feb-2025 14:05:21 Europe/Berlin] 2025-02-18 14:05:21 - Transaction started
+[18-Feb-2025 14:05:21 Europe/Berlin] 2025-02-18 14:05:21 - Found professor: 
+[18-Feb-2025 14:05:21 Europe/Berlin] 2025-02-18 14:05:21 - Professor account created
+[18-Feb-2025 14:05:25 Europe/Berlin] 2025-02-18 14:05:25 - Email sent successfully to: johnbongcacjohn@gmail.com
+[18-Feb-2025 14:05:25 Europe/Berlin] 2025-02-18 14:05:25 - Transaction committed
+[19-Feb-2025 02:57:31 Europe/Berlin] Attempting database connection to localhost with user root
+[19-Feb-2025 02:57:31 Europe/Berlin] Database connection successful
+[19-Feb-2025 02:57:31 Europe/Berlin] 2025-02-19 02:57:31 - Starting approval process
+[19-Feb-2025 02:57:31 Europe/Berlin] 2025-02-19 02:57:31 - Received input: {"id":18}
+[19-Feb-2025 02:57:31 Europe/Berlin] 2025-02-19 02:57:31 - Processing ID: 18
+[19-Feb-2025 02:57:31 Europe/Berlin] 2025-02-19 02:57:31 - Transaction started
+[19-Feb-2025 02:57:31 Europe/Berlin] 2025-02-19 02:57:31 - Found professor: 
+[19-Feb-2025 02:57:32 Europe/Berlin] 2025-02-19 02:57:32 - Professor account created
+[19-Feb-2025 02:57:36 Europe/Berlin] 2025-02-19 02:57:36 - Email sent successfully to: jolo@gmail.com
+[19-Feb-2025 02:57:36 Europe/Berlin] 2025-02-19 02:57:36 - Status updated to: approved for ID: 18
+[19-Feb-2025 02:57:36 Europe/Berlin] 2025-02-19 02:57:36 - Transaction committed
+[19-Feb-2025 03:11:30 Europe/Berlin] Attempting database connection to localhost with user root
+[19-Feb-2025 03:11:30 Europe/Berlin] Database connection successful
+[19-Feb-2025 03:11:30 Europe/Berlin] 2025-02-19 03:11:30 - Starting approval process
+[19-Feb-2025 03:11:30 Europe/Berlin] 2025-02-19 03:11:30 - Received input: {"id":19}
+[19-Feb-2025 03:11:30 Europe/Berlin] 2025-02-19 03:11:30 - Processing ID: 19
+[19-Feb-2025 03:11:30 Europe/Berlin] 2025-02-19 03:11:30 - Transaction started
+[19-Feb-2025 03:11:30 Europe/Berlin] 2025-02-19 03:11:30 - Found professor: 
+[19-Feb-2025 03:11:30 Europe/Berlin] 2025-02-19 03:11:30 - Professor account created
+[19-Feb-2025 03:11:34 Europe/Berlin] 2025-02-19 03:11:34 - Email sent successfully to: guru@gmail.com
+[19-Feb-2025 03:11:34 Europe/Berlin] 2025-02-19 03:11:34 - Attempting to update status to 'approved' for ID: 19
+[19-Feb-2025 03:11:34 Europe/Berlin] 2025-02-19 03:11:34 - Update affected 1 rows
+[19-Feb-2025 03:11:34 Europe/Berlin] 2025-02-19 03:11:34 - Verification check - Updated status: 
+[19-Feb-2025 03:11:34 Europe/Berlin] 2025-02-19 03:11:34 - Status update error: Status update verification failed
+[19-Feb-2025 03:11:34 Europe/Berlin] 2025-02-19 03:11:34 - Error: Status update verification failed
+[19-Feb-2025 03:29:33 Europe/Berlin] Attempting database connection to localhost with user root
+[19-Feb-2025 03:29:33 Europe/Berlin] Database connection successful
+[19-Feb-2025 03:29:33 Europe/Berlin] Received input: {"id":19}
+[19-Feb-2025 03:29:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #7 cannot be passed by reference in C:\xamppNew\htdocs\CST5-PROJECT\REVISED all-in SHS PROJ\Admin-PHP\pending_applications_approve.php:78
+Stack trace:
+#0 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\REVISED all-in SHS PROJ\Admin-PHP\pending_applications_approve.php on line 78
+[19-Feb-2025 03:33:19 Europe/Berlin] Attempting database connection to localhost with user root
+[19-Feb-2025 03:33:19 Europe/Berlin] Database connection successful
+[19-Feb-2025 03:33:19 Europe/Berlin] Approval error: mysqli_stmt::bind_param(): Argument #7 cannot be passed by reference
+[19-Feb-2025 03:44:09 Europe/Berlin] Attempting database connection to localhost with user root
+[19-Feb-2025 03:44:09 Europe/Berlin] Database connection successful
+[19-Feb-2025 03:44:09 Europe/Berlin] Starting approval process - 2025-02-19 03:44:09
+[19-Feb-2025 03:44:09 Europe/Berlin] Received input: {"id":19}
+[19-Feb-2025 03:44:09 Europe/Berlin] Processing ID: 19
+[19-Feb-2025 03:44:09 Europe/Berlin] Found professor data: {"professorID":19,"fullname":"guru","email":"guru@gmail.com","phoneNumber":"09234567123","pending_id":19,"status":"pending"}
+[19-Feb-2025 03:44:09 Europe/Berlin] Error in approval process: Status update verification failed
+[05-Mar-2025 09:12:49 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 09:12:49 Europe/Berlin] Database connection successful
+[05-Mar-2025 09:12:49 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 09:12:49 Europe/Berlin] Processing ID: 20
+[05-Mar-2025 09:12:49 Europe/Berlin] Included files:
+[05-Mar-2025 09:12:49 Europe/Berlin] C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php
+[05-Mar-2025 09:12:49 Europe/Berlin] C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Portal-Main\conn.php
+[05-Mar-2025 09:12:49 Europe/Berlin] C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\vendor\autoload.php
+[05-Mar-2025 09:12:49 Europe/Berlin] C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\vendor\composer\autoload_real.php
+[05-Mar-2025 09:12:49 Europe/Berlin] C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\vendor\composer\platform_check.php
+[05-Mar-2025 09:12:49 Europe/Berlin] C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\vendor\composer\ClassLoader.php
+[05-Mar-2025 09:12:49 Europe/Berlin] C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\vendor\composer\autoload_static.php
+[05-Mar-2025 09:12:49 Europe/Berlin] Getting student data
+[05-Mar-2025 09:12:49 Europe/Berlin] Executing query with ID: 20
+[05-Mar-2025 09:12:49 Europe/Berlin] Found student: {"id":21,"fullname":"juji","birthdate":"2025-02-27","gender":"female","address":"biringan","phoneNumber":"09234554978","email":"juji@gmail.com","yearLevel":"11","strand":"humss","birthcert":"birthcert_1740631467_67bfedab81d1a.png","form138":"form138_1740631467_67bfedab82185.png"}
+[05-Mar-2025 09:12:49 Europe/Berlin] Updated status to approved
+[05-Mar-2025 09:12:49 Europe/Berlin] Inserting student with data: {"studentID":21,"yearLevel":"11","year_strand":"11-HUMSS"}
+[05-Mar-2025 09:12:49 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'iscp.g11_firstsem' doesn't exist in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:178
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(178): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 178
+[05-Mar-2025 09:14:33 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 09:14:33 Europe/Berlin] Database connection successful
+[05-Mar-2025 09:14:33 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 09:14:33 Europe/Berlin] Processing ID: 20
+[05-Mar-2025 09:14:33 Europe/Berlin] Included files:
+[05-Mar-2025 09:14:33 Europe/Berlin] C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php
+[05-Mar-2025 09:14:33 Europe/Berlin] C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Portal-Main\conn.php
+[05-Mar-2025 09:14:33 Europe/Berlin] C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\vendor\autoload.php
+[05-Mar-2025 09:14:33 Europe/Berlin] C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\vendor\composer\autoload_real.php
+[05-Mar-2025 09:14:33 Europe/Berlin] C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\vendor\composer\platform_check.php
+[05-Mar-2025 09:14:33 Europe/Berlin] C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\vendor\composer\ClassLoader.php
+[05-Mar-2025 09:14:33 Europe/Berlin] C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\vendor\composer\autoload_static.php
+[05-Mar-2025 09:14:33 Europe/Berlin] Getting student data
+[05-Mar-2025 09:14:33 Europe/Berlin] Executing query with ID: 20
+[05-Mar-2025 09:14:33 Europe/Berlin] Found student: {"id":21,"fullname":"juji","birthdate":"2025-02-27","gender":"female","address":"biringan","phoneNumber":"09234554978","email":"juji@gmail.com","yearLevel":"11","strand":"humss","birthcert":"birthcert_1740631467_67bfedab81d1a.png","form138":"form138_1740631467_67bfedab82185.png"}
+[05-Mar-2025 09:14:33 Europe/Berlin] Updated status to approved
+[05-Mar-2025 09:14:33 Europe/Berlin] Inserting student with data: {"studentID":21,"yearLevel":"11","year_strand":"11-HUMSS"}
+[05-Mar-2025 09:14:33 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'iscp.g11_firstsem' doesn't exist in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:178
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(178): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 178
+[05-Mar-2025 09:19:19 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 09:19:19 Europe/Berlin] Database connection successful
+[05-Mar-2025 09:19:19 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 09:19:19 Europe/Berlin] Processing ID: 20
+[05-Mar-2025 09:19:20 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'iscp.g11_firstsem' doesn't exist in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:173
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(173): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 173
+[05-Mar-2025 09:19:31 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 09:19:31 Europe/Berlin] Database connection successful
+[05-Mar-2025 09:19:31 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 09:19:31 Europe/Berlin] Processing ID: 21
+[05-Mar-2025 09:19:31 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'iscp.g12_firstsem' doesn't exist in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:173
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(173): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 173
+[05-Mar-2025 09:21:41 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 09:21:41 Europe/Berlin] Database connection successful
+[05-Mar-2025 09:21:41 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 09:21:41 Europe/Berlin] Processing ID: 20
+[05-Mar-2025 09:21:41 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'iscp.g11_firstsem' doesn't exist in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:178
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(178): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 178
+[05-Mar-2025 09:23:22 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 09:23:22 Europe/Berlin] Database connection successful
+[05-Mar-2025 09:23:22 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 09:23:22 Europe/Berlin] Processing ID: 21
+[05-Mar-2025 09:23:22 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'iscp.g12_firstsem' doesn't exist in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:178
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(178): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 178
+[05-Mar-2025 09:29:20 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 09:29:20 Europe/Berlin] Database connection successful
+[05-Mar-2025 09:29:20 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 09:29:20 Europe/Berlin] Processing ID: 20
+[05-Mar-2025 09:29:20 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'parent_name' in 'field list' in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:187
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(187): mysqli->prepare('INSERT INTO par...')
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 187
+[05-Mar-2025 09:33:45 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 09:33:45 Europe/Berlin] Database connection successful
+[05-Mar-2025 09:33:45 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 09:33:45 Europe/Berlin] Processing ID: 20
+[05-Mar-2025 09:33:45 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'year_level' in 'where clause' in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:193
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(193): mysqli->prepare('INSERT INTO stu...')
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 193
+[05-Mar-2025 09:48:22 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 09:48:22 Europe/Berlin] Database connection successful
+[05-Mar-2025 09:48:22 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 09:48:22 Europe/Berlin] Processing ID: 20
+[05-Mar-2025 09:48:22 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'studentID' in 'field list' in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:199
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(199): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 199
+[05-Mar-2025 09:56:57 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 09:56:57 Europe/Berlin] Database connection successful
+[05-Mar-2025 09:56:57 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 09:56:57 Europe/Berlin] Processing ID: 21
+[05-Mar-2025 09:56:57 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'studentID' in 'field list' in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:200
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(200): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 200
+[05-Mar-2025 09:58:12 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 09:58:12 Europe/Berlin] Database connection successful
+[05-Mar-2025 09:58:12 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 09:58:12 Europe/Berlin] Processing ID: 22
+[05-Mar-2025 09:58:12 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'studentID' in 'field list' in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:203
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(203): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 203
+[05-Mar-2025 09:58:38 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 09:58:38 Europe/Berlin] Database connection successful
+[05-Mar-2025 09:58:38 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 09:58:38 Europe/Berlin] Processing ID: 22
+[05-Mar-2025 09:58:38 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'studentID' in 'field list' in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:203
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(203): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 203
+[05-Mar-2025 10:03:59 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 10:03:59 Europe/Berlin] Database connection successful
+[05-Mar-2025 10:03:59 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 10:03:59 Europe/Berlin] Processing ID: 21
+[05-Mar-2025 10:03:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`iscp`.`student_sections`, CONSTRAINT `student_sections_ibfk_1` FOREIGN KEY (`student_id`) REFERENCES `student` (`id`)) in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:219
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(219): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 219
+[05-Mar-2025 13:00:06 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 13:00:06 Europe/Berlin] Database connection successful
+[05-Mar-2025 13:00:06 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 13:00:06 Europe/Berlin] Processing ID: 21
+[05-Mar-2025 13:00:06 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`iscp`.`student_sections`, CONSTRAINT `student_sections_ibfk_1` FOREIGN KEY (`student_id`) REFERENCES `student` (`id`)) in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:219
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(219): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 219
+[05-Mar-2025 13:01:28 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 13:01:28 Europe/Berlin] Database connection successful
+[05-Mar-2025 13:01:28 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 13:01:28 Europe/Berlin] Processing ID: 21
+[05-Mar-2025 13:01:28 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`iscp`.`student_sections`, CONSTRAINT `student_sections_ibfk_2` FOREIGN KEY (`schedule_id`) REFERENCES `schedules` (`id`)) in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:219
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(219): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 219
+[05-Mar-2025 13:05:39 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 13:05:39 Europe/Berlin] Database connection successful
+[05-Mar-2025 13:05:39 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 13:05:39 Europe/Berlin] Processing ID: 22
+[05-Mar-2025 13:05:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #4 cannot be passed by reference in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:229
+Stack trace:
+#0 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 229
+[05-Mar-2025 13:05:42 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 13:05:42 Europe/Berlin] Database connection successful
+[05-Mar-2025 13:05:42 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 13:05:42 Europe/Berlin] Processing ID: 21
+[05-Mar-2025 13:05:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #4 cannot be passed by reference in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:229
+Stack trace:
+#0 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 229
+[05-Mar-2025 13:06:53 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 13:06:53 Europe/Berlin] Database connection successful
+[05-Mar-2025 13:06:53 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 13:06:53 Europe/Berlin] Processing ID: 21
+[05-Mar-2025 13:06:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'schedule_id' cannot be null in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:235
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(235): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 235
+[05-Mar-2025 13:08:43 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 13:08:43 Europe/Berlin] Database connection successful
+[05-Mar-2025 13:08:43 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 13:08:43 Europe/Berlin] Processing ID: 21
+[05-Mar-2025 13:08:43 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`iscp`.`student_sections`, CONSTRAINT `student_sections_ibfk_2` FOREIGN KEY (`schedule_id`) REFERENCES `schedules` (`id`)) in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php:243
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php(243): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_approve_transfer.php on line 243
+[05-Mar-2025 13:10:35 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 13:10:35 Europe/Berlin] Database connection successful
+[05-Mar-2025 13:10:35 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 13:10:35 Europe/Berlin] Processing ID: 21
+[05-Mar-2025 13:10:39 Europe/Berlin] Email sent successfully to: test_@gmail.com
+[05-Mar-2025 15:47:43 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 15:47:43 Europe/Berlin] Database connection successful
+[05-Mar-2025 15:47:43 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 15:47:43 Europe/Berlin] Processing ID: 20
+[05-Mar-2025 15:47:46 Europe/Berlin] Email sent successfully to: juji@gmail.com
+[05-Mar-2025 15:53:31 Europe/Berlin] Attempting database connection to localhost with user root
+[05-Mar-2025 15:53:31 Europe/Berlin] Database connection successful
+[05-Mar-2025 15:53:31 Europe/Berlin] === Starting New Approval Process ===
+[05-Mar-2025 15:53:31 Europe/Berlin] Processing ID: 23
+[05-Mar-2025 15:53:34 Europe/Berlin] Email sent successfully to: mingming@gmail.com
+[07-Mar-2025 01:18:43 Europe/Berlin] Attempting database connection to localhost with user root
+[07-Mar-2025 01:18:43 Europe/Berlin] Database connection successful
+[07-Mar-2025 01:18:43 Europe/Berlin] === Starting New Approval Process ===
+[07-Mar-2025 01:18:43 Europe/Berlin] Processing ID: 24
+[07-Mar-2025 01:18:47 Europe/Berlin] Email sent successfully to: pitbullandbulldoggy1522@gmail.com
+[07-Mar-2025 10:01:57 Europe/Berlin] Attempting database connection to localhost with user root
+[07-Mar-2025 10:01:57 Europe/Berlin] Database connection successful
+[07-Mar-2025 10:01:57 Europe/Berlin] === Starting New Approval Process ===
+[07-Mar-2025 10:01:57 Europe/Berlin] Processing ID: 25
+[07-Mar-2025 10:01:57 Europe/Berlin] Fatal error: Student already exists in the system
+[07-Mar-2025 10:03:17 Europe/Berlin] Attempting database connection to localhost with user root
+[07-Mar-2025 10:03:17 Europe/Berlin] Database connection successful
+[07-Mar-2025 10:03:17 Europe/Berlin] === Starting New Approval Process ===
+[07-Mar-2025 10:03:17 Europe/Berlin] Processing ID: 25
+[07-Mar-2025 10:03:17 Europe/Berlin] Fatal error: Student already exists in the system
+[07-Mar-2025 10:03:27 Europe/Berlin] Attempting database connection to localhost with user root
+[07-Mar-2025 10:03:27 Europe/Berlin] Database connection successful
+[07-Mar-2025 10:03:27 Europe/Berlin] === Starting New Approval Process ===
+[07-Mar-2025 10:03:27 Europe/Berlin] Processing ID: 25
+[07-Mar-2025 10:03:27 Europe/Berlin] Fatal error: Student already exists in the system
+[07-Mar-2025 10:16:27 Europe/Berlin] Attempting database connection to localhost with user root
+[07-Mar-2025 10:16:27 Europe/Berlin] Database connection successful
+[07-Mar-2025 10:16:27 Europe/Berlin] === Starting New Approval Process ===
+[07-Mar-2025 10:16:27 Europe/Berlin] Processing ID: 25
+[07-Mar-2025 10:16:27 Europe/Berlin] Fatal error: Student already exists in the system
+[07-Mar-2025 10:18:11 Europe/Berlin] Attempting database connection to localhost with user root
+[07-Mar-2025 10:18:11 Europe/Berlin] Database connection successful
+[07-Mar-2025 10:18:11 Europe/Berlin] === Starting New Approval Process ===
+[07-Mar-2025 10:18:11 Europe/Berlin] Processing ID: 25
+[07-Mar-2025 10:18:11 Europe/Berlin] Fatal error: Student already exists in the system
+[07-Mar-2025 10:19:54 Europe/Berlin] Attempting database connection to localhost with user root
+[07-Mar-2025 10:19:54 Europe/Berlin] Database connection successful
+[07-Mar-2025 10:19:54 Europe/Berlin] === Starting New Approval Process ===
+[07-Mar-2025 10:19:54 Europe/Berlin] Processing ID: 25
+[07-Mar-2025 10:19:54 Europe/Berlin] Fatal error: Student already exists in the system
+[07-Mar-2025 10:25:25 Europe/Berlin] Attempting database connection to localhost with user root
+[07-Mar-2025 10:25:25 Europe/Berlin] Database connection successful
+[07-Mar-2025 10:25:25 Europe/Berlin] === Starting New Approval Process ===
+[07-Mar-2025 10:25:25 Europe/Berlin] Processing ID: 26
+[07-Mar-2025 10:25:25 Europe/Berlin] Fatal error: Student application not found
+[07-Mar-2025 10:25:41 Europe/Berlin] Attempting database connection to localhost with user root
+[07-Mar-2025 10:25:41 Europe/Berlin] Database connection successful
+[07-Mar-2025 10:25:41 Europe/Berlin] === Starting New Approval Process ===
+[07-Mar-2025 10:25:41 Europe/Berlin] Processing ID: 26
+[07-Mar-2025 10:25:41 Europe/Berlin] Fatal error: Student application not found
+[07-Mar-2025 10:29:38 Europe/Berlin] Attempting database connection to localhost with user root
+[07-Mar-2025 10:29:38 Europe/Berlin] Database connection successful
+[07-Mar-2025 10:29:38 Europe/Berlin] === Starting New Approval Process ===
+[07-Mar-2025 10:29:38 Europe/Berlin] Fatal error: No ID provided
+[07-Mar-2025 10:31:45 Europe/Berlin] Attempting database connection to localhost with user root
+[07-Mar-2025 10:31:45 Europe/Berlin] Database connection successful
+[07-Mar-2025 10:31:45 Europe/Berlin] === Starting New Approval Process ===
+[07-Mar-2025 10:31:45 Europe/Berlin] Fatal error: No ID provided
+[07-Mar-2025 10:35:04 Europe/Berlin] Attempting database connection to localhost with user root
+[07-Mar-2025 10:35:04 Europe/Berlin] Database connection successful
+[07-Mar-2025 10:35:04 Europe/Berlin] === Starting New Approval Process ===
+[07-Mar-2025 10:35:04 Europe/Berlin] Processing ID: 27
+[07-Mar-2025 10:35:04 Europe/Berlin] Fatal error: Student application not found
+[07-Mar-2025 10:37:51 Europe/Berlin] Attempting database connection to localhost with user root
+[07-Mar-2025 10:37:51 Europe/Berlin] Database connection successful
+[07-Mar-2025 10:37:51 Europe/Berlin] === Starting New Approval Process ===
+[07-Mar-2025 10:37:51 Europe/Berlin] Fatal error: No ID provided
+[07-Mar-2025 10:41:28 Europe/Berlin] Attempting database connection to localhost with user root
+[07-Mar-2025 10:41:28 Europe/Berlin] Database connection successful
+[07-Mar-2025 10:41:28 Europe/Berlin] === Starting New Approval Process ===
+[07-Mar-2025 10:41:28 Europe/Berlin] Processing ID: 26
+[07-Mar-2025 10:41:31 Europe/Berlin] Email sent successfully to: cherrymaybongcac@gmail.com
+[08-Mar-2025 09:36:32 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:36:32 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:36:32 Europe/Berlin] === Starting New Approval Process ===
+[08-Mar-2025 09:36:32 Europe/Berlin] Processing ID: 29
+[08-Mar-2025 09:36:36 Europe/Berlin] Email sent successfully to: delete3@gmail.com
+[08-Mar-2025 09:36:39 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:36:39 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:36:39 Europe/Berlin] === Starting New Approval Process ===
+[08-Mar-2025 09:36:39 Europe/Berlin] Processing ID: 28
+[08-Mar-2025 09:36:43 Europe/Berlin] Email sent successfully to: gur@gmail.com
+[08-Mar-2025 09:37:08 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:37:08 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:37:08 Europe/Berlin] === Starting New Approval Process ===
+[08-Mar-2025 09:37:08 Europe/Berlin] Processing ID: 27
+[08-Mar-2025 09:37:12 Europe/Berlin] Email sent successfully to: delete@gmail.com
+[08-Mar-2025 09:47:11 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:47:11 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:47:11 Europe/Berlin] === Starting New Approval Process ===
+[08-Mar-2025 09:47:11 Europe/Berlin] Processing ID: 22
+[08-Mar-2025 09:47:15 Europe/Berlin] Email sent successfully to: testingOkay@gmail.com
+[08-Mar-2025 10:34:58 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 10:34:58 Europe/Berlin] Database connection successful
+[08-Mar-2025 10:34:58 Europe/Berlin] === Starting New Approval Process ===
+[08-Mar-2025 10:34:58 Europe/Berlin] Processing ID: 30
+[08-Mar-2025 10:35:02 Europe/Berlin] Email sent successfully to: delete4@gmail.com

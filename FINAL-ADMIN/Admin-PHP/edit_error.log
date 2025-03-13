@@ -1,0 +1,705 @@
+[23-Feb-2025 08:52:31 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 08:52:31 Europe/Berlin] Database connection successful
+[23-Feb-2025 08:52:31 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 08:52:49 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 08:52:49 Europe/Berlin] Database connection successful
+[23-Feb-2025 08:52:49 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 08:55:27 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 08:55:27 Europe/Berlin] Database connection successful
+[23-Feb-2025 08:55:27 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 08:57:35 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 08:57:35 Europe/Berlin] Database connection successful
+[23-Feb-2025 08:57:35 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 09:00:22 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:00:22 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:00:22 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 09:13:03 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:13:03 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:13:03 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 09:23:46 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:23:46 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:23:46 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 09:27:38 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:27:38 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:27:38 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 09:32:26 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:32:26 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:32:26 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 09:37:36 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:37:36 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:37:36 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 09:37:42 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:37:42 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:37:42 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 09:40:36 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:40:36 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:40:36 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 09:40:53 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:40:53 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:40:53 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 09:41:26 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:41:26 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:41:26 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 09:41:34 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:41:34 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:41:34 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 09:41:54 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:41:54 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:41:54 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 09:47:09 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:47:09 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:47:09 Europe/Berlin] Request method: GET
+[23-Feb-2025 09:47:21 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:47:21 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:47:21 Europe/Berlin] Request method: GET
+[23-Feb-2025 09:52:02 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:52:03 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:52:03 Europe/Berlin] Request method: GET
+[23-Feb-2025 09:56:06 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:56:06 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:56:06 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 09:56:06 Europe/Berlin] Raw input: 
+[23-Feb-2025 09:56:06 Europe/Berlin] GET request - Fetching student ID: 27
+[23-Feb-2025 09:56:06 Europe/Berlin] Student data fetched successfully: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan po","phoneNumber":"09207056696"}
+[23-Feb-2025 09:56:27 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:56:27 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:56:27 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 09:56:27 Europe/Berlin] Raw input: 
+[23-Feb-2025 09:56:27 Europe/Berlin] GET request - Fetching student ID: 26
+[23-Feb-2025 09:56:27 Europe/Berlin] Student data fetched successfully: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[23-Feb-2025 10:00:01 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:00:01 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:00:01 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 10:00:01 Europe/Berlin] Raw input: 
+[23-Feb-2025 10:00:01 Europe/Berlin] GET request - Fetching student ID: 31
+[23-Feb-2025 10:00:01 Europe/Berlin] Student data fetched successfully: {"id":31,"studentID":13,"fullname":"johnny yeah","yearLevel":"12","year_strand":"12-HUMSS","email":"johnny21@gmail.com","password":"$2y$10$fKAIdwpf3a0gRNo3fFQRNOtPf7WL8IN7KarB9iqf3E4dmIFjbc\/rK","address":"biringan","phoneNumber":"09207056696"}
+[23-Feb-2025 10:02:21 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:02:21 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:02:21 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 10:02:21 Europe/Berlin] Raw input: 
+[23-Feb-2025 10:02:21 Europe/Berlin] GET request - Fetching student ID: 4
+[23-Feb-2025 10:02:21 Europe/Berlin] Student data fetched successfully: {"id":4,"studentID":4,"fullname":"jensi vea vea","yearLevel":"12","year_strand":"12-AAD","email":"jensi@gmail.com","password":"","address":"matina","phoneNumber":"09234554978"}
+[23-Feb-2025 10:06:42 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:06:42 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:06:42 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 10:06:42 Europe/Berlin] Raw input: 
+[23-Feb-2025 10:06:42 Europe/Berlin] GET request - Fetching student ID: 27
+[23-Feb-2025 10:06:42 Europe/Berlin] Student data fetched successfully: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan po","phoneNumber":"09207056696"}
+[23-Feb-2025 10:10:14 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:10:14 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:10:14 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 10:10:14 Europe/Berlin] Raw input: 
+[23-Feb-2025 10:10:14 Europe/Berlin] GET request - Fetching student ID: 26
+[23-Feb-2025 10:10:14 Europe/Berlin] Student data fetched successfully: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[23-Feb-2025 10:14:50 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:14:50 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:14:50 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 10:14:50 Europe/Berlin] Raw input: 
+[23-Feb-2025 10:14:50 Europe/Berlin] GET request - Fetching student ID: 31
+[23-Feb-2025 10:14:50 Europe/Berlin] Student data fetched successfully: {"id":31,"studentID":13,"fullname":"johnny yeah","yearLevel":"12","year_strand":"12-HUMSS","email":"johnny21@gmail.com","password":"$2y$10$fKAIdwpf3a0gRNo3fFQRNOtPf7WL8IN7KarB9iqf3E4dmIFjbc\/rK","address":"biringan","phoneNumber":"09207056696"}
+[23-Feb-2025 10:17:06 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:17:06 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:17:06 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 10:17:06 Europe/Berlin] Raw input: 
+[23-Feb-2025 10:17:06 Europe/Berlin] GET request - Fetching student ID: 26
+[23-Feb-2025 10:17:06 Europe/Berlin] Student data fetched successfully: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[23-Feb-2025 10:20:04 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:20:04 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:20:04 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 10:20:04 Europe/Berlin] Raw input: 
+[23-Feb-2025 10:20:04 Europe/Berlin] GET request - Fetching student ID: 27
+[23-Feb-2025 10:20:04 Europe/Berlin] Student data fetched successfully: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan po","phoneNumber":"09207056696"}
+[23-Feb-2025 10:20:33 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:20:33 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:20:33 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 10:20:33 Europe/Berlin] Raw input: 
+[23-Feb-2025 10:20:33 Europe/Berlin] GET request - Fetching student ID: 27
+[23-Feb-2025 10:20:33 Europe/Berlin] Student data fetched successfully: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan po","phoneNumber":"09207056696"}
+[23-Feb-2025 10:20:38 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:20:38 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:20:38 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 10:20:38 Europe/Berlin] Raw input: 
+[23-Feb-2025 10:20:38 Europe/Berlin] GET request - Fetching student ID: 4
+[23-Feb-2025 10:20:38 Europe/Berlin] Student data fetched successfully: {"id":4,"studentID":4,"fullname":"jensi vea vea","yearLevel":"12","year_strand":"12-AAD","email":"jensi@gmail.com","password":"","address":"matina","phoneNumber":"09234554978"}
+[23-Feb-2025 10:20:40 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:20:40 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:20:40 Europe/Berlin] Request received - Method: GET
+[23-Feb-2025 10:20:40 Europe/Berlin] Raw input: 
+[23-Feb-2025 10:20:40 Europe/Berlin] GET request - Fetching student ID: 4
+[23-Feb-2025 10:20:40 Europe/Berlin] Student data fetched successfully: {"id":4,"studentID":4,"fullname":"jensi vea vea","yearLevel":"12","year_strand":"12-AAD","email":"jensi@gmail.com","password":"","address":"matina","phoneNumber":"09234554978"}
+[23-Feb-2025 10:23:24 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:23:24 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:23:24 Europe/Berlin] Request received - Method: POST
+[23-Feb-2025 10:23:24 Europe/Berlin] Raw input: {"id":"1","fullname":"Test Student","email":"test@test.com","address":"Test Address","phoneNumber":"1234567890"}
+[23-Feb-2025 10:23:24 Europe/Berlin] POST request - Received data: Array
+(
+    [id] => 1
+    [fullname] => Test Student
+    [email] => test@test.com
+    [address] => Test Address
+    [phoneNumber] => 1234567890
+)
+
+[23-Feb-2025 10:23:24 Europe/Berlin] SQL Query: UPDATE student SET fullname=?, email=?, address=?, phoneNumber=? WHERE id=?
+[23-Feb-2025 10:23:24 Europe/Berlin] Parameters: ["Test Student","test@test.com","Test Address","1234567890","1"]
+[23-Feb-2025 10:23:24 Europe/Berlin] Executing update...
+[23-Feb-2025 10:23:24 Europe/Berlin] Rows affected: 0
+[23-Feb-2025 10:23:24 Europe/Berlin] Update successful
+[23-Feb-2025 10:27:09 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:27:09 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:27:09 Europe/Berlin] Request Method: POST
+[23-Feb-2025 10:27:09 Europe/Berlin] Received POST data: Array
+(
+    [id] => 1
+    [fullname] => Test Student
+    [email] => test@test.com
+    [address] => Test Address
+    [phoneNumber] => 1234567890
+)
+
+[23-Feb-2025 10:27:09 Europe/Berlin] Preparing update query...
+[23-Feb-2025 10:27:09 Europe/Berlin] Binding parameters...
+[23-Feb-2025 10:27:09 Europe/Berlin] Executing update...
+[23-Feb-2025 10:27:09 Europe/Berlin] Update completed. Rows affected: 0
+[23-Feb-2025 10:29:00 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:29:00 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:29:00 Europe/Berlin] Request Method: POST
+[23-Feb-2025 10:29:00 Europe/Berlin] Received POST data: Array
+(
+    [id] => 27
+    [fullname] => john
+    [email] => johnbongcacjohn@gmail.com
+    [address] => biringan homeland
+    [phoneNumber] => 09207056696
+)
+
+[23-Feb-2025 10:29:00 Europe/Berlin] Preparing update query...
+[23-Feb-2025 10:29:00 Europe/Berlin] Binding parameters...
+[23-Feb-2025 10:29:00 Europe/Berlin] Executing update...
+[23-Feb-2025 10:29:00 Europe/Berlin] Update completed. Rows affected: 1
+[23-Feb-2025 10:30:29 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:30:29 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:30:29 Europe/Berlin] Request Method: GET
+[23-Feb-2025 10:30:35 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:30:35 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:30:35 Europe/Berlin] Request Method: GET
+[23-Feb-2025 10:31:27 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:31:27 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:31:27 Europe/Berlin] Request Method: GET
+[23-Feb-2025 10:34:53 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:34:53 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:34:53 Europe/Berlin] Request Method: GET
+[23-Feb-2025 10:34:55 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:34:55 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:34:55 Europe/Berlin] Request Method: GET
+[23-Feb-2025 10:39:24 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:39:24 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:39:24 Europe/Berlin] Request Method: GET
+[23-Feb-2025 10:42:28 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:42:28 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:42:28 Europe/Berlin] Request Method: GET
+[23-Feb-2025 10:50:49 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 10:50:49 Europe/Berlin] Database connection successful
+[23-Feb-2025 10:50:49 Europe/Berlin] Request Method: GET
+[23-Feb-2025 11:03:21 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:03:21 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:03:21 Europe/Berlin] Request Method: GET
+[23-Feb-2025 11:04:01 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:04:01 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:04:01 Europe/Berlin] Request Method: GET
+[23-Feb-2025 11:04:24 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:04:24 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:04:24 Europe/Berlin] Request Method: GET
+[23-Feb-2025 11:08:23 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:08:23 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:08:23 Europe/Berlin] Request Method: GET
+[23-Feb-2025 11:10:43 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:10:43 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:10:43 Europe/Berlin] Request Method: GET
+[23-Feb-2025 11:11:18 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:11:18 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:11:18 Europe/Berlin] Request Method: GET
+[23-Feb-2025 11:27:18 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:27:18 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:27:18 Europe/Berlin] Request Method: GET
+[23-Feb-2025 11:32:38 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:32:38 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:32:38 Europe/Berlin] Request Method: GET
+[23-Feb-2025 11:33:07 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:33:07 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:33:07 Europe/Berlin] Request Method: GET
+[23-Feb-2025 11:33:43 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:33:43 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:33:43 Europe/Berlin] Request Method: GET
+[23-Feb-2025 11:38:09 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:38:09 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:38:09 Europe/Berlin] Request Method: GET
+[23-Feb-2025 11:40:02 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:40:02 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:40:02 Europe/Berlin] Request Method: POST
+[23-Feb-2025 11:40:02 Europe/Berlin] Received POST data: Array
+(
+    [id] => 27
+    [fullname] => john
+    [email] => johnbongcacjohn@gmail.com
+    [address] => biringan saga
+    [phoneNumber] => 09207056696
+)
+
+[23-Feb-2025 11:40:02 Europe/Berlin] Error: Missing required field: yearLevel
+[23-Feb-2025 11:40:33 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:40:33 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:40:33 Europe/Berlin] Request Method: GET
+[23-Feb-2025 11:45:03 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:45:03 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:45:03 Europe/Berlin] Request Method: GET
+[23-Feb-2025 11:49:26 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:49:26 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:49:26 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 11:49:26 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 11:49:26 Europe/Berlin] 🔍 Fetching student ID: 26
+[23-Feb-2025 11:49:26 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[23-Feb-2025 11:49:46 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:49:46 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:49:46 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 11:49:46 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 11:49:46 Europe/Berlin] 🔍 Fetching student ID: 4
+[23-Feb-2025 11:49:46 Europe/Berlin] ✅ Student data found: {"id":4,"studentID":4,"fullname":"jensi vea vea","yearLevel":"12","year_strand":"12-AAD","email":"jensi@gmail.com","password":"","address":"matina","phoneNumber":"09234554978"}
+[23-Feb-2025 11:50:00 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:50:00 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:50:00 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 11:50:00 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 11:50:00 Europe/Berlin] 🔍 Fetching student ID: 26
+[23-Feb-2025 11:50:00 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[23-Feb-2025 11:50:02 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:50:02 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:50:02 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 11:50:02 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 11:50:02 Europe/Berlin] 🔍 Fetching student ID: 26
+[23-Feb-2025 11:50:02 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[23-Feb-2025 11:54:38 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:54:38 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:54:38 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 11:54:38 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 11:54:38 Europe/Berlin] 🔍 Fetching student ID: 26
+[23-Feb-2025 11:54:38 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[23-Feb-2025 11:54:56 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:54:56 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:54:56 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 11:54:56 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 11:54:56 Europe/Berlin] 🔍 Fetching student ID: 26
+[23-Feb-2025 11:54:56 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[23-Feb-2025 11:58:31 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:58:31 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:58:31 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 11:58:31 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 11:58:31 Europe/Berlin] 🔍 Fetching student ID: 26
+[23-Feb-2025 11:58:31 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[23-Feb-2025 12:06:50 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 12:06:50 Europe/Berlin] Database connection successful
+[23-Feb-2025 12:06:50 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 12:06:50 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 12:06:50 Europe/Berlin] 🔍 Fetching student ID: 4
+[23-Feb-2025 12:06:50 Europe/Berlin] ✅ Student data found: {"id":4,"studentID":4,"fullname":"jensi vea vea","yearLevel":"12","year_strand":"12-AAD","email":"jensi@gmail.com","password":"","address":"matina","phoneNumber":"09234554978"}
+[23-Feb-2025 12:10:48 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 12:10:48 Europe/Berlin] Database connection successful
+[23-Feb-2025 12:10:48 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 12:10:48 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 12:10:48 Europe/Berlin] 🔍 Fetching student ID: 26
+[23-Feb-2025 12:10:48 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[23-Feb-2025 12:13:25 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 12:13:25 Europe/Berlin] Database connection successful
+[23-Feb-2025 12:13:25 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 12:13:25 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 12:13:25 Europe/Berlin] 🔍 Fetching student ID: 26
+[23-Feb-2025 12:13:25 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[23-Feb-2025 12:14:13 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 12:14:13 Europe/Berlin] Database connection successful
+[23-Feb-2025 12:14:13 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 12:14:13 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 12:14:13 Europe/Berlin] 🔍 Fetching student ID: 26
+[23-Feb-2025 12:14:13 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[23-Feb-2025 12:17:22 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 12:17:22 Europe/Berlin] Database connection successful
+[23-Feb-2025 12:17:22 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 12:17:22 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 12:17:22 Europe/Berlin] 🔍 Fetching student ID: 26
+[23-Feb-2025 12:17:22 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[23-Feb-2025 12:29:47 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 12:29:47 Europe/Berlin] Database connection successful
+[23-Feb-2025 12:29:47 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 12:29:47 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 12:29:47 Europe/Berlin] 🔍 Fetching student ID: 26
+[23-Feb-2025 12:29:47 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[23-Feb-2025 12:30:20 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 12:30:20 Europe/Berlin] Database connection successful
+[23-Feb-2025 12:30:20 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 12:30:20 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 12:30:20 Europe/Berlin] 🔍 Fetching student ID: 4
+[23-Feb-2025 12:30:20 Europe/Berlin] ✅ Student data found: {"id":4,"studentID":4,"fullname":"jensi vea vea","yearLevel":"12","year_strand":"12-AAD","email":"jensi@gmail.com","password":"","address":"matina","phoneNumber":"09234554978"}
+[23-Feb-2025 12:40:19 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 12:40:19 Europe/Berlin] Database connection successful
+[23-Feb-2025 12:40:19 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 12:40:19 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 12:40:19 Europe/Berlin] 🔍 Fetching student ID: 26
+[23-Feb-2025 12:40:19 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[23-Feb-2025 12:44:17 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 12:44:17 Europe/Berlin] Database connection successful
+[23-Feb-2025 12:44:17 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 12:44:17 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 12:44:17 Europe/Berlin] 🔍 Fetching student ID: 26
+[23-Feb-2025 12:44:17 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[23-Feb-2025 12:48:40 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 12:48:40 Europe/Berlin] Database connection successful
+[23-Feb-2025 12:48:40 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 12:48:40 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 12:48:40 Europe/Berlin] 🔍 Fetching student ID: 4
+[23-Feb-2025 12:48:40 Europe/Berlin] ✅ Student data found: {"id":4,"studentID":4,"fullname":"jensi vea vea","yearLevel":"12","year_strand":"12-AAD","email":"jensi@gmail.com","password":"","address":"matina","phoneNumber":"09234554978"}
+[23-Feb-2025 12:49:12 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 12:49:12 Europe/Berlin] Database connection successful
+[23-Feb-2025 12:49:12 Europe/Berlin] 🔄 Edit PHP Script Started
+[23-Feb-2025 12:49:12 Europe/Berlin] 📍 Request Method: GET
+[23-Feb-2025 12:49:12 Europe/Berlin] 🔍 Fetching student ID: 4
+[23-Feb-2025 12:49:12 Europe/Berlin] ✅ Student data found: {"id":4,"studentID":4,"fullname":"jensi vea vea","yearLevel":"12","year_strand":"12-AAD","email":"jensi@gmail.com","password":"","address":"matina","phoneNumber":"09234554978"}
+[24-Feb-2025 02:15:45 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:15:45 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:15:45 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:15:45 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:15:45 Europe/Berlin] 🔍 Fetching student ID: 26
+[24-Feb-2025 02:15:45 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[24-Feb-2025 02:15:45 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:15:45 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:15:45 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:15:45 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:15:45 Europe/Berlin] 🔍 Fetching student ID: 26
+[24-Feb-2025 02:15:45 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[24-Feb-2025 02:21:02 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:21:02 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:21:02 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:21:02 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:21:02 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 02:21:02 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 02:21:02 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:21:02 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:21:02 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:21:02 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:21:02 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 02:21:02 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 02:21:26 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:21:26 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:21:26 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:21:26 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:21:26 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 02:21:26 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 02:21:26 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:21:26 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:21:26 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:21:26 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:21:26 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 02:21:26 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 02:23:02 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:23:02 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:23:02 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:23:02 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:23:02 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 02:23:02 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 02:23:02 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:23:02 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:23:02 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:23:02 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:23:02 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 02:23:02 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 02:29:48 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:29:48 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:29:48 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:29:48 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:29:48 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 02:29:48 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 02:29:48 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:29:48 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:29:48 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:29:48 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:29:48 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 02:29:48 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 02:34:08 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:34:08 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:34:08 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:34:08 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:34:08 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 02:34:08 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 02:34:08 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:34:08 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:34:08 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:34:08 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:34:08 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 02:34:08 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 02:36:52 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:36:52 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:36:52 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:36:52 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:36:52 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 02:36:52 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 02:36:52 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:36:52 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:36:52 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:36:52 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:36:52 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 02:36:52 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 02:39:33 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:39:33 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:39:33 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:39:33 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:39:33 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 02:39:33 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 02:39:33 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:39:33 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:39:33 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:39:33 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:39:33 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 02:39:33 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 02:39:36 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:39:36 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:39:36 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:39:36 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:39:36 Europe/Berlin] 🔍 Fetching student ID: 26
+[24-Feb-2025 02:39:36 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[24-Feb-2025 02:39:36 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:39:36 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:39:36 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:39:36 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:39:36 Europe/Berlin] 🔍 Fetching student ID: 26
+[24-Feb-2025 02:39:36 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[24-Feb-2025 02:39:39 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:39:39 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:39:39 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:39:39 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:39:39 Europe/Berlin] 🔍 Fetching student ID: 4
+[24-Feb-2025 02:39:39 Europe/Berlin] ✅ Student data found: {"id":4,"studentID":4,"fullname":"jensi vea vea","yearLevel":"12","year_strand":"12-AAD","email":"jensi@gmail.com","password":"","address":"matina","phoneNumber":"09234554978"}
+[24-Feb-2025 02:39:39 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:39:39 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:39:39 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:39:39 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:39:39 Europe/Berlin] 🔍 Fetching student ID: 4
+[24-Feb-2025 02:39:39 Europe/Berlin] ✅ Student data found: {"id":4,"studentID":4,"fullname":"jensi vea vea","yearLevel":"12","year_strand":"12-AAD","email":"jensi@gmail.com","password":"","address":"matina","phoneNumber":"09234554978"}
+[24-Feb-2025 02:39:42 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:39:42 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:39:42 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:39:42 Europe/Berlin] 📍 Request Method: POST
+[24-Feb-2025 02:39:42 Europe/Berlin] 📥 Received POST data: Array
+(
+    [id] => 4
+    [fullname] => jensi vea vea
+    [address] => matina city
+    [phoneNumber] => 09234554978
+)
+
+[24-Feb-2025 02:39:42 Europe/Berlin] 🔄 Preparing update query...
+[24-Feb-2025 02:39:42 Europe/Berlin] 📝 Binding parameters...
+[24-Feb-2025 02:39:42 Europe/Berlin] 📤 Executing update...
+[24-Feb-2025 02:39:42 Europe/Berlin] ✅ Update completed. Rows affected: 1
+[24-Feb-2025 02:39:42 Europe/Berlin] 🏁 Edit PHP Script Ended
+[24-Feb-2025 02:39:46 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:39:46 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:39:46 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:39:46 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:39:46 Europe/Berlin] 🔍 Fetching student ID: 4
+[24-Feb-2025 02:39:46 Europe/Berlin] ✅ Student data found: {"id":4,"studentID":4,"fullname":"jensi vea vea","yearLevel":"12","year_strand":"12-AAD","email":"jensi@gmail.com","password":"","address":"matina city","phoneNumber":"09234554978"}
+[24-Feb-2025 02:39:46 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:39:46 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:39:46 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:39:46 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:39:46 Europe/Berlin] 🔍 Fetching student ID: 4
+[24-Feb-2025 02:39:46 Europe/Berlin] ✅ Student data found: {"id":4,"studentID":4,"fullname":"jensi vea vea","yearLevel":"12","year_strand":"12-AAD","email":"jensi@gmail.com","password":"","address":"matina city","phoneNumber":"09234554978"}
+[24-Feb-2025 02:39:46 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:39:46 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:39:46 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:39:46 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:39:46 Europe/Berlin] 🔍 Fetching student ID: 4
+[24-Feb-2025 02:39:46 Europe/Berlin] ✅ Student data found: {"id":4,"studentID":4,"fullname":"jensi vea vea","yearLevel":"12","year_strand":"12-AAD","email":"jensi@gmail.com","password":"","address":"matina city","phoneNumber":"09234554978"}
+[24-Feb-2025 02:39:50 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:39:50 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:39:50 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:39:50 Europe/Berlin] 📍 Request Method: POST
+[24-Feb-2025 02:39:50 Europe/Berlin] 📥 Received POST data: Array
+(
+    [id] => 4
+    [fullname] => jensi vea vea
+    [address] => matina saga
+    [phoneNumber] => 09234554978
+)
+
+[24-Feb-2025 02:39:50 Europe/Berlin] 🔄 Preparing update query...
+[24-Feb-2025 02:39:50 Europe/Berlin] 📝 Binding parameters...
+[24-Feb-2025 02:39:50 Europe/Berlin] 📤 Executing update...
+[24-Feb-2025 02:39:50 Europe/Berlin] ✅ Update completed. Rows affected: 1
+[24-Feb-2025 02:39:50 Europe/Berlin] 🏁 Edit PHP Script Ended
+[24-Feb-2025 02:43:02 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:43:02 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:43:02 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:43:02 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:43:02 Europe/Berlin] 🔍 Fetching student ID: 26
+[24-Feb-2025 02:43:02 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[24-Feb-2025 02:43:02 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:43:02 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:43:02 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:43:02 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:43:02 Europe/Berlin] 🔍 Fetching student ID: 26
+[24-Feb-2025 02:43:02 Europe/Berlin] ✅ Student data found: {"id":26,"studentID":10,"fullname":"good student","yearLevel":"12","year_strand":"12-ICT","email":"good@gmail.com","password":"","address":"biringan city","phoneNumber":"09234554978"}
+[24-Feb-2025 02:43:09 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:43:09 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:43:09 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:43:09 Europe/Berlin] 📍 Request Method: POST
+[24-Feb-2025 02:43:09 Europe/Berlin] 📥 Received POST data: Array
+(
+    [id] => 26
+    [fullname] => good student
+    [address] => biringan homeland
+    [phoneNumber] => 09234554978
+)
+
+[24-Feb-2025 02:43:09 Europe/Berlin] 🔄 Preparing update query...
+[24-Feb-2025 02:43:09 Europe/Berlin] 📝 Binding parameters...
+[24-Feb-2025 02:43:09 Europe/Berlin] 📤 Executing update...
+[24-Feb-2025 02:43:09 Europe/Berlin] ✅ Update completed. Rows affected: 1
+[24-Feb-2025 02:43:09 Europe/Berlin] 🏁 Edit PHP Script Ended
+[24-Feb-2025 02:53:02 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:53:02 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:53:02 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:53:02 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:53:02 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 02:53:02 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 02:53:02 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 02:53:02 Europe/Berlin] Database connection successful
+[24-Feb-2025 02:53:02 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 02:53:02 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 02:53:02 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 02:53:02 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 03:32:43 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 03:32:43 Europe/Berlin] Database connection successful
+[24-Feb-2025 03:32:43 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 03:32:43 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 03:32:43 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 03:32:43 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 03:32:43 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 03:32:43 Europe/Berlin] Database connection successful
+[24-Feb-2025 03:32:43 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 03:32:43 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 03:32:43 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 03:32:43 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 03:32:49 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 03:32:49 Europe/Berlin] Database connection successful
+[24-Feb-2025 03:32:49 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 03:32:49 Europe/Berlin] 📍 Request Method: POST
+[24-Feb-2025 03:32:49 Europe/Berlin] 📥 Received POST data: Array
+(
+    [id] => 27
+    [fullname] => john
+    [address] => biringan homeland saga
+    [phoneNumber] => 09207056696
+)
+
+[24-Feb-2025 03:32:49 Europe/Berlin] 🔄 Preparing update query...
+[24-Feb-2025 03:32:49 Europe/Berlin] 📝 Binding parameters...
+[24-Feb-2025 03:32:49 Europe/Berlin] 📤 Executing update...
+[24-Feb-2025 03:32:49 Europe/Berlin] ✅ Update completed. Rows affected: 1
+[24-Feb-2025 03:32:49 Europe/Berlin] 🏁 Edit PHP Script Ended
+[24-Feb-2025 03:33:51 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 03:33:51 Europe/Berlin] Database connection successful
+[24-Feb-2025 03:33:51 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 03:33:51 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 03:33:51 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 03:33:51 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland saga","phoneNumber":"09207056696"}
+[24-Feb-2025 03:33:51 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 03:33:51 Europe/Berlin] Database connection successful
+[24-Feb-2025 03:33:51 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 03:33:51 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 03:33:51 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 03:33:51 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland saga","phoneNumber":"09207056696"}
+[24-Feb-2025 03:33:51 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 03:33:51 Europe/Berlin] Database connection successful
+[24-Feb-2025 03:33:51 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 03:33:51 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 03:33:51 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 03:33:51 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland saga","phoneNumber":"09207056696"}
+[24-Feb-2025 03:33:55 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 03:33:55 Europe/Berlin] Database connection successful
+[24-Feb-2025 03:33:55 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 03:33:55 Europe/Berlin] 📍 Request Method: POST
+[24-Feb-2025 03:33:55 Europe/Berlin] 📥 Received POST data: Array
+(
+    [id] => 27
+    [fullname] => john
+    [address] => biringan homeland
+    [phoneNumber] => 09207056696
+)
+
+[24-Feb-2025 03:33:55 Europe/Berlin] 🔄 Preparing update query...
+[24-Feb-2025 03:33:55 Europe/Berlin] 📝 Binding parameters...
+[24-Feb-2025 03:33:55 Europe/Berlin] 📤 Executing update...
+[24-Feb-2025 03:33:55 Europe/Berlin] ✅ Update completed. Rows affected: 1
+[24-Feb-2025 03:33:55 Europe/Berlin] 🏁 Edit PHP Script Ended
+[24-Feb-2025 03:34:44 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 03:34:44 Europe/Berlin] Database connection successful
+[24-Feb-2025 03:34:44 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 03:34:44 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 03:34:44 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 03:34:44 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[24-Feb-2025 03:34:44 Europe/Berlin] Attempting database connection to localhost with user root
+[24-Feb-2025 03:34:44 Europe/Berlin] Database connection successful
+[24-Feb-2025 03:34:44 Europe/Berlin] 🔄 Edit PHP Script Started
+[24-Feb-2025 03:34:44 Europe/Berlin] 📍 Request Method: GET
+[24-Feb-2025 03:34:44 Europe/Berlin] 🔍 Fetching student ID: 27
+[24-Feb-2025 03:34:44 Europe/Berlin] ✅ Student data found: {"id":27,"studentID":11,"fullname":"john","yearLevel":"11","year_strand":"11-ICT","email":"johnbongcacjohn@gmail.com","password":"","address":"biringan homeland","phoneNumber":"09207056696"}
+[08-Mar-2025 09:43:13 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:43:13 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:43:13 Europe/Berlin] 🔄 Edit PHP Script Started
+[08-Mar-2025 09:43:13 Europe/Berlin] 📍 Request Method: GET
+[08-Mar-2025 09:43:13 Europe/Berlin] 🔍 Fetching student ID: 82
+[08-Mar-2025 09:43:13 Europe/Berlin] ✅ Student data found: {"id":82,"studentID":30,"fullname":"delete3","yearLevel":"11","year_strand":"11-AAD","email":"delete3@gmail.com","password":"$2y$10$BVqKRig5w6i\/0H3EzRZrveVAXc1fM2ZsMGafHdP6ajbbBman8bmwe","address":"iuh","phoneNumber":"09123123123"}
+[08-Mar-2025 09:43:13 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:43:13 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:43:13 Europe/Berlin] 🔄 Edit PHP Script Started
+[08-Mar-2025 09:43:13 Europe/Berlin] 📍 Request Method: GET
+[08-Mar-2025 09:43:13 Europe/Berlin] 🔍 Fetching student ID: 82
+[08-Mar-2025 09:43:13 Europe/Berlin] ✅ Student data found: {"id":82,"studentID":30,"fullname":"delete3","yearLevel":"11","year_strand":"11-AAD","email":"delete3@gmail.com","password":"$2y$10$BVqKRig5w6i\/0H3EzRZrveVAXc1fM2ZsMGafHdP6ajbbBman8bmwe","address":"iuh","phoneNumber":"09123123123"}
+[08-Mar-2025 09:48:26 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:48:26 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:48:26 Europe/Berlin] 🔄 Edit PHP Script Started
+[08-Mar-2025 09:48:26 Europe/Berlin] 📍 Request Method: GET
+[08-Mar-2025 09:48:26 Europe/Berlin] 🔍 Fetching student ID: 85
+[08-Mar-2025 09:48:26 Europe/Berlin] ✅ Student data found: {"id":85,"studentID":23,"fullname":"testingOkay","yearLevel":"11","year_strand":"11-ICT","email":"testingOkay@gmail.com","password":"$2y$10$FiPdjehsjYYI7JpVVWhkb.nEaRb4RA4iHYhAud5D3.QhnGRmGDSqa","address":"yohoho","phoneNumber":"09123123123"}
+[08-Mar-2025 09:48:26 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:48:26 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:48:26 Europe/Berlin] 🔄 Edit PHP Script Started
+[08-Mar-2025 09:48:26 Europe/Berlin] 📍 Request Method: GET
+[08-Mar-2025 09:48:26 Europe/Berlin] 🔍 Fetching student ID: 85
+[08-Mar-2025 09:48:26 Europe/Berlin] ✅ Student data found: {"id":85,"studentID":23,"fullname":"testingOkay","yearLevel":"11","year_strand":"11-ICT","email":"testingOkay@gmail.com","password":"$2y$10$FiPdjehsjYYI7JpVVWhkb.nEaRb4RA4iHYhAud5D3.QhnGRmGDSqa","address":"yohoho","phoneNumber":"09123123123"}
+[10-Mar-2025 05:23:01 Europe/Berlin] Attempting database connection to localhost with user root
+[10-Mar-2025 05:23:01 Europe/Berlin] Database connection successful
+[10-Mar-2025 05:23:01 Europe/Berlin] 🔄 Edit PHP Script Started
+[10-Mar-2025 05:23:01 Europe/Berlin] 📍 Request Method: GET
+[10-Mar-2025 05:23:01 Europe/Berlin] 🔍 Fetching student ID: 80
+[10-Mar-2025 05:23:01 Europe/Berlin] ✅ Student data found: {"id":80,"studentID":25,"fullname":"jensi","yearLevel":"11","year_strand":"11-HUMSS","email":"pitbullandbulldoggy1522@gmail.com","password":"$2y$10$wqTGY\/dNrfIDsvBoCH7lUeMQquSPXPEwiXBk9WguY3zIa.hNAIsUi","address":"matina","phoneNumber":"09234234234"}
+[10-Mar-2025 05:23:01 Europe/Berlin] Attempting database connection to localhost with user root
+[10-Mar-2025 05:23:01 Europe/Berlin] Database connection successful
+[10-Mar-2025 05:23:01 Europe/Berlin] 🔄 Edit PHP Script Started
+[10-Mar-2025 05:23:01 Europe/Berlin] 📍 Request Method: GET
+[10-Mar-2025 05:23:01 Europe/Berlin] 🔍 Fetching student ID: 80
+[10-Mar-2025 05:23:01 Europe/Berlin] ✅ Student data found: {"id":80,"studentID":25,"fullname":"jensi","yearLevel":"11","year_strand":"11-HUMSS","email":"pitbullandbulldoggy1522@gmail.com","password":"$2y$10$wqTGY\/dNrfIDsvBoCH7lUeMQquSPXPEwiXBk9WguY3zIa.hNAIsUi","address":"matina","phoneNumber":"09234234234"}
+[10-Mar-2025 05:23:07 Europe/Berlin] Attempting database connection to localhost with user root
+[10-Mar-2025 05:23:07 Europe/Berlin] Database connection successful
+[10-Mar-2025 05:23:07 Europe/Berlin] 🔄 Edit PHP Script Started
+[10-Mar-2025 05:23:07 Europe/Berlin] 📍 Request Method: POST
+[10-Mar-2025 05:23:07 Europe/Berlin] 📥 Received POST data: Array
+(
+    [id] => 80
+    [fullname] => jensi ko
+    [address] => matina
+    [phoneNumber] => 09234234234
+)
+
+[10-Mar-2025 05:23:07 Europe/Berlin] 🔄 Preparing update query...
+[10-Mar-2025 05:23:07 Europe/Berlin] 📝 Binding parameters...
+[10-Mar-2025 05:23:07 Europe/Berlin] 📤 Executing update...
+[10-Mar-2025 05:23:07 Europe/Berlin] ✅ Update completed. Rows affected: 1
+[10-Mar-2025 05:23:07 Europe/Berlin] 🏁 Edit PHP Script Ended

@@ -1,0 +1,149 @@
+[23-Feb-2025 09:04:52 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:04:52 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:04:52 Europe/Berlin] Raw input received: {"id":32}
+[23-Feb-2025 09:04:52 Europe/Berlin] Processing delete for student ID: 32
+[23-Feb-2025 09:04:52 Europe/Berlin] Executing SQL: DELETE FROM g11_firstsem_grades WHERE studentID = ? with ID: 32
+[23-Feb-2025 09:04:52 Europe/Berlin] Executing SQL: DELETE FROM g11_secondsem_grades WHERE studentID = ? with ID: 32
+[23-Feb-2025 09:04:52 Europe/Berlin] Executing SQL: DELETE FROM g12_firstsem_grades WHERE studentID = ? with ID: 32
+[23-Feb-2025 09:04:52 Europe/Berlin] Executing SQL: DELETE FROM g12_secondsem_grades WHERE studentID = ? with ID: 32
+[23-Feb-2025 09:04:52 Europe/Berlin] Executing SQL: DELETE FROM attendance WHERE studentID = ? with ID: 32
+[23-Feb-2025 09:04:52 Europe/Berlin] Delete error: Table 'iscp.attendance' doesn't exist
+[23-Feb-2025 09:04:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt object is already closed in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_management_delete.php:105
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_management_delete.php(105): mysqli_stmt->close()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_management_delete.php on line 105
+[23-Feb-2025 09:04:57 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:04:57 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:04:57 Europe/Berlin] Raw input received: {"id":26}
+[23-Feb-2025 09:04:57 Europe/Berlin] Processing delete for student ID: 26
+[23-Feb-2025 09:04:57 Europe/Berlin] Executing SQL: DELETE FROM g11_firstsem_grades WHERE studentID = ? with ID: 26
+[23-Feb-2025 09:04:57 Europe/Berlin] Executing SQL: DELETE FROM g11_secondsem_grades WHERE studentID = ? with ID: 26
+[23-Feb-2025 09:04:57 Europe/Berlin] Executing SQL: DELETE FROM g12_firstsem_grades WHERE studentID = ? with ID: 26
+[23-Feb-2025 09:04:57 Europe/Berlin] Executing SQL: DELETE FROM g12_secondsem_grades WHERE studentID = ? with ID: 26
+[23-Feb-2025 09:04:57 Europe/Berlin] Executing SQL: DELETE FROM attendance WHERE studentID = ? with ID: 26
+[23-Feb-2025 09:04:57 Europe/Berlin] Delete error: Table 'iscp.attendance' doesn't exist
+[23-Feb-2025 09:04:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt object is already closed in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_management_delete.php:105
+Stack trace:
+#0 C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_management_delete.php(105): mysqli_stmt->close()
+#1 {main}
+  thrown in C:\xamppNew\htdocs\CST5-PROJECT\FINAL-ADMIN\Admin-PHP\student_management_delete.php on line 105
+[23-Feb-2025 09:13:11 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:13:11 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:13:11 Europe/Berlin] Raw input received: {"id":32}
+[23-Feb-2025 09:13:11 Europe/Berlin] Processing delete for student ID: 32
+[23-Feb-2025 09:13:11 Europe/Berlin] Delete error: Table 'iscp.attendance' doesn't exist
+[23-Feb-2025 09:19:08 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:19:08 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:19:08 Europe/Berlin] Raw input received: {"id":32}
+[23-Feb-2025 09:19:08 Europe/Berlin] Processing delete for student ID: 32
+[23-Feb-2025 09:19:08 Europe/Berlin] Delete error: Table 'iscp.schedule' doesn't exist
+[23-Feb-2025 09:24:02 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:24:02 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:24:02 Europe/Berlin] Raw input received: {"id":32}
+[23-Feb-2025 09:24:02 Europe/Berlin] Processing delete for student ID: 32
+[23-Feb-2025 09:24:02 Europe/Berlin] Delete error: Unknown column 'studentID' in 'where clause'
+[23-Feb-2025 09:27:44 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:27:44 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:27:44 Europe/Berlin] Raw input received: {"id":32}
+[23-Feb-2025 09:27:44 Europe/Berlin] Processing delete for student ID: 32
+[23-Feb-2025 09:27:44 Europe/Berlin] Delete error: Unknown column 'student_id' in 'where clause'
+[23-Feb-2025 09:29:04 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:29:04 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:29:04 Europe/Berlin] Raw input received: {"id":32}
+[23-Feb-2025 09:29:04 Europe/Berlin] Processing delete for student ID: 32
+[23-Feb-2025 09:29:04 Europe/Berlin] Delete error: Unknown column 'student_id' in 'where clause'
+[23-Feb-2025 09:29:31 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:29:31 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:29:31 Europe/Berlin] Raw input received: {"id":32}
+[23-Feb-2025 09:29:31 Europe/Berlin] Processing delete for student ID: 32
+[23-Feb-2025 09:29:31 Europe/Berlin] Delete error: Cannot delete or update a parent row: a foreign key constraint fails (`iscp`.`g12_firstsem`, CONSTRAINT `g12_firstsem_ibfk_1` FOREIGN KEY (`studentID`) REFERENCES `student` (`id`))
+[23-Feb-2025 09:32:10 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 09:32:10 Europe/Berlin] Database connection successful
+[23-Feb-2025 09:32:10 Europe/Berlin] Raw input received: {"id":32}
+[23-Feb-2025 11:38:02 Europe/Berlin] Attempting database connection to localhost with user root
+[23-Feb-2025 11:38:02 Europe/Berlin] Database connection successful
+[23-Feb-2025 11:38:02 Europe/Berlin] Raw input received: {"id":31}
+[25-Feb-2025 02:37:48 Europe/Berlin] Attempting database connection to localhost with user root
+[25-Feb-2025 02:37:48 Europe/Berlin] Database connection successful
+[25-Feb-2025 02:37:48 Europe/Berlin] Raw input received: {"id":27}
+[25-Feb-2025 02:37:49 Europe/Berlin] Attempting database connection to localhost with user root
+[25-Feb-2025 02:37:49 Europe/Berlin] Database connection successful
+[25-Feb-2025 02:37:49 Europe/Berlin] Raw input received: {"id":27}
+[25-Feb-2025 02:37:49 Europe/Berlin] Delete error: No student found with ID: 27
+[08-Mar-2025 08:55:55 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 08:55:55 Europe/Berlin] Database connection successful
+[08-Mar-2025 08:55:55 Europe/Berlin] Raw input received: {"id":34}
+[08-Mar-2025 08:55:55 Europe/Berlin] Delete error: Table 'iscp.g11_firstsem' doesn't exist
+[08-Mar-2025 08:55:57 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 08:55:57 Europe/Berlin] Database connection successful
+[08-Mar-2025 08:55:57 Europe/Berlin] Raw input received: {"id":34}
+[08-Mar-2025 08:55:57 Europe/Berlin] Delete error: Table 'iscp.g11_firstsem' doesn't exist
+[08-Mar-2025 08:58:30 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 08:58:30 Europe/Berlin] Database connection successful
+[08-Mar-2025 08:58:30 Europe/Berlin] Raw input received: {"id":34}
+[08-Mar-2025 08:58:31 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 08:58:31 Europe/Berlin] Database connection successful
+[08-Mar-2025 08:58:31 Europe/Berlin] Raw input received: {"id":34}
+[08-Mar-2025 08:58:31 Europe/Berlin] Delete error: No student found with ID: 34
+[08-Mar-2025 08:59:42 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 08:59:42 Europe/Berlin] Database connection successful
+[08-Mar-2025 08:59:42 Europe/Berlin] Raw input received: {"id":26}
+[08-Mar-2025 08:59:44 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 08:59:44 Europe/Berlin] Database connection successful
+[08-Mar-2025 08:59:44 Europe/Berlin] Raw input received: {"id":26}
+[08-Mar-2025 08:59:44 Europe/Berlin] Delete error: No student found with ID: 26
+[08-Mar-2025 08:59:44 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 08:59:44 Europe/Berlin] Database connection successful
+[08-Mar-2025 08:59:44 Europe/Berlin] Raw input received: {"id":26}
+[08-Mar-2025 08:59:44 Europe/Berlin] Delete error: No student found with ID: 26
+[08-Mar-2025 09:03:58 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:03:58 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:03:58 Europe/Berlin] Raw input received: {"id":33}
+[08-Mar-2025 09:03:59 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:03:59 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:03:59 Europe/Berlin] Raw input received: {"id":33}
+[08-Mar-2025 09:03:59 Europe/Berlin] Delete error: No student found with ID: 33
+[08-Mar-2025 09:13:10 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:13:10 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:13:10 Europe/Berlin] Raw input received: {"id":4}
+[08-Mar-2025 09:13:11 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:13:11 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:13:11 Europe/Berlin] Raw input received: {"id":4}
+[08-Mar-2025 09:13:11 Europe/Berlin] Delete error: No student found with ID: 4
+[08-Mar-2025 09:14:20 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:14:20 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:14:20 Europe/Berlin] Raw input received: {"id":78}
+[08-Mar-2025 09:14:20 Europe/Berlin] Delete error: Cannot delete or update a parent row: a foreign key constraint fails (`iscp`.`student_sections`, CONSTRAINT `student_sections_ibfk_1` FOREIGN KEY (`student_id`) REFERENCES `student` (`id`))
+[08-Mar-2025 09:14:21 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:14:21 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:14:21 Europe/Berlin] Raw input received: {"id":78}
+[08-Mar-2025 09:14:21 Europe/Berlin] Delete error: Cannot delete or update a parent row: a foreign key constraint fails (`iscp`.`student_sections`, CONSTRAINT `student_sections_ibfk_1` FOREIGN KEY (`student_id`) REFERENCES `student` (`id`))
+[08-Mar-2025 09:37:38 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:37:38 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:37:38 Europe/Berlin] Raw input received: {"id":83}
+[08-Mar-2025 09:37:38 Europe/Berlin] Delete error: Table 'iscp.student_subjects' doesn't exist
+[08-Mar-2025 09:37:40 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:37:40 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:37:40 Europe/Berlin] Raw input received: {"id":83}
+[08-Mar-2025 09:37:40 Europe/Berlin] Delete error: Table 'iscp.student_subjects' doesn't exist
+[08-Mar-2025 09:40:26 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:40:26 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:40:26 Europe/Berlin] Raw input received: {"id":78}
+[08-Mar-2025 09:40:26 Europe/Berlin] Delete error: Table 'iscp.student_subjects' doesn't exist
+[08-Mar-2025 09:41:13 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:41:13 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:41:13 Europe/Berlin] Raw input received: {"id":78}
+[08-Mar-2025 09:41:13 Europe/Berlin] Delete error: Table 'iscp.student_subjects' doesn't exist
+[08-Mar-2025 09:41:14 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 09:41:14 Europe/Berlin] Database connection successful
+[08-Mar-2025 09:41:14 Europe/Berlin] Raw input received: {"id":78}
+[08-Mar-2025 09:41:14 Europe/Berlin] Delete error: Table 'iscp.student_subjects' doesn't exist
+[09-Mar-2025 23:21:37 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 23:21:37 Europe/Berlin] Database connection successful
+[09-Mar-2025 23:21:37 Europe/Berlin] Raw input received: {"id":82}
+[09-Mar-2025 23:21:37 Europe/Berlin] Delete error: Table 'iscp.student_subjects' doesn't exist
+[09-Mar-2025 23:21:37 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 23:21:37 Europe/Berlin] Database connection successful
+[09-Mar-2025 23:21:37 Europe/Berlin] Raw input received: {"id":82}
+[09-Mar-2025 23:21:37 Europe/Berlin] Delete error: Table 'iscp.student_subjects' doesn't exist

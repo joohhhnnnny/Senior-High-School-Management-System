@@ -1,0 +1,8 @@
+[08-Mar-2025 10:46:08 Europe/Berlin] === New Approval Request 2025-03-08 10:46:08 ===
+[08-Mar-2025 10:46:08 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 10:46:08 Europe/Berlin] Database connection successful
+[08-Mar-2025 10:46:08 Europe/Berlin] 2025-03-08 10:46:08 - Raw input received - Data: {"id":"31","studentID":"32","pendingenrollID":"31"}
+[08-Mar-2025 10:46:08 Europe/Berlin] 2025-03-08 10:46:08 - Processing approval for ID - Data: 31
+[08-Mar-2025 10:46:12 Europe/Berlin] Email sent successfully to: kit@gmail.com
+[08-Mar-2025 10:46:12 Europe/Berlin] 2025-03-08 10:46:12 - Starting database operations
+[08-Mar-2025 10:46:12 Europe/Berlin] 2025-03-08 10:46:12 - Committing transaction

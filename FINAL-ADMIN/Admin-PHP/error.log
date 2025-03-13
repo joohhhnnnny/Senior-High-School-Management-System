@@ -1,0 +1,1045 @@
+[15-Feb-2025 11:36:02 Europe/Berlin] Attempting database connection to localhost with user root
+[15-Feb-2025 11:36:02 Europe/Berlin] Database connection successful
+[15-Feb-2025 11:36:39 Europe/Berlin] Attempting database connection to localhost with user root
+[15-Feb-2025 11:36:39 Europe/Berlin] Database connection successful
+[15-Feb-2025 11:37:23 Europe/Berlin] Attempting database connection to localhost with user root
+[15-Feb-2025 11:37:23 Europe/Berlin] Database connection successful
+[15-Feb-2025 11:39:44 Europe/Berlin] Attempting database connection to localhost with user root
+[15-Feb-2025 11:39:44 Europe/Berlin] Database connection successful
+[15-Feb-2025 11:40:20 Europe/Berlin] Attempting database connection to localhost with user root
+[15-Feb-2025 11:40:20 Europe/Berlin] Database connection successful
+[16-Feb-2025 02:27:06 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 02:27:06 Europe/Berlin] Database connection successful
+[16-Feb-2025 02:27:26 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 02:27:26 Europe/Berlin] Database connection successful
+[16-Feb-2025 02:34:21 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 02:34:21 Europe/Berlin] Database connection successful
+[16-Feb-2025 02:34:21 Europe/Berlin] Error in student_management_edit.php: Unknown column 's.strand' in 'field list'
+[16-Feb-2025 02:40:58 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 02:40:58 Europe/Berlin] Database connection successful
+[16-Feb-2025 02:42:37 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 02:42:37 Europe/Berlin] Database connection successful
+[16-Feb-2025 02:50:06 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 02:50:06 Europe/Berlin] Database connection successful
+[16-Feb-2025 03:12:28 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 03:12:28 Europe/Berlin] Database connection successful
+[16-Feb-2025 03:15:03 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 03:15:03 Europe/Berlin] Database connection successful
+[16-Feb-2025 03:24:04 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 03:24:04 Europe/Berlin] Database connection successful
+[16-Feb-2025 03:26:03 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 03:26:03 Europe/Berlin] Database connection successful
+[16-Feb-2025 03:50:55 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 03:50:55 Europe/Berlin] Database connection successful
+[16-Feb-2025 03:52:44 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 03:52:44 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:03:46 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 04:03:46 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:04:09 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 04:04:09 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:17:24 Europe/Berlin] Received request method: GET
+[16-Feb-2025 04:17:24 Europe/Berlin] Received raw data: 
+[16-Feb-2025 04:17:24 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 04:17:24 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:17:24 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:17:24 Europe/Berlin] GET request received for student ID: 4
+[16-Feb-2025 04:17:24 Europe/Berlin] Student data found: Array
+(
+    [id] => 4
+    [studentID] => 4
+    [fullname] => jensi
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 04:29:32 Europe/Berlin] Received request method: GET
+[16-Feb-2025 04:29:32 Europe/Berlin] Received raw data: 
+[16-Feb-2025 04:29:32 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 04:29:32 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:29:32 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:29:32 Europe/Berlin] GET request received for student ID: 4
+[16-Feb-2025 04:29:32 Europe/Berlin] Student data found: Array
+(
+    [id] => 4
+    [studentID] => 4
+    [fullname] => jensi
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 04:33:15 Europe/Berlin] Received request method: GET
+[16-Feb-2025 04:33:15 Europe/Berlin] Received raw data: 
+[16-Feb-2025 04:33:15 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 04:33:15 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:33:15 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:33:15 Europe/Berlin] GET request received for student ID: 4
+[16-Feb-2025 04:33:15 Europe/Berlin] Student data found: Array
+(
+    [id] => 4
+    [studentID] => 4
+    [fullname] => jensi
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 04:33:47 Europe/Berlin] Received request method: GET
+[16-Feb-2025 04:33:47 Europe/Berlin] Received raw data: 
+[16-Feb-2025 04:33:47 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 04:33:47 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:33:47 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:33:47 Europe/Berlin] GET request received for student ID: 4
+[16-Feb-2025 04:33:47 Europe/Berlin] Student data found: Array
+(
+    [id] => 4
+    [studentID] => 4
+    [fullname] => jensi
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 04:38:19 Europe/Berlin] Received request method: GET
+[16-Feb-2025 04:38:19 Europe/Berlin] Received raw data: 
+[16-Feb-2025 04:38:19 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 04:38:19 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:38:19 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:38:19 Europe/Berlin] GET request received for student ID: 4
+[16-Feb-2025 04:38:19 Europe/Berlin] Student data found: Array
+(
+    [id] => 4
+    [studentID] => 4
+    [fullname] => jensi
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 04:38:26 Europe/Berlin] Received request method: POST
+[16-Feb-2025 04:38:26 Europe/Berlin] Received raw data: {"id":"4","fullname":"jensi vea","email":"jensi@gmail.com","address":"matina","phoneNumber":"09234554978"}
+[16-Feb-2025 04:38:26 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 04:38:26 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:38:26 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:38:26 Europe/Berlin] Decoded JSON data: Array
+(
+    [id] => 4
+    [fullname] => jensi vea
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 04:38:26 Europe/Berlin] Updating student with ID: 4
+[16-Feb-2025 04:38:26 Europe/Berlin] Update values: Array
+(
+    [fullname] => jensi vea
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 04:38:26 Europe/Berlin] Transaction started
+[16-Feb-2025 04:38:26 Europe/Berlin] Update executed successfully
+[16-Feb-2025 04:38:26 Europe/Berlin] Transaction committed
+[16-Feb-2025 04:38:26 Europe/Berlin] Updated student data: Array
+(
+    [id] => 4
+    [studentID] => 4
+    [fullname] => jensi vea
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 04:40:01 Europe/Berlin] Received request method: GET
+[16-Feb-2025 04:40:01 Europe/Berlin] Received raw data: 
+[16-Feb-2025 04:40:01 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 04:40:01 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:40:01 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:40:01 Europe/Berlin] GET request received for student ID: 1
+[16-Feb-2025 04:40:01 Europe/Berlin] Student data found: Array
+(
+    [id] => 1
+    [studentID] => 1
+    [fullname] => yawa
+    [yearLevel] => 12
+    [year_strand] => 12-HUMSS
+    [email] => yawa@gmail.com
+    [address] => hell
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 04:40:05 Europe/Berlin] Received request method: POST
+[16-Feb-2025 04:40:05 Europe/Berlin] Received raw data: {"id":"1","fullname":"yawa","email":"yawa@gmail.com","address":"hell naah","phoneNumber":"09207056696"}
+[16-Feb-2025 04:40:05 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 04:40:05 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:40:05 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:40:05 Europe/Berlin] Decoded JSON data: Array
+(
+    [id] => 1
+    [fullname] => yawa
+    [email] => yawa@gmail.com
+    [address] => hell naah
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 04:40:05 Europe/Berlin] Updating student with ID: 1
+[16-Feb-2025 04:40:05 Europe/Berlin] Update values: Array
+(
+    [fullname] => yawa
+    [email] => yawa@gmail.com
+    [address] => hell naah
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 04:40:05 Europe/Berlin] Transaction started
+[16-Feb-2025 04:40:05 Europe/Berlin] Update executed successfully
+[16-Feb-2025 04:40:05 Europe/Berlin] Transaction committed
+[16-Feb-2025 04:40:05 Europe/Berlin] Updated student data: Array
+(
+    [id] => 1
+    [studentID] => 1
+    [fullname] => yawa
+    [yearLevel] => 12
+    [year_strand] => 12-HUMSS
+    [email] => yawa@gmail.com
+    [address] => hell naah
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 04:49:34 Europe/Berlin] Received request method: GET
+[16-Feb-2025 04:49:34 Europe/Berlin] Received raw data: 
+[16-Feb-2025 04:49:34 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 04:49:34 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:49:34 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:49:34 Europe/Berlin] GET request received for student ID: 4
+[16-Feb-2025 04:49:34 Europe/Berlin] Student data found: Array
+(
+    [id] => 4
+    [studentID] => 4
+    [fullname] => jensi vea
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 04:49:42 Europe/Berlin] Received request method: POST
+[16-Feb-2025 04:49:42 Europe/Berlin] Received raw data: {"id":"4","fullname":"jensi yow","email":"jensi@gmail.com","address":"matina","phoneNumber":"09234554978"}
+[16-Feb-2025 04:49:42 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 04:49:42 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:49:42 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:49:42 Europe/Berlin] Decoded JSON data: Array
+(
+    [id] => 4
+    [fullname] => jensi yow
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 04:49:42 Europe/Berlin] Updating student with ID: 4
+[16-Feb-2025 04:49:42 Europe/Berlin] Update values: Array
+(
+    [fullname] => jensi yow
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 04:49:42 Europe/Berlin] Transaction started
+[16-Feb-2025 04:49:42 Europe/Berlin] Update executed successfully
+[16-Feb-2025 04:49:42 Europe/Berlin] Transaction committed
+[16-Feb-2025 04:49:42 Europe/Berlin] Updated student data: Array
+(
+    [id] => 4
+    [studentID] => 4
+    [fullname] => jensi yow
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 04:53:43 Europe/Berlin] Received request method: GET
+[16-Feb-2025 04:53:43 Europe/Berlin] Received raw data: 
+[16-Feb-2025 04:53:43 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 04:53:43 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:53:43 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:53:43 Europe/Berlin] GET request received for student ID: 4
+[16-Feb-2025 04:53:43 Europe/Berlin] Student data found: Array
+(
+    [id] => 4
+    [studentID] => 4
+    [fullname] => jensi yow
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 04:53:48 Europe/Berlin] Received request method: POST
+[16-Feb-2025 04:53:48 Europe/Berlin] Received raw data: {"id":"4","fullname":"jensi vea","email":"jensi@gmail.com","address":"matina","phoneNumber":"09234554978"}
+[16-Feb-2025 04:53:48 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 04:53:48 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:53:48 Europe/Berlin] Database connection successful
+[16-Feb-2025 04:53:48 Europe/Berlin] Decoded JSON data: Array
+(
+    [id] => 4
+    [fullname] => jensi vea
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 04:53:48 Europe/Berlin] Updating student with ID: 4
+[16-Feb-2025 04:53:48 Europe/Berlin] Update values: Array
+(
+    [fullname] => jensi vea
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 04:53:48 Europe/Berlin] Transaction started
+[16-Feb-2025 04:53:48 Europe/Berlin] Update executed successfully
+[16-Feb-2025 04:53:48 Europe/Berlin] Transaction committed
+[16-Feb-2025 04:53:48 Europe/Berlin] Updated student data: Array
+(
+    [id] => 4
+    [studentID] => 4
+    [fullname] => jensi vea
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 06:25:39 Europe/Berlin] Received request method: GET
+[16-Feb-2025 06:25:39 Europe/Berlin] Received raw data: 
+[16-Feb-2025 06:25:39 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 06:25:39 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:25:39 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:25:39 Europe/Berlin] GET request received for student ID: 16
+[16-Feb-2025 06:25:39 Europe/Berlin] Student data found: Array
+(
+    [id] => 16
+    [studentID] => 6
+    [fullname] => jojojo
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jojojo@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 06:25:45 Europe/Berlin] Received request method: POST
+[16-Feb-2025 06:25:45 Europe/Berlin] Received raw data: {"id":"16","fullname":"jojojojo","email":"jojojo@gmail.com","address":"biringan","phoneNumber":"09234554978"}
+[16-Feb-2025 06:25:45 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 06:25:45 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:25:45 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:25:45 Europe/Berlin] Decoded JSON data: Array
+(
+    [id] => 16
+    [fullname] => jojojojo
+    [email] => jojojo@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 06:25:45 Europe/Berlin] Updating student with ID: 16
+[16-Feb-2025 06:25:45 Europe/Berlin] Update values: Array
+(
+    [fullname] => jojojojo
+    [email] => jojojo@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 06:25:45 Europe/Berlin] Transaction started
+[16-Feb-2025 06:25:45 Europe/Berlin] Update executed successfully
+[16-Feb-2025 06:25:45 Europe/Berlin] Transaction committed
+[16-Feb-2025 06:25:45 Europe/Berlin] Updated student data: Array
+(
+    [id] => 16
+    [studentID] => 6
+    [fullname] => jojojojo
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jojojo@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 06:41:51 Europe/Berlin] Received request method: GET
+[16-Feb-2025 06:41:51 Europe/Berlin] Received raw data: 
+[16-Feb-2025 06:41:51 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 06:41:51 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:41:51 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:41:51 Europe/Berlin] GET request received for student ID: 17
+[16-Feb-2025 06:41:51 Europe/Berlin] Student data found: Array
+(
+    [id] => 17
+    [studentID] => 8
+    [fullname] => yowyowyow
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => yowyowyow@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 06:42:00 Europe/Berlin] Received request method: POST
+[16-Feb-2025 06:42:00 Europe/Berlin] Received raw data: {"id":"17","fullname":"yowyowwerds","email":"yowyowyow@gmail.com","address":"biringan","phoneNumber":"09207056696"}
+[16-Feb-2025 06:42:00 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 06:42:00 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:42:00 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:42:00 Europe/Berlin] Decoded JSON data: Array
+(
+    [id] => 17
+    [fullname] => yowyowwerds
+    [email] => yowyowyow@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 06:42:00 Europe/Berlin] Updating student with ID: 17
+[16-Feb-2025 06:42:00 Europe/Berlin] Update values: Array
+(
+    [fullname] => yowyowwerds
+    [email] => yowyowyow@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 06:42:00 Europe/Berlin] Transaction started
+[16-Feb-2025 06:42:00 Europe/Berlin] Update executed successfully
+[16-Feb-2025 06:42:00 Europe/Berlin] Transaction committed
+[16-Feb-2025 06:42:00 Europe/Berlin] Updated student data: Array
+(
+    [id] => 17
+    [studentID] => 8
+    [fullname] => yowyowwerds
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => yowyowyow@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 06:48:55 Europe/Berlin] Received request method: GET
+[16-Feb-2025 06:48:55 Europe/Berlin] Received raw data: 
+[16-Feb-2025 06:48:55 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 06:48:55 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:48:55 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:48:55 Europe/Berlin] GET request received for student ID: 17
+[16-Feb-2025 06:48:55 Europe/Berlin] Student data found: Array
+(
+    [id] => 17
+    [studentID] => 8
+    [fullname] => yowyowwerds
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => yowyowyow@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 06:48:58 Europe/Berlin] Received request method: GET
+[16-Feb-2025 06:48:58 Europe/Berlin] Received raw data: 
+[16-Feb-2025 06:48:58 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 06:48:58 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:48:58 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:48:58 Europe/Berlin] GET request received for student ID: 1
+[16-Feb-2025 06:48:58 Europe/Berlin] Student data found: Array
+(
+    [id] => 1
+    [studentID] => 1
+    [fullname] => yawa
+    [yearLevel] => 12
+    [year_strand] => 12-HUMSS
+    [email] => yawa@gmail.com
+    [address] => hell naah
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 06:49:02 Europe/Berlin] Received request method: POST
+[16-Feb-2025 06:49:02 Europe/Berlin] Received raw data: {"id":"1","fullname":"yawaka","email":"yawa@gmail.com","address":"hell naah","phoneNumber":"09207056696"}
+[16-Feb-2025 06:49:02 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 06:49:02 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:49:02 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:49:02 Europe/Berlin] Decoded JSON data: Array
+(
+    [id] => 1
+    [fullname] => yawaka
+    [email] => yawa@gmail.com
+    [address] => hell naah
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 06:49:02 Europe/Berlin] Updating student with ID: 1
+[16-Feb-2025 06:49:02 Europe/Berlin] Update values: Array
+(
+    [fullname] => yawaka
+    [email] => yawa@gmail.com
+    [address] => hell naah
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 06:49:02 Europe/Berlin] Transaction started
+[16-Feb-2025 06:49:02 Europe/Berlin] Update executed successfully
+[16-Feb-2025 06:49:02 Europe/Berlin] Transaction committed
+[16-Feb-2025 06:49:02 Europe/Berlin] Updated student data: Array
+(
+    [id] => 1
+    [studentID] => 1
+    [fullname] => yawaka
+    [yearLevel] => 12
+    [year_strand] => 12-HUMSS
+    [email] => yawa@gmail.com
+    [address] => hell naah
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 06:49:20 Europe/Berlin] Received request method: GET
+[16-Feb-2025 06:49:20 Europe/Berlin] Received raw data: 
+[16-Feb-2025 06:49:20 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 06:49:20 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:49:20 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:49:20 Europe/Berlin] GET request received for student ID: 1
+[16-Feb-2025 06:49:20 Europe/Berlin] Student data found: Array
+(
+    [id] => 1
+    [studentID] => 1
+    [fullname] => yawaka
+    [yearLevel] => 12
+    [year_strand] => 12-HUMSS
+    [email] => yawa@gmail.com
+    [address] => hell naah
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 06:49:25 Europe/Berlin] Received request method: POST
+[16-Feb-2025 06:49:25 Europe/Berlin] Received raw data: {"id":"1","fullname":"yawerds","email":"yawa@gmail.com","address":"hell naah","phoneNumber":"09207056696"}
+[16-Feb-2025 06:49:25 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 06:49:25 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:49:25 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:49:25 Europe/Berlin] Decoded JSON data: Array
+(
+    [id] => 1
+    [fullname] => yawerds
+    [email] => yawa@gmail.com
+    [address] => hell naah
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 06:49:25 Europe/Berlin] Updating student with ID: 1
+[16-Feb-2025 06:49:25 Europe/Berlin] Update values: Array
+(
+    [fullname] => yawerds
+    [email] => yawa@gmail.com
+    [address] => hell naah
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 06:49:25 Europe/Berlin] Transaction started
+[16-Feb-2025 06:49:25 Europe/Berlin] Update executed successfully
+[16-Feb-2025 06:49:25 Europe/Berlin] Transaction committed
+[16-Feb-2025 06:49:25 Europe/Berlin] Updated student data: Array
+(
+    [id] => 1
+    [studentID] => 1
+    [fullname] => yawerds
+    [yearLevel] => 12
+    [year_strand] => 12-HUMSS
+    [email] => yawa@gmail.com
+    [address] => hell naah
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 06:49:41 Europe/Berlin] Received request method: GET
+[16-Feb-2025 06:49:41 Europe/Berlin] Received raw data: 
+[16-Feb-2025 06:49:41 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 06:49:41 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:49:41 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:49:41 Europe/Berlin] GET request received for student ID: 4
+[16-Feb-2025 06:49:41 Europe/Berlin] Student data found: Array
+(
+    [id] => 4
+    [studentID] => 4
+    [fullname] => jensi vea
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 06:49:45 Europe/Berlin] Received request method: POST
+[16-Feb-2025 06:49:45 Europe/Berlin] Received raw data: {"id":"4","fullname":"jensi vea vea","email":"jensi@gmail.com","address":"matina","phoneNumber":"09234554978"}
+[16-Feb-2025 06:49:45 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 06:49:45 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:49:45 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:49:45 Europe/Berlin] Decoded JSON data: Array
+(
+    [id] => 4
+    [fullname] => jensi vea vea
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 06:49:45 Europe/Berlin] Updating student with ID: 4
+[16-Feb-2025 06:49:45 Europe/Berlin] Update values: Array
+(
+    [fullname] => jensi vea vea
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 06:49:45 Europe/Berlin] Transaction started
+[16-Feb-2025 06:49:45 Europe/Berlin] Update executed successfully
+[16-Feb-2025 06:49:45 Europe/Berlin] Transaction committed
+[16-Feb-2025 06:49:45 Europe/Berlin] Updated student data: Array
+(
+    [id] => 4
+    [studentID] => 4
+    [fullname] => jensi vea vea
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jensi@gmail.com
+    [address] => matina
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 06:56:58 Europe/Berlin] Received request method: GET
+[16-Feb-2025 06:56:58 Europe/Berlin] Received raw data: 
+[16-Feb-2025 06:56:58 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 06:56:58 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:56:58 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:56:58 Europe/Berlin] GET request received for student ID: 17
+[16-Feb-2025 06:56:58 Europe/Berlin] Student data found: Array
+(
+    [id] => 17
+    [studentID] => 8
+    [fullname] => yowyowwerds
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => yowyowyow@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 06:57:03 Europe/Berlin] Received request method: POST
+[16-Feb-2025 06:57:03 Europe/Berlin] Received raw data: {"id":"17","fullname":"yowyowwerdska","email":"yowyowyow@gmail.com","address":"biringan","phoneNumber":"09207056696"}
+[16-Feb-2025 06:57:03 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 06:57:03 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:57:03 Europe/Berlin] Database connection successful
+[16-Feb-2025 06:57:03 Europe/Berlin] Decoded JSON data: Array
+(
+    [id] => 17
+    [fullname] => yowyowwerdska
+    [email] => yowyowyow@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 06:57:03 Europe/Berlin] Updating student with ID: 17
+[16-Feb-2025 06:57:03 Europe/Berlin] Update values: Array
+(
+    [fullname] => yowyowwerdska
+    [email] => yowyowyow@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 06:57:03 Europe/Berlin] Transaction started
+[16-Feb-2025 06:57:03 Europe/Berlin] Update executed successfully
+[16-Feb-2025 06:57:03 Europe/Berlin] Transaction committed
+[16-Feb-2025 06:57:03 Europe/Berlin] Updated student data: Array
+(
+    [id] => 17
+    [studentID] => 8
+    [fullname] => yowyowwerdska
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => yowyowyow@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 07:13:11 Europe/Berlin] Received request method: GET
+[16-Feb-2025 07:13:11 Europe/Berlin] Received raw data: 
+[16-Feb-2025 07:13:11 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 07:13:11 Europe/Berlin] Database connection successful
+[16-Feb-2025 07:13:11 Europe/Berlin] Database connection successful
+[16-Feb-2025 07:13:11 Europe/Berlin] GET request received for student ID: 17
+[16-Feb-2025 07:13:11 Europe/Berlin] Student data found: Array
+(
+    [id] => 17
+    [studentID] => 8
+    [fullname] => yowyowwerdska
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => yowyowyow@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 07:13:22 Europe/Berlin] Received request method: POST
+[16-Feb-2025 07:13:22 Europe/Berlin] Received raw data: {"id":"17","fullname":"yowyowwerdska","email":"yowyowyow@gmail.com","address":"biringan","phoneNumber":"09207056696"}
+[16-Feb-2025 07:13:22 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 07:13:22 Europe/Berlin] Database connection successful
+[16-Feb-2025 07:13:22 Europe/Berlin] Database connection successful
+[16-Feb-2025 07:13:22 Europe/Berlin] Decoded JSON data: Array
+(
+    [id] => 17
+    [fullname] => yowyowwerdska
+    [email] => yowyowyow@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 07:13:22 Europe/Berlin] Updating student with ID: 17
+[16-Feb-2025 07:13:22 Europe/Berlin] Update values: Array
+(
+    [fullname] => yowyowwerdska
+    [email] => yowyowyow@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 07:13:22 Europe/Berlin] Transaction started
+[16-Feb-2025 07:13:22 Europe/Berlin] Update executed successfully
+[16-Feb-2025 07:13:22 Europe/Berlin] Transaction committed
+[16-Feb-2025 07:13:22 Europe/Berlin] Updated student data: Array
+(
+    [id] => 17
+    [studentID] => 8
+    [fullname] => yowyowwerdska
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => yowyowyow@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 07:22:03 Europe/Berlin] Received request method: GET
+[16-Feb-2025 07:22:03 Europe/Berlin] Received raw data: 
+[16-Feb-2025 07:22:03 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 07:22:03 Europe/Berlin] Database connection successful
+[16-Feb-2025 07:22:03 Europe/Berlin] Database connection successful
+[16-Feb-2025 07:22:03 Europe/Berlin] GET request received for student ID: 17
+[16-Feb-2025 07:22:03 Europe/Berlin] Student data found: Array
+(
+    [id] => 17
+    [studentID] => 8
+    [fullname] => yowyowwerdska
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => yowyowyow@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 07:22:08 Europe/Berlin] Received request method: POST
+[16-Feb-2025 07:22:08 Europe/Berlin] Received raw data: {"id":"17","fullname":"yowyow","email":"yowyowyow@gmail.com","address":"biringan","phoneNumber":"09207056696"}
+[16-Feb-2025 07:22:08 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 07:22:08 Europe/Berlin] Database connection successful
+[16-Feb-2025 07:22:08 Europe/Berlin] Database connection successful
+[16-Feb-2025 07:22:08 Europe/Berlin] Decoded JSON data: Array
+(
+    [id] => 17
+    [fullname] => yowyow
+    [email] => yowyowyow@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 07:22:08 Europe/Berlin] Updating student with ID: 17
+[16-Feb-2025 07:22:08 Europe/Berlin] Update values: Array
+(
+    [fullname] => yowyow
+    [email] => yowyowyow@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 07:22:08 Europe/Berlin] Transaction started
+[16-Feb-2025 07:22:08 Europe/Berlin] Update executed successfully
+[16-Feb-2025 07:22:08 Europe/Berlin] Transaction committed
+[16-Feb-2025 07:22:08 Europe/Berlin] Updated student data: Array
+(
+    [id] => 17
+    [studentID] => 8
+    [fullname] => yowyow
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => yowyowyow@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[16-Feb-2025 07:22:20 Europe/Berlin] Received request method: GET
+[16-Feb-2025 07:22:20 Europe/Berlin] Received raw data: 
+[16-Feb-2025 07:22:20 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 07:22:20 Europe/Berlin] Database connection successful
+[16-Feb-2025 07:22:20 Europe/Berlin] Database connection successful
+[16-Feb-2025 07:22:20 Europe/Berlin] GET request received for student ID: 16
+[16-Feb-2025 07:22:20 Europe/Berlin] Student data found: Array
+(
+    [id] => 16
+    [studentID] => 6
+    [fullname] => jojojojo
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jojojo@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 07:22:24 Europe/Berlin] Received request method: POST
+[16-Feb-2025 07:22:24 Europe/Berlin] Received raw data: {"id":"16","fullname":"jojojo","email":"jojojo@gmail.com","address":"biringan","phoneNumber":"09234554978"}
+[16-Feb-2025 07:22:24 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 07:22:24 Europe/Berlin] Database connection successful
+[16-Feb-2025 07:22:24 Europe/Berlin] Database connection successful
+[16-Feb-2025 07:22:24 Europe/Berlin] Decoded JSON data: Array
+(
+    [id] => 16
+    [fullname] => jojojo
+    [email] => jojojo@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 07:22:24 Europe/Berlin] Updating student with ID: 16
+[16-Feb-2025 07:22:24 Europe/Berlin] Update values: Array
+(
+    [fullname] => jojojo
+    [email] => jojojo@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 07:22:24 Europe/Berlin] Transaction started
+[16-Feb-2025 07:22:24 Europe/Berlin] Update executed successfully
+[16-Feb-2025 07:22:24 Europe/Berlin] Transaction committed
+[16-Feb-2025 07:22:24 Europe/Berlin] Updated student data: Array
+(
+    [id] => 16
+    [studentID] => 6
+    [fullname] => jojojo
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jojojo@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 12:40:19 Europe/Berlin] Received request method: GET
+[16-Feb-2025 12:40:19 Europe/Berlin] Received raw data: 
+[16-Feb-2025 12:40:19 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 12:40:19 Europe/Berlin] Database connection successful
+[16-Feb-2025 12:40:19 Europe/Berlin] Database connection successful
+[16-Feb-2025 12:40:19 Europe/Berlin] GET request received for student ID: 16
+[16-Feb-2025 12:40:19 Europe/Berlin] Student data found: Array
+(
+    [id] => 16
+    [studentID] => 6
+    [fullname] => jojojo
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jojojo@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 12:40:22 Europe/Berlin] Received request method: POST
+[16-Feb-2025 12:40:22 Europe/Berlin] Received raw data: {"id":"16","fullname":"jojojo yow","email":"jojojo@gmail.com","address":"biringan","phoneNumber":"09234554978"}
+[16-Feb-2025 12:40:22 Europe/Berlin] Attempting database connection to localhost with user root
+[16-Feb-2025 12:40:22 Europe/Berlin] Database connection successful
+[16-Feb-2025 12:40:22 Europe/Berlin] Database connection successful
+[16-Feb-2025 12:40:22 Europe/Berlin] Decoded JSON data: Array
+(
+    [id] => 16
+    [fullname] => jojojo yow
+    [email] => jojojo@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 12:40:22 Europe/Berlin] Updating student with ID: 16
+[16-Feb-2025 12:40:22 Europe/Berlin] Update values: Array
+(
+    [fullname] => jojojo yow
+    [email] => jojojo@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09234554978
+)
+
+[16-Feb-2025 12:40:22 Europe/Berlin] Transaction started
+[16-Feb-2025 12:40:22 Europe/Berlin] Update executed successfully
+[16-Feb-2025 12:40:22 Europe/Berlin] Transaction committed
+[16-Feb-2025 12:40:22 Europe/Berlin] Updated student data: Array
+(
+    [id] => 16
+    [studentID] => 6
+    [fullname] => jojojo yow
+    [yearLevel] => 12
+    [year_strand] => 12-AAD
+    [email] => jojojo@gmail.com
+    [address] => biringan
+    [phoneNumber] => 09234554978
+)
+
+[20-Feb-2025 13:26:05 Europe/Berlin] Received request method: GET
+[20-Feb-2025 13:26:05 Europe/Berlin] Received raw data: 
+[20-Feb-2025 13:26:05 Europe/Berlin] Attempting database connection to localhost with user root
+[20-Feb-2025 13:26:05 Europe/Berlin] Database connection successful
+[20-Feb-2025 13:26:05 Europe/Berlin] Database connection successful
+[20-Feb-2025 13:26:05 Europe/Berlin] GET request received for student ID: 31
+[20-Feb-2025 13:26:05 Europe/Berlin] Student data found: Array
+(
+    [id] => 31
+    [studentID] => 13
+    [fullname] => johnny
+    [yearLevel] => 12
+    [year_strand] => 12-HUMSS
+    [email] => johnny21@gmail.com
+    [password] => $2y$10$fKAIdwpf3a0gRNo3fFQRNOtPf7WL8IN7KarB9iqf3E4dmIFjbc/rK
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[20-Feb-2025 13:26:32 Europe/Berlin] Received request method: GET
+[20-Feb-2025 13:26:32 Europe/Berlin] Received raw data: 
+[20-Feb-2025 13:26:32 Europe/Berlin] Attempting database connection to localhost with user root
+[20-Feb-2025 13:26:32 Europe/Berlin] Database connection successful
+[20-Feb-2025 13:26:32 Europe/Berlin] Database connection successful
+[20-Feb-2025 13:26:32 Europe/Berlin] GET request received for student ID: 27
+[20-Feb-2025 13:26:32 Europe/Berlin] Student data found: Array
+(
+    [id] => 27
+    [studentID] => 11
+    [fullname] => john
+    [yearLevel] => 11
+    [year_strand] => 11-ICT
+    [email] => johnbongcacjohn@gmail.com
+    [password] => 
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[20-Feb-2025 13:34:04 Europe/Berlin] Received request method: GET
+[20-Feb-2025 13:34:04 Europe/Berlin] Received raw data: 
+[20-Feb-2025 13:34:04 Europe/Berlin] Attempting database connection to localhost with user root
+[20-Feb-2025 13:34:04 Europe/Berlin] Database connection successful
+[20-Feb-2025 13:34:04 Europe/Berlin] Database connection successful
+[20-Feb-2025 13:34:04 Europe/Berlin] GET request received for student ID: 27
+[20-Feb-2025 13:34:04 Europe/Berlin] Student data found: Array
+(
+    [id] => 27
+    [studentID] => 11
+    [fullname] => john
+    [yearLevel] => 11
+    [year_strand] => 11-ICT
+    [email] => johnbongcacjohn@gmail.com
+    [password] => 
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[20-Feb-2025 13:35:52 Europe/Berlin] Received request method: GET
+[20-Feb-2025 13:35:52 Europe/Berlin] Received raw data: 
+[20-Feb-2025 13:35:52 Europe/Berlin] Attempting database connection to localhost with user root
+[20-Feb-2025 13:35:52 Europe/Berlin] Database connection successful
+[20-Feb-2025 13:35:52 Europe/Berlin] Database connection successful
+[20-Feb-2025 13:35:52 Europe/Berlin] GET request received for student ID: 27
+[20-Feb-2025 13:35:52 Europe/Berlin] Student data found: Array
+(
+    [id] => 27
+    [studentID] => 11
+    [fullname] => john
+    [yearLevel] => 11
+    [year_strand] => 11-ICT
+    [email] => johnbongcacjohn@gmail.com
+    [password] => 
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[20-Feb-2025 13:36:18 Europe/Berlin] Received request method: GET
+[20-Feb-2025 13:36:18 Europe/Berlin] Received raw data: 
+[20-Feb-2025 13:36:18 Europe/Berlin] Attempting database connection to localhost with user root
+[20-Feb-2025 13:36:18 Europe/Berlin] Database connection successful
+[20-Feb-2025 13:36:18 Europe/Berlin] Database connection successful
+[20-Feb-2025 13:36:18 Europe/Berlin] GET request received for student ID: 27
+[20-Feb-2025 13:36:18 Europe/Berlin] Student data found: Array
+(
+    [id] => 27
+    [studentID] => 11
+    [fullname] => john
+    [yearLevel] => 11
+    [year_strand] => 11-ICT
+    [email] => johnbongcacjohn@gmail.com
+    [password] => 
+    [address] => biringan
+    [phoneNumber] => 09207056696
+)
+
+[20-Feb-2025 13:36:43 Europe/Berlin] Received request method: GET
+[20-Feb-2025 13:36:43 Europe/Berlin] Received raw data: 
+[20-Feb-2025 13:36:43 Europe/Berlin] Attempting database connection to localhost with user root
+[20-Feb-2025 13:36:43 Europe/Berlin] Database connection successful
+[20-Feb-2025 13:36:43 Europe/Berlin] Database connection successful
+[20-Feb-2025 13:36:43 Europe/Berlin] GET request received for student ID: 26
+[20-Feb-2025 13:36:43 Europe/Berlin] Student data found: Array
+(
+    [id] => 26
+    [studentID] => 10
+    [fullname] => good student
+    [yearLevel] => 12
+    [year_strand] => 12-ICT
+    [email] => good@gmail.com
+    [password] => 
+    [address] => biringan
+    [phoneNumber] => 09234554978
+)
+
+[20-Feb-2025 13:36:54 Europe/Berlin] Received request method: GET
+[20-Feb-2025 13:36:54 Europe/Berlin] Received raw data: 
+[20-Feb-2025 13:36:54 Europe/Berlin] Attempting database connection to localhost with user root
+[20-Feb-2025 13:36:54 Europe/Berlin] Database connection successful
+[20-Feb-2025 13:36:54 Europe/Berlin] Database connection successful
+[20-Feb-2025 13:36:54 Europe/Berlin] GET request received for student ID: 1
+[20-Feb-2025 13:36:54 Europe/Berlin] Student data found: Array
+(
+    [id] => 1
+    [studentID] => 1
+    [fullname] => yawerds
+    [yearLevel] => 12
+    [year_strand] => 12-HUMSS
+    [email] => yawa@gmail.com
+    [password] => 
+    [address] => hell naah
+    [phoneNumber] => 09207056696
+)

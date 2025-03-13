@@ -1,0 +1,1469 @@
+:root {
+    --primary-color: #003366;
+    --secondary-color: #0099ff;
+    --bg-gradient: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    --sidebar-width-open: 250px;
+    --sidebar-width-closed: 80px;
+    --container-padding: 20px;
+}
+
+/* Container Structure */
+.container-fluid {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: visible; /* Allow content to be visible */
+    position: relative; /* Add positioning context */
+}
+
+.teacher-management {
+    width: calc(100% - 40px); /* Adjust width accounting for padding */
+    margin-left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative; /* Add positioning context */
+    z-index: 1; /* Ensure content stays above any potential overlays */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1400px; /* Match student management max-width */
+    margin-right: auto;
+    padding-right: calc(var(--sidebar-width-closed) / 2);
+}
+
+.search-section {
+    background: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    width: calc(100% - 100px); /* Account for left margin */
+    margin-left: 85px;
+    box-sizing: border-box; /* Added to include padding in width calculation */
+    position: relative; /* Add positioning context */
+    z-index: 2; /* Ensure containers stay above background */
+    overflow: visible; /* Allow content to be visible */
+}
+
+.table-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    overflow: visible; /* Allow content to be visible */
+    width: calc(100% - 100px); /* Account for left margin */
+    max-width: 1400px; /* Match student management max-width */
+    margin-left: 85px;
+    box-sizing: border-box; /* Added to include padding in width calculation */
+    position: relative; /* Add positioning context */
+    z-index: 2; /* Ensure containers stay above background */
+}
+
+/* Override and simplify modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 800px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Remove all transitions and animations for debugging */
+.modal, .modal-content {
+    transition: none !important;
+    transform: none !important;
+    animation: none !important;
+}
+
+.search-section {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    margin-bottom: 1.5rem;
+}
+
+.search-section h2 {
+    color: #003366;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    margin-top: 1.5rem;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.table-header h3 {
+    color: var(--primary-color);
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: 0;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px #f0f0f0;
+}
+
+/* Enhanced table styles */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+th {
+    background-color: #f8f9fa;
+    color: #344767;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    padding: 1rem;
+    border-bottom: 2px solid #edf2f7;
+    text-align: left;
+    white-space: nowrap;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Base font settings */
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+td {
+    padding: 1rem;
+    vertical-align: middle;
+    border-bottom: 1px solid #edf2f7;
+    color: #525f7f;
+    font-size: 0.875rem;
+    transition: background-color 0.2s ease;
+}
+
+tr:hover td {
+    background-color: #f8fafc;
+}
+
+/* First and last cell rounded corners */
+th:first-child {
+    border-top-left-radius: 8px;
+}
+
+th:last-child {
+    border-top-right-radius: 8px;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+/* Action buttons container */
+.actions {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Enhanced action buttons */
+.action-btn {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.action-btn i {
+    font-size: 0.875rem;
+}
+
+/* Action button hover effects */
+.action-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+/* Tooltip for action buttons */
+.action-btn::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-4px);
+    padding: 4px 8px;
+    background-color: #333;
+    color: white;
+    font-size: 0.75rem;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+}
+
+.action-btn:hover::after {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(-8px);
+}
+
+/* Empty state styling */
+.empty-state {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+}
+
+.empty-state i {
+    font-size: 3rem;
+    color: #ccc;
+    margin-bottom: 1rem;
+}
+
+/* Loading state animation */
+@keyframes shimmer {
+    0% {
+        background-position: -468px 0;
+    }
+    100% {
+        background-position: 468px 0;
+    }
+}
+
+.loading-row td {
+    background: linear-gradient(to right, #f6f7f8 8%, #edeef1 18%, #f6f7f8 33%);
+    background-size: 800px 104px;
+    animation: shimmer 1.5s infinite linear;
+}
+
+/* Status indicators */
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.status-badge.active {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+.status-badge.inactive {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+/* Responsive design improvements */
+@media (max-width: 768px) {
+    .table-responsive {
+        margin: 0 -1.5rem;
+        width: calc(100% + 3rem);
+        border-radius: 0;
+    }
+
+    td, th {
+        padding: 0.75rem;
+    }
+
+    .actions {
+        flex-wrap: nowrap;
+    }
+}
+
+/* Enhanced form styling */
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #344767;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    transition: border-color 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0,51,102,0.1);
+}
+
+/* Enhanced button styling */
+.action-btn {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin: 0 4px;
+}
+
+.action-btn:hover {
+    transform: translateY(-2px);
+}
+
+.action-btn.schedule {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+.action-btn.edit {
+    background-color: #fff3e0;
+    color: #f57c00;
+}
+
+.action-btn.delete {
+    background-color: #ffebee;
+    color: #d32f2f;
+}
+
+/* Add loading state styles */
+.loading {
+    position: relative;
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid var(--primary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Remove existing modal styles and replace with these */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal.show {
+    opacity: 1;
+    visibility: visible;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transform: translateY(-20px);
+    transition: transform 0.3s ease;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    margin: 20px;
+}
+
+.modal.show .modal-content {
+    transform: translateY(0);
+}
+
+/* Add styles for backdrop blur */
+.modal::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(5px);
+    z-index: -1;
+}
+
+/* Add Sidebar Styles */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: var(--sidebar-width-open);
+    background: var(--primary-color);
+    color: white;
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-header .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 2px;
+    background: white;
+}
+
+.sidebar-header h2 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.sidebar-nav {
+    padding: 20px 0;
+}
+
+.sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-nav .menu-item {
+    margin: 5px 0;
+}
+
+.sidebar-nav .menu-item a {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    gap: 12px;
+}
+
+.sidebar-nav .menu-item a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.sidebar-nav .menu-item.active a {
+    background: var(--secondary-color);
+    color: white;
+    border-left: 4px solid white;
+}
+
+.sidebar-nav .menu-item i {
+    width: 20px;
+    text-align: center;
+}
+
+/* Add Logout Button Styles */
+.sidebar-nav .menu-item .logout-btn {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.sidebar-nav .menu-item .logout-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+/* Update Main Content Layout */
+.main-content {
+    margin-left: var(--sidebar-width-open);
+    width: calc(100% - var(--sidebar-width-open));
+    transition: margin 0.3s ease-in-out;
+    overflow: hidden; /* Prevent overflow */
+    position: relative; /* Add positioning context */
+}
+
+/* Submenu styles */
+.submenu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.submenu.show {
+    max-height: 200px;
+}
+
+.menu-toggle .arrow {
+    position: absolute;
+    right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.menu-toggle.active .arrow {
+    transform: rotate(180deg);
+}
+
+.submenu li a {
+    padding-left: 56px !important;
+    font-size: 0.9em;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+    }
+
+    .sidebar.show {
+        transform: translateX(0);
+    }
+
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+/* ...rest of your existing styles... */
+.error-message {
+    padding: 1rem;
+    color: #dc3545;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.error-message i {
+    font-size: 1.2rem;
+}
+
+td:empty::before {
+    content: 'Not Set';
+    color: #999;
+    font-style: italic;
+}
+
+.warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+/* Update modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.close {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Remove transitions temporarily for debugging */
+.modal, .modal-content {
+    transition: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .teacher-management {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .search-section,
+    .table-container {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+}
+
+/* Not Set Text Style */
+.not-set {
+    color: #999;
+    font-style: italic;
+}
+
+/* Table Row Hover Effect */
+#teacherTableBody tr:hover {
+    background-color: #f5f8ff;
+}
+
+/* Professor ID Style */
+#teacherTableBody td:first-child {
+    font-family: 'Roboto Mono', 'Consolas', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #666;
+}
+
+/* Modal headers */
+.modal-header h2,
+.form-section h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 600;
+}
+
+/* Loading State */
+.loading-row td {
+    padding: 40px !important;
+    text-align: center;
+}
+
+.loading-row i {
+    font-size: 24px;
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+/* Search Container Adjustments */
+.search-container {
+    width: 100%;
+    max-width: 600px; /* Reduced from 1200px */
+    margin: 0; /* Remove auto margin */
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.search-input {
+    width: 100%;
+    max-width: 500px; /* Add max-width constraint */
+    position: relative;
+}
+
+.search-input input {
+    width: 100%;
+    padding: 12px 40px 12px 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Enhanced Schedule Modal Styles */
+#scheduleModal .modal-content {
+    max-width: 900px; /* Increased max-width */
+    height: auto;
+    max-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    overflow: hidden; /* Prevent outer scrolling */
+}
+
+#scheduleModal .modal-body {
+    padding: 25px;
+    overflow-y: auto;
+    flex: 1;
+    scrollbar-width: thin;
+    scrollbar-color: #ddd #f5f5f5;
+}
+
+/* Custom scrollbar for modal body */
+#scheduleModal .modal-body::-webkit-scrollbar {
+    width: 8px;
+}
+
+#scheduleModal .modal-body::-webkit-scrollbar-track {
+    background: #f5f5f5;
+    border-radius: 4px;
+}
+
+#scheduleModal .modal-body::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 4px;
+}
+
+/* Form Section Improvements */
+#scheduleModal .form-section {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    border: 1px solid #eee;
+}
+
+#scheduleModal .form-section h3 {
+    font-size: 1.1rem;
+    color: #344767;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#scheduleModal .form-section h3 i {
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+/* Grid Layout Improvements */
+#scheduleModal .input-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form Group Enhancements */
+#scheduleModal .form-group {
+    margin: 0;
+    position: relative;
+}
+
+#scheduleModal .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #344767;
+}
+
+#scheduleModal .form-group select,
+#scheduleModal .form-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    color: #333;
+    background-color: white;
+    transition: all 0.2s ease;
+    height: 42px; /* Consistent height */
+    box-sizing: border-box;
+}
+
+/* Select Field Enhancements */
+#scheduleModal .form-group select {
+    padding-right: 30px;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 14px;
+}
+
+/* Time Input Specific Styles */
+#scheduleModal .time-group input[type="time"] {
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 0.5px;
+}
+
+#scheduleModal .time-group input[type="time"]::-webkit-calendar-picker-indicator {
+    background: none;
+    display: none;
+}
+
+/* Room Input Enhancement */
+#scheduleModal .form-group input[type="text"] {
+    padding-left: 35px; /* Space for icon */
+}
+
+#scheduleModal .form-group.room-group {
+    position: relative;
+}
+
+#scheduleModal .form-group.room-group::before {
+    content: '\f3c5';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 12px;
+    top: 37px;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Focus States */
+#scheduleModal .form-group select:focus,
+#scheduleModal .form-group input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(0,51,102,0.1);
+    outline: none;
+}
+
+/* Disabled States */
+#scheduleModal .form-group select:disabled {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+/* Enhanced Schedule Modal Styles */
+#scheduleModal .modal-content {
+    max-width: 800px;
+    padding: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-height: 90vh; /* Limit height to 90% of viewport height */
+}
+
+#scheduleModal .modal-header {
+    background: var(--primary-color);
+    color: white;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#scheduleModal .modal-header h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#scheduleModal .modal-header h2 i {
+    font-size: 1.2rem;
+}
+
+#scheduleModal .professor-details {
+    background: #f8f9fa;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#scheduleModal .info-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#scheduleModal .info-group label {
+    font-size: 0.85rem;
+    color: #666;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#scheduleModal .info-group span {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    padding: 8px 12px;
+    background: white;
+    border-radius: 6px;
+    border: 1px solid #eee;
+}
+
+#scheduleModal .modal-body {
+    padding: 20px;
+    overflow-y: auto; /* Make content scrollable */
+    flex: 1; /* Allow content to fill available space */
+}
+
+#scheduleModal .form-section {
+    margin-bottom: 30px;
+}
+
+#scheduleModal .form-section h3 {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+
+#scheduleModal .input-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+#scheduleModal .form-group select,
+#scheduleModal .form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+#scheduleModal .form-group select:focus,
+#scheduleModal .form-group input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(0, 51, 102, 0.1);
+}
+
+#scheduleModal .form-group select:disabled {
+    background: #f5f5f5;
+    cursor: not-allowed;
+}
+
+#scheduleModal .modal-footer {
+    padding: 20px;
+    background: #f8f9fa;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    position: sticky; /* Keep footer fixed at bottom */
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 3; /* Ensure footer stays above content */
+}
+
+#scheduleModal .btn-primary,
+#scheduleModal .btn-secondary {
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+#scheduleModal .btn-primary {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+}
+
+#scheduleModal .btn-primary:hover {
+    background: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+#scheduleModal .btn-primary:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    transform: none;
+}
+
+#scheduleModal .btn-secondary {
+    background: white;
+    color: #666;
+    border: 1px solid #ddd;
+}
+
+#scheduleModal .btn-secondary:hover {
+    background: #f5f5f5;
+}
+
+/* Time input specific styles */
+#scheduleModal .time-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#scheduleModal .time-group input[type="time"] {
+    padding: 0 35px 0 12px;
+    height: 42px;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    background: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#scheduleModal .time-group input[type="time"]::-webkit-calendar-picker-indicator {
+    background: none;
+    display: none;
+}
+
+/* Fix Clock Icon Alignment */
+#scheduleModal .time-group::after {
+    content: '\f017';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    right: 12px;
+    top: 48%; /* Adjusted from 50% to 48% to move slightly up */
+    transform: translateY(-50%);
+    color: #666;
+    pointer-events: none;
+    font-size: 14px;
+    line-height: 1;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+/* Room Input Enhancement */
+#scheduleModal .form-group input[type="text"] {
+    padding-left: 35px; /* Space for icon */
+}
+
+#scheduleModal .form-group.room-group {
+    position: relative;
+}
+
+#scheduleModal .form-group.room-group::before {
+    content: '\f3c5';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 12px;
+    top: 37px;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Focus States */
+#scheduleModal .form-group select:focus,
+#scheduleModal .form-group input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(0,51,102,0.1);
+    outline: none;
+}
+
+/* Disabled States */
+#scheduleModal .form-group select:disabled {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+/* Fix Select and Time Input Alignments */
+#scheduleModal .form-group select {
+    padding: 0 35px 0 12px; /* Adjust padding to center text */
+    height: 42px; /* Consistent height */
+    line-height: 42px; /* Center text vertically */
+    appearance: none;
+    background-position: right 12px center; /* Adjust dropdown icon position */
+}
+
+#scheduleModal .time-group {
+    position: relative;
+}
+
+#scheduleModal .time-group input[type="time"] {
+    padding: 0 35px 0 12px; /* Adjust padding */
+    height: 42px; /* Match select height */
+    line-height: 42px; /* Center text vertically */
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Clock Icon Alignment */
+#scheduleModal .time-group::after {
+    content: '\f017';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; /* Make icon solid */
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    pointer-events: none;
+    font-size: 14px; /* Adjust icon size */
+    height: 14px; /* Ensure consistent height */
+    line-height: 1; /* Reset line height */
+    display: flex;
+    align-items: center;
+}
+
+/* Placeholder and Option Text Alignment */
+#scheduleModal .form-group select option {
+    padding: 8px 12px;
+    line-height: 1.2;
+}
+
+#scheduleModal .form-group select,
+#scheduleModal .time-group input[type="time"] {
+    color: #333;
+}
+
+#scheduleModal .form-group select:invalid,
+#scheduleModal .time-group input[type="time"]:invalid {
+    color: #666;
+}
+
+/* Enhanced Edit Modal Styles */
+#editModal .modal-content {
+    max-width: 500px;
+    padding: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    margin: 5vh auto;
+}
+
+#editModal .modal-header {
+    background: var(--primary-color);
+    color: white;
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#editModal .modal-header h3 {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#editModal .modal-header .close {
+    /* color: white; */
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+#editModal .modal-header .close:hover {
+    opacity: 1;
+}
+
+#editModal form {
+    padding: 25px;
+}
+
+#editModal .form-group {
+    margin-bottom: 20px;
+}
+
+#editModal .form-group:last-child {
+    margin-bottom: 0;
+}
+
+#editModal .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #344767;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+#editModal #displayProfessorId {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    color: #666;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.9rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#editModal input[type="text"],
+#editModal input[type="email"],
+#editModal input[type="tel"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    color: #333;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+}
+
+#editModal input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(0, 51, 102, 0.1);
+    outline: none;
+}
+
+#editModal .modal-footer {
+    background: #f8f9fa;
+    padding: 20px 25px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+#editModal .btn {
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#editModal .btn i {
+    font-size: 0.9rem;
+}
+
+#editModal .btn-primary {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+}
+
+#editModal .btn-primary:hover {
+    background: var(--secondary-color);
+    transform: translateY(-1px);
+}
+
+#editModal .btn-secondary {
+    background: white;
+    color: #666;
+    border: 1px solid #ddd;
+}
+
+#editModal .btn-secondary:hover {
+    background: #f5f5f5;
+}
+
+/* Input validation styles */
+#editModal input:invalid {
+    border-color: #dc3545;
+}
+
+#editModal input:invalid:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.1);
+}
+
+/* Required field indicator */
+#editModal .form-group label.required::after {
+    content: '*';
+    color: #dc3545;
+    margin-left: 4px;
+}
+
+/* Placeholder styling */
+#editModal input::placeholder {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+/* Disabled state */
+#editModal input:disabled {
+    background: #f8f9fa;
+    cursor: not-allowed;
+}
+
+/* Loading state */
+#editModal .loading input {
+    background: #f8f9fa;
+    pointer-events: none;
+}
+
+/* Add hover effect to the modal */
+#editModal .modal-content:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s ease;
+}
+
+/* Enhanced Edit Modal Styles */
+#editModal .modal-content {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 0;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#editModal .modal-body {
+    padding: 20px;
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+#editModal .form-section {
+    margin-bottom: 0; /* Remove bottom margin since we removed footer */
+}
+
+/* Remove footer-related styles */
+#editModal .modal-footer {
+    display: none;
+}
+
+/* Alert Styles */
+.custom-alert {
+    backdrop-filter: blur(8px);
+}
+
+.alert-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.alert-content i {
+    font-size: 20px;
+}
+
+.custom-alert {
+    position: fixed;
+    right: 20px;
+    top: -100px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    color: white;
+    z-index: 10000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.custom-alert.success {
+    background: #4CAF50;
+}
+
+.custom-alert.error {
+    background: #f44336;
+}
+
+@keyframes slideDown {
+    from { top: -100px; opacity: 0; }
+    to { top: 20px; opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { top: 20px; opacity: 1; }
+    to { top: -100px; opacity: 0; }
+}
+
+/* Error state styles */
+.error-message {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.error-message i {
+    font-size: 16px;
+}
+
+/* Modal validation styles */
+.modal input:invalid,
+.modal select:invalid {
+    border-color: #f44336;
+}
+
+.modal input:invalid:focus,
+.modal select:invalid:focus {
+    border-color: #f44336;
+    box-shadow: 0 0 0 2px rgba(244, 67, 54, 0.2);
+}
