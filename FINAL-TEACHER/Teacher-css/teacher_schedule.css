@@ -1,0 +1,318 @@
+/* Import base styles from teacher_dashboard.css */
+@import url('teacher_dashboard.css');
+
+/* Schedule specific styles */
+.schedule-container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 1rem;
+    padding: 1.5rem;
+    position: relative;
+    z-index: auto;
+    overflow: visible !important; /* Ensure overflow is visible */
+}
+
+.section-header {
+    margin-bottom: 1.5rem;
+}
+
+.section-header h2 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+/* Schedule Grid Layout */
+.schedule-grid {
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    z-index: auto;
+    overflow: visible !important; /* Ensure overflow is visible */
+}
+
+.time-column {
+    width: 120px; /* Increased width to accommodate longer time ranges */
+    border-right: 1px solid #ddd;
+    background: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: auto;
+}
+
+.time-slot {
+    height: 100px; /* Increased height to accommodate longer text */
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 0.9rem; /* Slightly smaller font size */
+    line-height: 1.2;
+}
+
+.schedule-content {
+    flex: 1;
+    overflow-x: auto;
+    position: relative;
+    z-index: auto;
+    overflow: visible !important; /* Ensure overflow is visible */
+}
+
+.days-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    position: relative;
+    z-index: auto;
+}
+
+.day {
+    padding: 15px 10px;
+    text-align: center;
+    font-weight: bold;
+    background: var(--primary-color);
+    color: white;
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+.column-header {
+    padding: 15px 10px;
+    text-align: center;
+    font-weight: bold;
+    background: var(--primary-color);
+    color: white;
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Update the classes grid */
+.classes-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 100px); /* Updated to match new number of time slots */
+    position: relative;
+    z-index: auto;
+    overflow: visible !important; /* Ensure overflow is visible */
+}
+
+/* Update class card base styles */
+.class-card {
+    background: var(--secondary-color);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%; /* Add explicit width */
+    position: absolute; /* Change to absolute */
+    inset: 0; /* Fill the container */
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-origin: center center;
+    margin: 0;
+    z-index: 1; /* Reset base z-index */
+    transform-origin: center;
+}
+
+/* Update class card hover styles */
+.class-card:hover {
+    transform: scale(1.3); /* Increased scale factor */
+    position: absolute; /* Keep as absolute instead of fixed */
+    z-index: 9999; /* Extremely high z-index */
+    width: 150%; /* Wider than original */
+    height: auto;
+    min-height: 165%; /* Taller than original */
+    padding: 15px; /* Increased padding */
+    top: -30%; /* Adjust position to center the enlarged card */
+    left: -40%;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    filter: brightness(1.1);
+    margin: 0; /* Remove margins */
+}
+
+/* Subject Color Coding */
+.class-card[data-subject-index="0"] {
+    background: #4CAF50; /* Green */
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+}
+
+.class-card[data-subject-index="1"] {
+    background: #2196F3; /* Blue */
+    background: linear-gradient(135deg, #2196F3, #1e88e5);
+}
+
+.class-card[data-subject-index="2"] {
+    background: #FF9800; /* Orange */
+    background: linear-gradient(135deg, #FF9800, #f57c00);
+}
+
+.class-card[data-subject-index="3"] {
+    background: #9C27B0; /* Purple */
+    background: linear-gradient(135deg, #9C27B0, #8e24aa);
+}
+
+.class-card[data-subject-index="4"] {
+    background: #E91E63; /* Pink */
+    background: linear-gradient(135deg, #E91E63, #d81b60);
+}
+
+/* Enhanced hover effects for colored cards */
+.class-card h4 {
+    margin: 0 0 5px 0;
+    font-size: 1rem;
+    /* Handle long titles */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    transition: all 0.3s ease;
+}
+
+.class-card:hover h4 {
+    /* Show full title on hover */
+    white-space: normal;
+    overflow: visible;
+    -webkit-line-clamp: unset;
+    font-size: 1.1rem; /* Slightly larger font on hover */
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+
+.class-card p {
+    margin: 2px 0;
+    font-size: 0.85rem;
+    opacity: 0.9;
+    /* Handle long text */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.3s ease;
+}
+
+.class-card:hover p {
+    /* Show full text on hover */
+    white-space: normal;
+    overflow: visible;
+    font-size: 0.9rem;
+    margin: 4px 0;
+    line-height: 1.4;
+}
+
+/* Ensure proper positioning for enlarged cards */
+.class-slot {
+    position: relative;
+    z-index: auto;
+    isolation: auto; /* Creates new stacking context */
+    height: 100%;
+    width: 100%;
+    overflow: visible; /* Allow overflow */
+    padding: 5px; /* Add padding for hover space */
+}
+
+/* Grade Level Selector */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.grade-level-display {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.grade-select {
+    padding: 5px 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    font-size: 14px;
+    color: var(--primary-color);
+    background-color: white;
+    cursor: pointer;
+}
+
+.grade-select:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 2px rgba(var(--secondary-color-rgb), 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .schedule-grid {
+        flex-direction: column;
+    }
+
+    .time-column {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .time-slot {
+        height: 60px; /* Adjusted height for mobile */
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+
+    .schedule-content {
+        overflow-x: scroll;
+    }
+
+    .days-row {
+        min-width: 500px;
+    }
+
+    .classes-grid {
+        min-width: 500px;
+        grid-template-rows: repeat(6, 60px); /* Updated to match mobile time slot height */
+    }
+
+    .class-card {
+        padding: 5px;
+    }
+
+    .class-card h4 {
+        font-size: 0.9rem;
+    }
+
+    .class-card p {
+        font-size: 0.8rem;
+    }
+
+    .column-header {
+        height: 50px; /* Match the height of day headers on mobile */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Remove any stacking context modifications */
+.classes-grid > * {
+    isolation: auto;
+}
+
+.schedule-content,
+.time-column,
+.days-row {
+    position: relative;
+    z-index: auto;
+}
+
+.schedule-container,
+.schedule-grid,
+.schedule-content,
+.classes-grid,
+.class-slot {
+    overflow: visible !important;
+}

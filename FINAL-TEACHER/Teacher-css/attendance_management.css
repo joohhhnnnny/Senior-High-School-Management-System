@@ -1,0 +1,346 @@
+/* Remove the import since we'll include both CSS files directly in the HTML */
+/* @import url('teacher_dashboard.css'); */
+
+.section-header {
+    display: flex;
+    flex-direction: column;  /* Change to column layout */
+    margin-bottom: 20px;
+    gap: 1rem;  /* Add gap between elements */
+    width: 100%;
+    padding: 0 1rem; /* Add padding to align with table */
+}
+
+.section-header h2 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.filters {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    align-self: flex-end;  /* Align filters to the right */
+    width: 100%; /* Make filters container full width */
+}
+
+.filters select {
+    flex: 2; /* Make subject filter take more space */
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.filters input[type="date"] {
+    flex: 1; /* Make date input take less space */
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.load-btn {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.load-btn:hover {
+    background: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+.attendance-container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 1rem;
+    padding: 1.5rem 1.5rem; /* Changed to add horizontal padding */
+    width: 100%;
+}
+
+.attendance-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.attendance-controls {
+    display: flex;
+    gap: 1rem;
+}
+
+.form-control {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.attendance-table {
+    margin: 20px 18px;  /* Changed to combine both margins */
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.attendance-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.attendance-table thead {
+    background: linear-gradient(135deg, #1a237e, #3949ab);
+}
+
+.attendance-table th {
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    padding: 16px;
+    text-align: left;
+    border: none;
+}
+
+.attendance-table td {
+    padding: 16px;
+    border-bottom: 1px solid #eef2f7;
+    font-size: 0.9rem;
+    vertical-align: middle;
+}
+
+.attendance-table tbody tr {
+    transition: all 0.3s ease;
+}
+
+.attendance-table tbody tr:hover {
+    background-color: #f8f9ff;
+    transform: translateY(-1px);
+}
+
+/* Add these new styles for row status colors */
+.attendance-table tbody tr.status-present {
+    background-color: rgba(40, 167, 69, 0.1);
+}
+
+.attendance-table tbody tr.status-absent {
+    background-color: rgba(220, 53, 69, 0.1);
+}
+
+.attendance-table tbody tr.status-excused {
+    background-color: rgba(23, 162, 184, 0.1);
+}
+
+.attendance-table tbody tr.status-present:hover {
+    background-color: rgba(40, 167, 69, 0.15);
+}
+
+.attendance-table tbody tr.status-absent:hover {
+    background-color: rgba(220, 53, 69, 0.15);
+}
+
+.attendance-table tbody tr.status-excused:hover {
+    background-color: rgba(23, 162, 184, 0.15);
+}
+
+.attendance-status {
+    padding: 8px 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 0.9rem;
+    background: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 1em;
+    padding-right: 30px;
+}
+
+.attendance-status:focus {
+    border-color: #3949ab;
+    box-shadow: 0 0 0 3px rgba(57, 73, 171, 0.1);
+    outline: none;
+}
+
+.remarks-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.remarks-input:focus {
+    border-color: #3949ab;
+    box-shadow: 0 0 0 3px rgba(57, 73, 171, 0.1);
+    outline: none;
+}
+
+.btn-status {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.btn-save {
+    background: #3949ab;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9rem;
+}
+
+.btn-save:hover {
+    background: #1a237e;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(57, 73, 171, 0.2);
+}
+
+.attendance-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+.loading-spinner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid var(--primary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.attendance-status[value="Present"] {
+    color: #28a745;
+    background: #d4edda;
+}
+
+.attendance-status[value="Absent"] {
+    color: #dc3545;
+    background: #f8d7da;
+}
+
+.attendance-status[value="Excused"] {
+    color: #ffc107;
+    background: #fff3cd;
+}
+
+.changed {
+    background-color: #e8f4ff !important;
+}
+
+.status-indicator {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-align: center;
+    width: fit-content;
+}
+
+.status-indicator.present {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+.status-indicator.absent {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+.status-indicator.excused {
+    background-color: #fff3e0;
+    color: #ef6c00;
+}
+
+@media (max-width: 768px) {
+    .section-header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 1rem;
+    }
+
+    .filters {
+        flex-direction: column;
+        width: 100%;
+        align-self: stretch;  /* Full width on mobile */
+    }
+
+    .filters select,
+    .filters input[type="date"] {
+        width: 100%;
+        flex: none;
+    }
+
+    .load-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,247 @@
+/* Import base styles from teacher_dashboard.css */
+@import url('teacher_dashboard.css');
+
+/* Grades Management specific styles */
+.grades-container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 1rem;
+    padding: 1.5rem;
+}
+
+/* Section Header Layout */
+.section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.section-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+#sectionInput {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    cursor: not-allowed;
+}
+
+#subjectFilter {
+    min-width: 300px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.load-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.3s ease;
+}
+
+.load-btn:hover {
+    background-color: #45a049;
+}
+
+/* Table styles */
+.grades-table {
+    overflow-x: auto;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background: var(--primary-color);
+    color: white;
+    font-weight: 500;
+}
+
+td input[type="number"] {
+    width: 80px;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Input styles */
+.grades-table input.changed {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.grades-table input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* Remarks styles */
+.remarks {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.remarks.passed {
+    background: #d4edda;
+    color: #155724;
+}
+
+.remarks.failed {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.remarks.incomplete {
+    background: #fff3cd;
+    color: #856404;
+}
+
+/* Action buttons */
+.bulk-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.save-all-btn, .export-btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.save-all-btn {
+    background: var(--primary-color);
+    color: white;
+}
+
+.export-btn {
+    background: #28a745;
+    color: white;
+}
+
+.save-all-btn:hover, .export-btn:hover {
+    filter: brightness(110%);
+    transform: translateY(-2px);
+}
+
+/* Save button styles */
+.save-btn {
+    padding: 0.25rem 0.5rem;
+    border: none;
+    border-radius: 4px;
+    background: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.save-btn:hover {
+    background: var(--secondary-color);
+    transform: translateY(-1px);
+}
+
+/* Loading spinner */
+.loading-spinner {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid var(--primary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .filters {
+        flex-wrap: wrap;
+    }
+
+    #sectionInput,
+    #subjectFilter {
+        flex: 1;
+        min-width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .filters {
+        flex-direction: column;
+    }
+
+    .filters select,
+    .filters button {
+        width: 100%;
+    }
+
+    .bulk-actions {
+        flex-direction: column;
+    }
+
+    .save-all-btn,
+    .export-btn {
+        width: 100%;
+    }
+}
