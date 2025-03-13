@@ -1,0 +1,139 @@
+/* CSS for ISCP Teacher Application Form */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../client-images/school_dashboard.webp");
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  height: auto; /* Adjust height to fit content */
+  position: relative;
+}
+
+.container h2 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px; /* Increased margin-bottom for more spacing */
+  color: #004a99; /* Ensure this color is applied */
+}
+
+.form-group {
+  margin-bottom: 13px;
+  margin-right: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group input[type="file"] {
+  width: calc(100% - 20px); /* Set width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 25px;
+  margin-left: 4px;
+}
+
+.form-group input[type="submit"] {
+  margin-top: 15px;
+  background-color: #004a99;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 450px; /* Increased width */
+  height: 40px; /* Added height */
+  border-radius: 8px; /* Added border-radius */
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #007BFF;
+}
+
+.button-group {
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centers buttons horizontally */
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;  
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="tel"],
+  .form-group input[type="email"],
+  .form-group input[type="file"] {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 90%;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 15px;
+        height: auto;
+        min-height: 500px;
+    }
+
+    .form-group input[type="submit"] {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .container h2 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 12px;
+        margin: 10px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="tel"],
+    .form-group input[type="email"],
+    .form-group input[type="file"] {
+        width: calc(100% - 10px);
+        margin: 2px;
+        padding: 8px;
+    }
+}

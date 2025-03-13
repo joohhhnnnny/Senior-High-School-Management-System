@@ -1,0 +1,19 @@
+[13-Mar-2025 04:29:19 Europe/Berlin] Executing fetchStudentProfile.php
+[13-Mar-2025 04:29:19 Europe/Berlin] Current directory: C:\xamppNew\htdocs\CST5-PROJECT\FINAL-STUDENT\Student-php
+[13-Mar-2025 04:29:19 Europe/Berlin] Document root: C:/xamppNew/htdocs
+[13-Mar-2025 04:29:19 Europe/Berlin] Script filename: C:/xamppNew/htdocs/CST5-PROJECT/FINAL-STUDENT/Student-html/profStud.php
+[13-Mar-2025 04:29:19 Europe/Berlin] Checking path: C:\xamppNew\htdocs\CST5-PROJECT\FINAL-STUDENT\Student-php/conn.php
+[13-Mar-2025 04:29:19 Europe/Berlin] Found conn.php at: C:\xamppNew\htdocs\CST5-PROJECT\FINAL-STUDENT\Student-php/conn.php
+[13-Mar-2025 04:29:19 Europe/Berlin] Attempting database connection to localhost with user root
+[13-Mar-2025 04:29:19 Europe/Berlin] Database connection successful
+[13-Mar-2025 04:29:19 Europe/Berlin] Successfully connected to database
+[13-Mar-2025 04:29:19 Europe/Berlin] Session data in fetchStudentProfile.php: Array
+(
+    [user_id] => 81
+    [user_type] => student
+    [fullname] => cherry
+    [email] => cherrymaybongcac@gmail.com
+    [yearLevel] => 11
+    [strand] => 11-HUMSS
+)
+

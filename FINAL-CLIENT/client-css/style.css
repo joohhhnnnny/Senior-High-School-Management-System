@@ -1,0 +1,1389 @@
+/* Better approach */
+:root {
+    --scrollbar-width: calc(100vw - 100%);
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding-right: 0;
+  transition: padding-right 0.3s ease;
+}
+
+body.modal-open {
+  padding-right: var(--scrollbar-width);
+  overflow: hidden;
+}
+
+@keyframes smoothGradientMovement {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes gradientText {
+  0% {
+    background-position: 0% 50%;
+    text-shadow: 0 0 3px rgba(0, 153, 255, 0.2);
+  }
+  50% {
+    background-position: 100% 50%;
+    text-shadow: 0 0 6px rgba(0, 153, 255, 0.3);
+  }
+  100% {
+    background-position: 0% 50%;
+    text-shadow: 0 0 3px rgba(0, 153, 255, 0.2);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes gradientTextBlueWhite {
+    0% {
+        background-position: 0% 50%;
+        color: #0099ff;
+        text-shadow: 0 0 3px rgba(255, 255, 255, 0.2);
+    }
+    50% {
+        background-position: 100% 50%;
+        color: white;
+        text-shadow: 0 0 6px rgba(0, 153, 255, 0.3);
+    }
+    100% {
+        background-position: 0% 50%;
+        color: #0099ff;
+        text-shadow: 0 0 3px rgba(255, 255, 255, 0.2);
+    }
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(90deg, #003366, #0099ff, #003366); /* Changed to more contrasting colors */
+  background-size: 300% 100%;
+  color: white;
+  padding: 1rem 0;
+  text-align: left;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  animation: smoothGradientMovement 15s linear infinite; /* Reduced animation time for more visible effect */
+  padding-right: 0;
+  transition: padding-right 0.3s ease;
+  height: 80px; /* Add fixed height */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the nav container */
+  padding: 0;
+}
+
+body.modal-open header {
+  padding-right: var(--scrollbar-width);
+}
+
+/* FOOTER */
+footer {
+  background: linear-gradient(90deg, #003366, #0099ff, #003366);
+  background-size: 300% 100%;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  position: relative;
+  animation: smoothGradientMovement 15s linear infinite;
+  opacity: 0;
+  animation: fadeIn 1s ease-out 1s forwards;
+}
+
+footer .footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+footer h2 {
+  margin-bottom: 0.5rem; /* Reduced space below the heading */
+  font-size: 1.5rem; /* Adjusted font size */
+}
+
+footer .contact-info {
+  margin-bottom: 1rem; /* Adjusted margin */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  gap: 20px; /* Space between items */
+}
+
+footer .contact-info p {
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: flex-start; /* Change from center to flex-start */
+  gap: 10px; /* Add gap between icon and text */
+  font-size: 1rem; /* Adjusted font size */
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+footer .contact-info p:nth-child(1) { animation-delay: 1.2s; }
+footer .contact-info p:nth-child(2) { animation-delay: 1.4s; }
+footer .contact-info p:nth-child(3) { animation-delay: 1.6s; }
+
+footer .contact-info i {
+  margin-right: 0; /* Remove margin-right since we're using gap */
+  margin-top: 4px; /* Add small top margin to align with text */
+  color: #fff; /* Icon color */
+}
+
+footer .social-icons {
+  margin-top: 1rem;
+}
+
+footer .social-icons a {
+  color: #fff; /* White color for icons */
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+footer .social-icons a:nth-child(1) { animation-delay: 1.8s; }
+footer .social-icons a:nth-child(2) { animation-delay: 2.0s; }
+footer .social-icons a:nth-child(3) { animation-delay: 2.2s; }
+footer .social-icons a:nth-child(4) { animation-delay: 2.4s; }
+
+footer .social-icons a:hover {
+  color: #003366;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+footer .footer-bottom {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: #ccc;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  footer .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  footer .social-icons a {
+    font-size: 1.25rem;
+  }
+
+  footer .contact-info {
+    flex-direction: column; /* Stack items vertically on small screens */
+    gap: 10px; /* Adjust gap for small screens */
+  }
+}
+
+/* NAV BAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%; /* Ensure nav takes full width */
+  height: 100%; /* Make nav take full header height */
+  position: relative; /* Add this */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem; /* Increase font size */
+}
+
+.logo-image {
+  width: 60px; /* Adjust the width as needed */
+  height: 60px; /* Adjust the height to match width */
+  border-radius: 50%; /* Make the image round */
+  margin-right: 15px; /* Space between image and text */
+  margin-left: -20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 35px; /* Use gap instead of margin for even spacing */
+}
+
+.nav-links li {
+  margin-left: 0; /* Remove the left margin since we're using gap */
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Combine transitions */
+}
+
+.nav-links a:hover {
+  color: #fff; /* Change color on hover */
+}
+
+.nav-links li::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: lightgrey;
+  display: block;
+  margin: auto;
+  transition: width 0.5s ease; /* Add transition for width */
+}
+
+.nav-links li:hover::after {
+  width: 100%;
+  background: #fff; /* Change background on hover */
+}
+
+/* BODY - Update base hero styles */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../client-images/school_dashboard.webp") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 88vh;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    margin-top: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero h5 {
+  color: #fff;
+  font-size: 26px;
+  position: relative;
+  top: 63px;
+  left: -330px;
+  padding: 5px 10px;
+  display: inline-block;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+  font-weight: bold;
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.hero h1 {
+  font-size: 44px;
+  position: relative;
+  top: 50px;
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: fadeInUp 0.8s ease-out 0.4s both, gradientTextBlueWhite 8s ease-in-out infinite;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.hero p {
+  position: relative;
+  top: 90px;
+  animation: fadeInUp 0.8s ease-out 0.6s both;
+}
+
+/* Base styles for hero link */
+.hero a {
+  font-weight: bold;
+  position: relative;
+  top: 110px;
+  display: inline-block;
+  text-decoration: none;
+  background: linear-gradient(90deg, #003366, #0099ff, #003366);
+  background-size: 300% 100%;
+  color: white;
+  padding: 12px 100px;
+  border-radius: 24px;
+  transition: all 0.3s ease;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards, smoothGradientMovement 15s linear infinite;;
+  z-index: 1;
+}
+
+/* Pseudo-elements for corner borders */
+.hero a::before, 
+.hero a::after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border: 3px solid white;
+  transition: all 0.8s ease;
+}
+
+/* Top-left corner */
+.hero a::before {
+  top: -8px;
+  left: -8px;
+  border-right: 0;
+  border-bottom: 0;
+  border-top-left-radius: 24px;
+}
+
+/* Bottom-right corner */
+.hero a::after {
+  bottom: -8px;
+  right: -8px;
+  border-left: 0;
+  border-top: 0;
+  border-bottom-right-radius: 24px;
+}
+
+/* Hover effects */
+.hero a:hover {
+  color: #004a99;
+  background: white;
+}
+
+.hero a:hover::before, 
+.hero a:hover::after {
+  width: calc(90% + 16px);
+  height: calc(40% + 16px);
+}
+
+/* Ensure text remains visible */
+.hero a span {
+  position: relative;
+  z-index: 2;
+}
+
+.cta-button {
+  background: linear-gradient(90deg, #003366, #0099ff, #003366);
+  background-size: 300% 100%;
+  color: white;
+  padding: 15px 100px; /* Adjust padding for height and width */
+  text-decoration: none;
+  border-radius: 24px; /* Adjust border-radius */
+  margin-top: 20px;
+  display: inline-block;
+  transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  animation: smoothGradientMovement 15s linear infinite;
+  animation-play-state: running;
+}
+
+.cta-button:hover {
+  color: #004a99;
+  background: #fff !important;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+/* ABOUT SECTION */
+section {
+  width: 100%; /* Make the section take up the full width */
+  padding: 40px 20px; /* Increased padding */
+  box-sizing: border-box; /* Ensure padding does not affect the width */
+  margin-bottom: 40px; /* Add margin between sections */
+}
+
+.about, .programs, .footer {
+  text-align: center;
+}
+
+.about {
+  color: #000;
+  text-align: center;
+  min-height: 600px; /* Set minimum height */
+  padding: 60px 20px; /* Increased padding */
+  margin-bottom: 60px; /* Add more space after about section */
+  background: #fff; /* Ensure background is solid */
+  position: relative; /* Add positioning context */
+  z-index: 1; /* Ensure proper stacking */
+  opacity: 0;
+  animation: fadeIn 1s ease-out 0.2s forwards;
+}
+
+.about h2 {
+  font-size: 30px; /* Adjusted font size */
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 30px auto;
+  padding-bottom: 30px;
+  opacity: 0;
+  animation: fadeInUp 1s ease-out 0.4s forwards;
+}
+
+/* Add responsive adjustments */
+@media (max-width: 768px) {
+  .video-container iframe {
+    height: 300px;
+  }
+}
+
+/* PROGRAM */
+.programs {
+  padding-top: 60px;
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  overflow: visible;
+}
+
+.program-list {
+  display: flex;
+  justify-content: space-around;
+  overflow: visible;
+}
+
+.program {
+  position: relative;
+  width: 29%;
+  margin: 10px;
+  margin-bottom: 50px;
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.program-image-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 20px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+  transform-origin: center center;
+}
+
+/* Move the hover effect to the image container */
+.program:hover .program-image-container {
+  transform: scale(1.08);
+  box-shadow: 0 8px 16px rgba(0, 74, 153, 0.25);
+  z-index: 2;
+}
+
+.program img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+/* Base program-text styles */
+.program-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 74, 153, 0.85);
+    color: white;
+    transform: translateY(100%); /* Fully hidden by default */
+    transition: transform 0.3s ease;
+}
+
+/* Desktop hover styles */
+@media screen and (min-width: 769px) {
+    .program-text {
+        cursor: default;
+    }
+    
+    .program:hover .program-text {
+        transform: translateY(0);
+    }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+    .program-image-container {
+        cursor: pointer;
+    }
+    
+    .program-text {
+        transform: translateY(calc(100% - 60px));
+        pointer-events: auto;
+        transition: transform 0.3s ease;
+    }
+
+    .program.active .program-text {
+        transform: translateY(0);
+    }
+
+    /* Disable hover effects on mobile */
+    .program:hover .program-text {
+        transform: translateY(calc(100% - 60px));
+    }
+
+    .program-text {
+        display: none; /* Hide program text completely on mobile */
+    }
+
+    /* Remove or override any program-text related animations and transforms */
+    .program:hover .program-text,
+    .program.active .program-text {
+        transform: none;
+        display: none;
+    }
+
+    /* Remove any program-text click indicators */
+    .program-text::after {
+        display: none;
+    }
+
+    /* Ensure program cards look good without the text */
+    .program-image-container {
+        border-radius: 20px;
+        margin-bottom: 0;
+    }
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+  z-index: 1001;
+  transition: all 0.3s ease;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  
+  .nav-links {
+    position: fixed;
+    right: -100%;  /* Changed from transform: translateX(100%) */
+    top: 0;
+    height: 100vh;
+    background: linear-gradient(90deg, #003366, #0099ff, #003366);
+    background-size: 300% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    transition: right 0.5s ease-in-out;  /* Changed from transform */
+    z-index: 1000;
+  }
+  
+  .nav-links li {
+    opacity: 0;
+    margin: 15px 0;
+  }
+  
+  .nav-links a {
+    font-size: 1.5rem;
+  }
+  
+  .burger {
+    display: block;
+    position: relative; /* Change from fixed */
+    right: 0;
+    top: 0;
+    transform: none;
+  }
+
+  .nav-active {
+    right: 0;  /* Changed from transform: translateX(0%) */
+  }
+
+  /* Ensure the links are visible in mobile menu */
+  .nav-active li {
+    opacity: 1;
+    animation: navLinkFade 0.5s ease forwards;
+  }
+
+  /* Adjust animation delay for each link */
+  .nav-active li:nth-child(1) { animation-delay: 0.2s; }
+  .nav-active li:nth-child(2) { animation-delay: 0.3s; }
+  .nav-active li:nth-child(3) { animation-delay: 0.4s; }
+  .nav-active li:nth-child(4) { animation-delay: 0.5s; }
+
+  /* Make burger menu stay on top */
+  .burger {
+    position: relative; /* Change from fixed */
+    right: 0;
+    top: 0;
+    transform: none;
+  }
+
+  .hero h5 {
+    font-size: 20px;
+    left: 0;
+    top: 40px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+    padding: 0 15px;
+  }
+
+  .hero p {
+    padding: 0 15px;
+  }
+
+  .program-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .program {
+    width: 90%;
+  }
+
+  /* Update logo positioning in mobile */
+  .logo {
+    position: relative; /* Change from fixed */
+    left: 0;
+    top: 0;
+    transform: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-image {
+    width: 45px;
+    height: 45px;
+    margin: 0 10px 0 0; /* Adjust margins */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-links {
+    width: 70%;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero a, .cta-button {
+    padding: 10px 50px;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+  background-color: white;
+}
+
+.toggle .line2 {
+  opacity: 0;
+  transform: translateX(-10px);
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+  background-color: white;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Updated/New Media Queries */
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    gap: 25px;
+  }
+
+  .program-list {
+    padding: 0 20px;
+  }
+
+  .program {
+    width: 31%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Navigation */
+  .nav-links {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    height: 100vh;
+    background: linear-gradient(90deg, #003366, #0099ff, #003366);
+    background-size: 300% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+    padding-top: 60px;
+  }
+
+  .burger {
+    display: block;
+    position: relative; /* Change from fixed */
+    right: 0;
+    top: 0;
+    transform: none;
+  }
+
+  .nav-active {
+    right: 0;
+  }
+
+  /* Hero Section */
+  .hero {
+    background-attachment: scroll;  /* Changed from fixed */
+    padding: 80px 20px;
+    margin-top: 60px;
+  }
+
+  .hero h5 {
+    font-size: 18px;
+    position: static;
+    margin-bottom: 15px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+    position: static;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .hero p {
+    position: static;
+    margin-bottom: 30px;
+  }
+
+  .hero a {
+    position: static;
+    padding: 10px 40px;
+  }
+
+  /* Programs Section */
+  .program-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .program {
+    width: 100%;
+    max-width: 450px;
+    margin: 0;
+  }
+
+  .program-image-container {
+    height: 300px;
+  }
+
+  /* Footer */
+  footer .contact-info {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .program-text {
+    transform: translateX(0);
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+  }
+
+  .program-text.active {
+    transform: translateY(0);
+  }
+
+  .program:hover .program-text {
+    transform: none; /* Disable hover effect on mobile */
+  }
+
+  /* Add click indicator */
+  .program-text::after {
+    content: '⌃';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+    transition: transform 0.3s ease;
+  }
+
+  .program-text.active::after {
+    transform: rotate(180deg);
+  }
+
+  header {
+    height: 70px; /* Slightly smaller on mobile */
+  }
+  
+  .logo {
+    position: relative; /* Change from fixed */
+    left: 0;
+    top: 0;
+    transform: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .burger {
+    position: relative; /* Change from fixed */
+    right: 0;
+    top: 0;
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    /* Header */
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .logo-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 60px 15px;
+        min-height: 70vh;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero a, .cta-button {
+        padding: 8px 30px;
+        font-size: 14px;
+    }
+
+    /* About Section */
+    .about {
+        padding: 40px 15px;
+    }
+
+    .video-container {
+        margin: 20px auto;
+    }
+
+    .video-container iframe {
+        height: 200px;
+    }
+
+    /* Programs */
+    .program-image-container {
+        height: 250px;
+    }
+
+    .program-text {
+        padding: 15px;
+    }
+
+    .program-text h3 {
+        font-size: 16px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 2rem 15px;
+    }
+
+    footer .social-icons a {
+        font-size: 1.2rem;
+        margin: 0 8px;
+    }
+}
+
+/* Modal styles - updated */
+.modal {
+  display: flex;
+  visibility: hidden;
+  pointer-events: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0);
+  backdrop-filter: blur(0px);
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+  transition: visibility 0s linear 0.3s, opacity 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+.modal.show {
+  visibility: visible;
+  pointer-events: auto;
+  opacity: 1;
+  background-color: rgba(0,0,0,0.7);
+  backdrop-filter: blur(5px);
+  transition-delay: 0s;
+}
+
+.modal-content {
+  background: #fff;
+  position: relative;
+  padding: 25px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  transform: translateY(20px);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.modal.show .modal-content {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.modal-content h2 {
+  color: #004a99;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.modal-button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  background: linear-gradient(90deg, #003366, #0099ff);
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  min-width: 150px;
+  font-size: 14px;
+}
+
+.modal-button:hover {
+  background: linear-gradient(90deg, #0099ff, #003366);
+  transform: translateY(-2px);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  color: #004a99;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  line-height: 1;
+}
+
+.close:hover {
+  color: #003366;
+  transform: rotate(90deg);
+}
+
+/* Modal Responsive Design */
+@media screen and (max-width: 768px) {
+  .modal-content {
+    width: 85%;
+    margin: 20% auto;
+    padding: 20px 15px;
+  }
+
+  .modal-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .modal-button {
+    width: 100%;
+    min-width: unset;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+    .program-list {
+        padding: 0 20px;
+        gap: 30px;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .program {
+        width: calc(50% - 10px);  /* Two columns with gap */
+        margin: 15px;
+    }
+
+    .program-image-container {
+        height: 450px; /* Increased height */
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Navigation adjustments */
+    .nav-links {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(90deg, #003366, #0099ff, #003366);
+        background-size: 300% 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s ease-in-out;
+        z-index: 1000;
+    }
+
+    .nav-active {
+        right: 0;
+    }
+
+    /* Content adjustments */
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h5, .hero h1, .hero p {
+        position: static;
+        margin: 15px 0;
+    }
+
+    .program-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .program {
+        width: calc(100% - 30px);
+        max-width: 600px; /* Increased from 500px */
+        margin: 20px auto;
+    }
+
+    .program-image-container {
+        height: 400px; /* Adjusted height for mobile */
+    }
+
+    /* Modal adjustments */
+    .modal-content {
+        width: 90%;
+        max-width: none;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .program {
+        width: 95%;
+        margin: 15px auto;
+    }
+
+    .program-image-container {
+        height: 350px; /* Adjusted height for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Header/Navigation */
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .logo-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Hero Section */
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero h5 {
+        font-size: 16px;
+    }
+
+    /* Buttons and CTAs */
+    .hero a, .cta-button {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 30px 15px;
+    }
+
+    .footer-container {
+        padding: 0 10px;
+    }
+
+    .social-icons {
+        gap: 15px;
+    }
+}
+
+/* Touch device optimizations */
+@media (hover: none) {
+    .program:hover .program-image-container {
+        transform: none;
+    }
+
+    .program-text {
+        transform: translateX(0);
+        opacity: 0.9;
+    }
+}
+
+/* Update the media queries with specific width controls */
+@media screen and (max-width: 1200px) {
+    .nav-links { gap: 20px; }
+    
+    .container {
+        width: 95%;
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    .program-list {
+        width: 90%;
+        margin: 0 auto;
+        gap: 20px;
+    }
+
+    .hero {
+        width: 100vw;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .program {
+        width: calc(50% - 20px);  /* Two columns with gap */
+        margin: 10px;
+    }
+
+    .video-container {
+        width: 90%;
+        max-width: 800px;
+    }
+
+    .hero h1 { 
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        max-width: 720px;
+    }
+
+    .nav-links {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .hero {
+        width: 100%;
+        padding: 60px 15px;
+    }
+
+    .program {
+        width: calc(100% - 30px);
+        max-width: 600px; /* Increased from 500px */
+        margin: 20px auto;
+    }
+
+    .program-image-container {
+        height: 400px; /* Adjusted height for mobile */
+    }
+
+    .about, .programs {
+        width: 90%;
+        margin: 0 auto;
+        padding: 40px 15px;
+    }
+
+    footer .contact-info {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 95%;
+        max-width: 540px;
+        padding: 0 10px;
+    }
+
+    .logo { 
+        width: auto;
+        font-size: 1.1rem;
+    }
+
+    .logo-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .hero {
+        padding: 40px 10px;
+        width: 100%;
+    }
+
+    .hero h1 {
+        width: 95%;
+        font-size: 24px;
+    }
+
+    .program {
+        width: 95%;
+        margin: 15px auto;
+    }
+
+    .program-image-container {
+        height: 350px; /* Adjusted height for smaller screens */
+    }
+
+    .video-container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    .modal-content {
+        width: 95%;
+        margin: 10px;
+        padding: 15px;
+    }
+}
+
+/* Add a new breakpoint for very small devices */
+@media screen and (max-width: 360px) {
+    .container {
+        width: 98%;
+        padding: 0 5px;
+    }
+
+    .hero h1 {
+        font-size: 20px;
+        width: 98%;
+    }
+
+    .program {
+        width: 98%;
+        margin: 5px auto;
+    }
+
+    .program-image-container {
+        height: 250px;
+    }
+}

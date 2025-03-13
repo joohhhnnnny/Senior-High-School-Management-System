@@ -1,0 +1,551 @@
+[08-Mar-2025 05:54:44 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 05:54:44 Europe/Berlin] Database connection successful
+[08-Mar-2025 05:54:44 Europe/Berlin] Processing request - StudentID: 81, Month: 3, Year: 2025, Subject: all
+[08-Mar-2025 05:54:44 Europe/Berlin] Error in get_attendance.php: Student not found
+[08-Mar-2025 05:54:45 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 05:54:45 Europe/Berlin] Database connection successful
+[08-Mar-2025 05:54:45 Europe/Berlin] Processing request - StudentID: 81, Month: 3, Year: 2025, Subject: all
+[08-Mar-2025 05:54:45 Europe/Berlin] Error in get_attendance.php: Student not found
+[08-Mar-2025 05:54:45 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 05:54:45 Europe/Berlin] Database connection successful
+[08-Mar-2025 05:54:45 Europe/Berlin] Processing request - StudentID: 81, Month: 3, Year: 2025, Subject: all
+[08-Mar-2025 05:54:45 Europe/Berlin] Error in get_attendance.php: Student not found
+[08-Mar-2025 05:54:45 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 05:54:45 Europe/Berlin] Database connection successful
+[08-Mar-2025 05:54:45 Europe/Berlin] Processing request - StudentID: 81, Month: 3, Year: 2025, Subject: all
+[08-Mar-2025 05:54:45 Europe/Berlin] Error in get_attendance.php: Student not found
+[08-Mar-2025 05:56:26 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 05:56:26 Europe/Berlin] Database connection successful
+[08-Mar-2025 05:56:26 Europe/Berlin] Processing request - StudentID: 81, Month: 3, Year: 2025, Subject: all
+[08-Mar-2025 05:56:26 Europe/Berlin] Looking for student with ID: 81
+[08-Mar-2025 05:56:26 Europe/Berlin] Error in get_attendance.php: No student found with ID: 81
+[08-Mar-2025 05:56:26 Europe/Berlin] Student ID: 81
+[08-Mar-2025 05:56:26 Europe/Berlin] Session data: Array
+(
+    [user_id] => 81
+    [user_type] => student
+    [fullname] => cherry
+    [email] => cherrymaybongcac@gmail.com
+    [yearLevel] => 11
+    [strand] => 11-HUMSS
+    [studentID] => 81
+)
+
+[08-Mar-2025 05:57:51 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 05:57:51 Europe/Berlin] Database connection successful
+[08-Mar-2025 05:57:51 Europe/Berlin] Processing request - StudentID: 81, Month: 3, Year: 2025, Subject: all
+[08-Mar-2025 05:57:51 Europe/Berlin] Looking for student with ID: 81
+[08-Mar-2025 05:57:51 Europe/Berlin] Error in get_attendance.php: No student found with ID: 81
+[08-Mar-2025 05:57:51 Europe/Berlin] Student ID: 81
+[08-Mar-2025 05:57:51 Europe/Berlin] Session data: Array
+(
+    [user_id] => 81
+    [user_type] => student
+    [fullname] => cherry
+    [email] => cherrymaybongcac@gmail.com
+    [yearLevel] => 11
+    [strand] => 11-HUMSS
+    [studentID] => 81
+)
+
+[08-Mar-2025 05:57:54 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 05:57:54 Europe/Berlin] Database connection successful
+[08-Mar-2025 05:57:54 Europe/Berlin] Processing request - StudentID: 81, Month: 3, Year: 2025, Subject: all
+[08-Mar-2025 05:57:54 Europe/Berlin] Looking for student with ID: 81
+[08-Mar-2025 05:57:54 Europe/Berlin] Error in get_attendance.php: No student found with ID: 81
+[08-Mar-2025 05:57:54 Europe/Berlin] Student ID: 81
+[08-Mar-2025 05:57:54 Europe/Berlin] Session data: Array
+(
+    [user_id] => 81
+    [user_type] => student
+    [fullname] => cherry
+    [email] => cherrymaybongcac@gmail.com
+    [yearLevel] => 11
+    [strand] => 11-HUMSS
+    [studentID] => 81
+)
+
+[08-Mar-2025 05:57:54 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 05:57:54 Europe/Berlin] Database connection successful
+[08-Mar-2025 05:57:54 Europe/Berlin] Processing request - StudentID: 81, Month: 3, Year: 2025, Subject: all
+[08-Mar-2025 05:57:54 Europe/Berlin] Looking for student with ID: 81
+[08-Mar-2025 05:57:54 Europe/Berlin] Error in get_attendance.php: No student found with ID: 81
+[08-Mar-2025 05:57:54 Europe/Berlin] Student ID: 81
+[08-Mar-2025 05:57:54 Europe/Berlin] Session data: Array
+(
+    [user_id] => 81
+    [user_type] => student
+    [fullname] => cherry
+    [email] => cherrymaybongcac@gmail.com
+    [yearLevel] => 11
+    [strand] => 11-HUMSS
+    [studentID] => 81
+)
+
+[08-Mar-2025 05:57:54 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 05:57:54 Europe/Berlin] Database connection successful
+[08-Mar-2025 05:57:54 Europe/Berlin] Processing request - StudentID: 81, Month: 3, Year: 2025, Subject: all
+[08-Mar-2025 05:57:54 Europe/Berlin] Looking for student with ID: 81
+[08-Mar-2025 05:57:54 Europe/Berlin] Error in get_attendance.php: No student found with ID: 81
+[08-Mar-2025 05:57:54 Europe/Berlin] Student ID: 81
+[08-Mar-2025 05:57:54 Europe/Berlin] Session data: Array
+(
+    [user_id] => 81
+    [user_type] => student
+    [fullname] => cherry
+    [email] => cherrymaybongcac@gmail.com
+    [yearLevel] => 11
+    [strand] => 11-HUMSS
+    [studentID] => 81
+)
+
+[08-Mar-2025 05:57:55 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 05:57:55 Europe/Berlin] Database connection successful
+[08-Mar-2025 05:57:55 Europe/Berlin] Processing request - StudentID: 81, Month: 3, Year: 2025, Subject: all
+[08-Mar-2025 05:57:55 Europe/Berlin] Looking for student with ID: 81
+[08-Mar-2025 05:57:55 Europe/Berlin] Error in get_attendance.php: No student found with ID: 81
+[08-Mar-2025 05:57:55 Europe/Berlin] Student ID: 81
+[08-Mar-2025 05:57:55 Europe/Berlin] Session data: Array
+(
+    [user_id] => 81
+    [user_type] => student
+    [fullname] => cherry
+    [email] => cherrymaybongcac@gmail.com
+    [yearLevel] => 11
+    [strand] => 11-HUMSS
+    [studentID] => 81
+)
+
+[08-Mar-2025 05:57:55 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 05:57:55 Europe/Berlin] Database connection successful
+[08-Mar-2025 05:57:55 Europe/Berlin] Processing request - StudentID: 81, Month: 3, Year: 2025, Subject: all
+[08-Mar-2025 05:57:55 Europe/Berlin] Looking for student with ID: 81
+[08-Mar-2025 05:57:55 Europe/Berlin] Error in get_attendance.php: No student found with ID: 81
+[08-Mar-2025 05:57:55 Europe/Berlin] Student ID: 81
+[08-Mar-2025 05:57:55 Europe/Berlin] Session data: Array
+(
+    [user_id] => 81
+    [user_type] => student
+    [fullname] => cherry
+    [email] => cherrymaybongcac@gmail.com
+    [yearLevel] => 11
+    [strand] => 11-HUMSS
+    [studentID] => 81
+)
+
+[08-Mar-2025 06:23:41 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:23:41 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:23:41 Europe/Berlin] Error: Session expired or invalid
+[08-Mar-2025 06:23:41 Europe/Berlin] Session data: Array
+(
+    [user_id] => 81
+    [user_type] => student
+    [fullname] => cherry
+    [email] => cherrymaybongcac@gmail.com
+    [yearLevel] => 11
+    [strand] => 11-HUMSS
+)
+
+[08-Mar-2025 06:23:59 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:23:59 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:23:59 Europe/Berlin] Error: Session expired or invalid
+[08-Mar-2025 06:23:59 Europe/Berlin] Session data: Array
+(
+    [user_id] => 81
+    [user_type] => student
+    [fullname] => cherry
+    [email] => cherrymaybongcac@gmail.com
+    [yearLevel] => 11
+    [strand] => 11-HUMSS
+)
+
+[08-Mar-2025 06:28:22 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:28:22 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:28:22 Europe/Berlin] Error: Session expired or invalid
+[08-Mar-2025 06:28:22 Europe/Berlin] Session data: Array
+(
+    [user_id] => 81
+    [user_type] => student
+    [fullname] => cherry
+    [email] => cherrymaybongcac@gmail.com
+    [yearLevel] => 11
+    [strand] => 11-HUMSS
+)
+
+[08-Mar-2025 06:29:45 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:29:45 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:29:45 Europe/Berlin] Error in get_attendance.php: Session expired or invalid
+[08-Mar-2025 06:29:47 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:29:47 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:29:47 Europe/Berlin] Error in get_attendance.php: Session expired or invalid
+[08-Mar-2025 06:32:29 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:32:29 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:32:29 Europe/Berlin] Error in get_attendance.php: Student not found
+[08-Mar-2025 06:32:29 Europe/Berlin] Session data: Array
+(
+    [user_id] => 81
+    [user_type] => student
+    [fullname] => cherry
+    [email] => cherrymaybongcac@gmail.com
+    [yearLevel] => 11
+    [strand] => 11-HUMSS
+)
+
+[08-Mar-2025 06:34:48 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:34:48 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:34:48 Europe/Berlin] Error in get_attendance.php: Student not found
+[08-Mar-2025 06:34:48 Europe/Berlin] Session data: Array
+(
+    [user_id] => 81
+    [user_type] => student
+    [fullname] => cherry
+    [email] => cherrymaybongcac@gmail.com
+    [yearLevel] => 11
+    [strand] => 11-HUMSS
+)
+
+[08-Mar-2025 06:35:15 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:35:15 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:35:15 Europe/Berlin] Error in get_attendance.php: Student not found
+[08-Mar-2025 06:35:15 Europe/Berlin] Session data: Array
+(
+    [user_id] => 81
+    [user_type] => student
+    [fullname] => cherry
+    [email] => cherrymaybongcac@gmail.com
+    [yearLevel] => 11
+    [strand] => 11-HUMSS
+)
+
+[08-Mar-2025 06:36:32 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:36:32 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:36:32 Europe/Berlin] Processing request for student: 27, strand: HUMSS
+[08-Mar-2025 06:36:32 Europe/Berlin] Error in get_attendance.php: Table 'iscp.student_subjects' doesn't exist
+[08-Mar-2025 06:36:32 Europe/Berlin] Session data: Array
+(
+    [user_id] => 81
+    [user_type] => student
+    [fullname] => cherry
+    [email] => cherrymaybongcac@gmail.com
+    [yearLevel] => 11
+    [strand] => 11-HUMSS
+    [student_info] => Array
+        (
+            [id] => 81
+            [studentID] => 27
+            [fullname] => cherry
+            [yearLevel] => 11
+            [year_strand] => 11-HUMSS
+            [email] => cherrymaybongcac@gmail.com
+            [password] => $2y$10$kAmiiXehKA3k6fnwQPQ42.N4HHzuFimv6nwr6ymQE/W.AbIsProhG
+            [address] => saging
+            [phoneNumber] => 09123123123
+        )
+
+)
+
+[08-Mar-2025 06:38:20 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:38:20 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:38:20 Europe/Berlin] Processing request for student: 27, strand: HUMSS
+[08-Mar-2025 06:38:20 Europe/Berlin] Found 1 subjects for student
+[08-Mar-2025 06:43:23 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:43:23 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:43:23 Europe/Berlin] Processing request for student: 27, strand: HUMSS
+[08-Mar-2025 06:43:23 Europe/Berlin] Found 5 subjects for student. Year: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:47:21 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:47:21 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:47:21 Europe/Berlin] Processing request for student: 27, strand: HUMSS
+[08-Mar-2025 06:47:21 Europe/Berlin] Found 5 subjects for student. Year: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:51:56 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:51:56 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:51:56 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:51:56 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:52:05 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:52:05 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:52:05 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:52:05 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:54:26 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:54:26 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:54:26 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:54:26 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:54:26 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:54:29 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:54:29 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:54:29 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:54:29 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:54:29 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:54:33 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:54:33 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:54:33 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:54:33 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:54:33 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:54:37 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:54:37 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:54:37 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:54:37 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:54:37 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:56:39 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:56:39 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:56:39 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:56:39 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:56:39 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:56:44 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:56:44 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:56:44 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:56:44 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:56:44 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:56:47 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:56:47 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:56:47 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:56:47 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:56:47 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:56:52 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:56:52 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:56:52 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:56:52 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:56:52 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:56:59 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:56:59 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:56:59 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:56:59 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:56:59 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:57:01 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:57:01 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:57:01 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:57:01 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:57:01 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:58:08 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:58:08 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:58:08 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:58:08 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:58:08 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:58:12 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:58:12 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:58:12 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:58:12 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:58:12 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:58:19 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:58:19 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:58:19 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:58:19 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:58:19 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:58:21 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:58:21 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:58:21 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:58:21 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:58:21 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:58:23 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:58:23 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:58:23 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:58:23 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:58:23 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:58:24 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:58:24 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:58:24 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:58:24 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:58:24 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:58:25 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:58:25 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:58:25 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:58:25 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:58:25 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 06:58:26 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 06:58:26 Europe/Berlin] Database connection successful
+[08-Mar-2025 06:58:26 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 06:58:26 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 06:58:26 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 07:00:39 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 07:00:39 Europe/Berlin] Database connection successful
+[08-Mar-2025 07:00:39 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 07:00:39 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 07:00:39 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 07:00:46 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 07:00:46 Europe/Berlin] Database connection successful
+[08-Mar-2025 07:00:46 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 07:00:46 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 07:00:46 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 07:00:54 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 07:00:54 Europe/Berlin] Database connection successful
+[08-Mar-2025 07:00:54 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 07:00:54 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 07:00:54 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 07:05:19 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 07:05:19 Europe/Berlin] Database connection successful
+[08-Mar-2025 07:05:19 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 07:05:19 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 07:05:19 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 07:05:21 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 07:05:21 Europe/Berlin] Database connection successful
+[08-Mar-2025 07:05:21 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 07:05:21 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 07:05:21 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 07:05:30 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 07:05:30 Europe/Berlin] Database connection successful
+[08-Mar-2025 07:05:30 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 07:05:30 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 07:05:30 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 07:05:32 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 07:05:32 Europe/Berlin] Database connection successful
+[08-Mar-2025 07:05:32 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 07:05:32 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 07:05:32 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 07:05:35 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 07:05:35 Europe/Berlin] Database connection successful
+[08-Mar-2025 07:05:35 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 07:05:35 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 07:05:35 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 07:05:37 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 07:05:37 Europe/Berlin] Database connection successful
+[08-Mar-2025 07:05:37 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 07:05:37 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 07:05:37 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 07:08:51 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 07:08:51 Europe/Berlin] Database connection successful
+[08-Mar-2025 07:08:51 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 07:08:51 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 07:08:51 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 07:09:04 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 07:09:04 Europe/Berlin] Database connection successful
+[08-Mar-2025 07:09:04 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 07:09:04 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 07:09:04 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 07:09:07 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 07:09:07 Europe/Berlin] Database connection successful
+[08-Mar-2025 07:09:07 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 07:09:07 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 07:09:07 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[08-Mar-2025 07:09:11 Europe/Berlin] Attempting database connection to localhost with user root
+[08-Mar-2025 07:09:11 Europe/Berlin] Database connection successful
+[08-Mar-2025 07:09:11 Europe/Berlin] Current month: 3, determined semester: second
+[08-Mar-2025 07:09:11 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[08-Mar-2025 07:09:11 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 07:00:02 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 07:00:02 Europe/Berlin] Database connection successful
+[09-Mar-2025 07:00:02 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 07:00:02 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 07:00:02 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 07:00:15 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 07:00:15 Europe/Berlin] Database connection successful
+[09-Mar-2025 07:00:15 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 07:00:15 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 07:00:15 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 07:00:17 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 07:00:17 Europe/Berlin] Database connection successful
+[09-Mar-2025 07:00:17 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 07:00:17 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 07:00:17 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 07:00:19 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 07:00:19 Europe/Berlin] Database connection successful
+[09-Mar-2025 07:00:19 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 07:00:19 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 07:00:19 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 07:00:22 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 07:00:22 Europe/Berlin] Database connection successful
+[09-Mar-2025 07:00:22 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 07:00:22 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 07:00:22 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 07:00:25 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 07:00:25 Europe/Berlin] Database connection successful
+[09-Mar-2025 07:00:25 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 07:00:25 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 07:00:25 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 07:00:27 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 07:00:27 Europe/Berlin] Database connection successful
+[09-Mar-2025 07:00:27 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 07:00:27 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 07:00:27 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 23:31:25 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 23:31:25 Europe/Berlin] Database connection successful
+[09-Mar-2025 23:31:25 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 23:31:25 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 23:31:25 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 23:34:59 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 23:34:59 Europe/Berlin] Database connection successful
+[09-Mar-2025 23:34:59 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 23:34:59 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 23:34:59 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 23:35:25 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 23:35:25 Europe/Berlin] Database connection successful
+[09-Mar-2025 23:35:25 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 23:35:25 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 23:35:25 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 23:39:10 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 23:39:10 Europe/Berlin] Database connection successful
+[09-Mar-2025 23:39:10 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 23:39:10 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 23:39:10 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 23:39:11 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 23:39:11 Europe/Berlin] Database connection successful
+[09-Mar-2025 23:39:11 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 23:39:11 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 23:39:11 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 23:39:11 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 23:39:11 Europe/Berlin] Database connection successful
+[09-Mar-2025 23:39:11 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 23:39:11 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 23:39:11 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 23:39:12 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 23:39:12 Europe/Berlin] Database connection successful
+[09-Mar-2025 23:39:12 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 23:39:12 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 23:39:12 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 23:39:36 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 23:39:36 Europe/Berlin] Database connection successful
+[09-Mar-2025 23:39:36 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 23:39:36 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 23:39:36 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 23:40:33 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 23:40:33 Europe/Berlin] Database connection successful
+[09-Mar-2025 23:40:33 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 23:40:33 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 23:40:33 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 23:42:42 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 23:42:42 Europe/Berlin] Database connection successful
+[09-Mar-2025 23:42:42 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 23:42:42 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 23:42:42 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[09-Mar-2025 23:42:46 Europe/Berlin] Attempting database connection to localhost with user root
+[09-Mar-2025 23:42:46 Europe/Berlin] Database connection successful
+[09-Mar-2025 23:42:46 Europe/Berlin] Current month: 3, determined semester: second
+[09-Mar-2025 23:42:46 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[09-Mar-2025 23:42:46 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[10-Mar-2025 05:19:32 Europe/Berlin] Attempting database connection to localhost with user root
+[10-Mar-2025 05:19:32 Europe/Berlin] Database connection successful
+[10-Mar-2025 05:19:32 Europe/Berlin] Current month: 3, determined semester: second
+[10-Mar-2025 05:19:32 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[10-Mar-2025 05:19:32 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[10-Mar-2025 05:19:45 Europe/Berlin] Attempting database connection to localhost with user root
+[10-Mar-2025 05:19:45 Europe/Berlin] Database connection successful
+[10-Mar-2025 05:19:45 Europe/Berlin] Current month: 3, determined semester: second
+[10-Mar-2025 05:19:45 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[10-Mar-2025 05:19:45 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[10-Mar-2025 05:27:20 Europe/Berlin] Attempting database connection to localhost with user root
+[10-Mar-2025 05:27:20 Europe/Berlin] Database connection successful
+[10-Mar-2025 05:27:20 Europe/Berlin] Current month: 3, determined semester: second
+[10-Mar-2025 05:27:20 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[10-Mar-2025 05:27:20 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[10-Mar-2025 05:27:42 Europe/Berlin] Attempting database connection to localhost with user root
+[10-Mar-2025 05:27:42 Europe/Berlin] Database connection successful
+[10-Mar-2025 05:27:42 Europe/Berlin] Current month: 3, determined semester: second
+[10-Mar-2025 05:27:42 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[10-Mar-2025 05:27:42 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[11-Mar-2025 01:39:43 Europe/Berlin] Attempting database connection to localhost with user root
+[11-Mar-2025 01:39:43 Europe/Berlin] Database connection successful
+[11-Mar-2025 01:39:43 Europe/Berlin] Current month: 3, determined semester: second
+[11-Mar-2025 01:39:43 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[11-Mar-2025 01:39:43 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[11-Mar-2025 02:40:40 Europe/Berlin] Attempting database connection to localhost with user root
+[11-Mar-2025 02:40:40 Europe/Berlin] Database connection successful
+[11-Mar-2025 02:40:40 Europe/Berlin] Current month: 3, determined semester: second
+[11-Mar-2025 02:40:40 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[11-Mar-2025 02:40:40 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[11-Mar-2025 02:40:50 Europe/Berlin] Attempting database connection to localhost with user root
+[11-Mar-2025 02:40:50 Europe/Berlin] Database connection successful
+[11-Mar-2025 02:40:50 Europe/Berlin] Current month: 3, determined semester: second
+[11-Mar-2025 02:40:50 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[11-Mar-2025 02:40:50 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second
+[13-Mar-2025 04:29:20 Europe/Berlin] Attempting database connection to localhost with user root
+[13-Mar-2025 04:29:20 Europe/Berlin] Database connection successful
+[13-Mar-2025 04:29:20 Europe/Berlin] Current month: 3, determined semester: second
+[13-Mar-2025 04:29:20 Europe/Berlin] Processing request for student: 27, yearLevel: 11, strand: HUMSS
+[13-Mar-2025 04:29:20 Europe/Berlin] Found 5 subjects for student. YearLevel: 11, Strand: HUMSS, Semester: second

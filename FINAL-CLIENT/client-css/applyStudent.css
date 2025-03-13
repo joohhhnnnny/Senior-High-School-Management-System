@@ -1,0 +1,290 @@
+/* Existing CSS */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../client-images/school_dashboard.webp");
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  height: 560px;
+  overflow: hidden;
+  position: relative;
+}
+
+.pagination-indicator {
+  left: 236px;
+  right: auto;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 7px;
+  width: 100%;
+}
+
+.page-indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+}
+
+.page-indicator.active {
+  background-color: #004a99;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  top: 60px;
+  opacity: 0;
+  transition: all 0.5s ease;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.page-active {
+  left: 0;
+  opacity: 1;
+}
+
+.page-next {
+  left: 100%;
+}
+
+.page-prev {
+  left: -100%;
+}
+
+.page h4 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin: 0;
+  color: #555;
+  padding-bottom: 30px;
+}
+
+#page2 {
+  top: 80px;
+  padding: 30px;
+  background-color: #fff;
+}
+
+#page2 .form-group {
+  margin-bottom: 17px;
+}
+
+#page2 .form-group input,
+#page2 .form-group select {
+  padding: 10px;
+}
+
+
+.container h2 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #004a99;
+}
+
+.form-group {
+  margin-bottom: 13px;
+  margin-right: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input,
+.form-group select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 25px;
+  margin-left: 4px;
+}
+
+.toPage2 {
+  position: relative;
+  left: 10px;
+  right: auto;
+}
+
+.toPage1 {
+  position: relative;
+  top: 50px; /* Reduced from 115px */
+  bottom: auto;
+  left: auto;
+  right: -255px;
+}
+
+.toPage3 {
+  display: inline-block;
+  position: relative;
+  top: 95px; /* Reduced from 160px */
+  bottom: auto;
+  left: auto;
+  right: 235px;
+  width: 460px !important;
+  flex-shrink: 0;
+}
+
+.backToPage2 {
+  display: inline-block;
+  position: relative;
+  top: 206px;
+  bottom: auto;
+  left: auto;
+  right: -252px;
+  width: 460px !important;
+  flex-shrink: 0;
+}
+
+.submit {
+  position: relative;
+  top: 250px;
+  bottom: auto;
+  left: auto;
+  right: 236px;
+  width: 460px !important;
+}
+
+.toPage1, .submit {
+  flex-shrink: 0;
+  width: 150px;
+}
+
+.form-group input[type="file"] {
+  padding: 3px;
+}
+
+.form-group input[type="submit"],
+.form-group input[type="button"] {
+  background-color: #004a99;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-group input[type="submit"]:hover,
+.form-group input[type="button"]:hover {
+  background-color: #007BFF;
+}
+
+.button-group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;  
+  }
+
+  .form-group input,
+  .form-group select {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 90%;
+    margin: 20px;
+  }
+
+  /* Fix pagination indicator position */
+  .pagination-indicator {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    width: auto; /* Remove fixed width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: auto;
+    min-height: 600px;
+    padding: 15px;
+  }
+
+  .page {
+    padding: 15px;
+  }
+
+  .toPage1, .toPage2, .toPage3, .backToPage2, .submit {
+    position: static;
+    width: 100% !important;
+    margin: 10px 0;
+    right: auto;
+  }
+
+  .button-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Ensure pagination stays centered */
+  .pagination-indicator {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .page-indicator {
+    margin: 0 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 12px;
+    margin: 10px;
+  }
+
+  .form-group input,
+  .form-group select {
+    width: calc(100% - 10px);
+    margin: 2px;
+    padding: 8px;
+  }
+
+  .page h4 {
+    font-size: 1.1em;
+    padding-bottom: 20px;
+  }
+
+  /* Maintain pagination position on smallest screens */
+  .pagination-indicator {
+    bottom: 15px;
+  }
+}
